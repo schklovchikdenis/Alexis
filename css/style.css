@@ -1,0 +1,399 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+body {
+  max-width: 100%;
+  min-width: 320px; }
+
+.container_center {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; }
+
+.btn {
+  text-align: center;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 10px 41px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Regular.eot");
+  src: url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url("../fonts/LibreBaskerville-Bold.eot");
+  src: url("../fonts/LibreBaskerville-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/LibreBaskerville-Bold.woff2") format("woff2"), url("../fonts/LibreBaskerville-Bold.woff") format("woff"), url("../fonts/LibreBaskerville-Bold.ttf") format("truetype"), url("../fonts/LibreBaskerville-Bold.svg#LibreBaskerville-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url("../fonts/LibreBaskerville-Italic.eot");
+  src: url("../fonts/LibreBaskerville-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/LibreBaskerville-Italic.woff2") format("woff2"), url("../fonts/LibreBaskerville-Italic.woff") format("woff"), url("../fonts/LibreBaskerville-Italic.ttf") format("truetype"), url("../fonts/LibreBaskerville-Italic.svg#LibreBaskerville-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Sacramento';
+  src: url("../fonts/Sacramento-Regular.eot");
+  src: url("../fonts/Sacramento-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Sacramento-Regular.woff2") format("woff2"), url("../fonts/Sacramento-Regular.woff") format("woff"), url("../fonts/Sacramento-Regular.ttf") format("truetype"), url("../fonts/Sacramento-Regular.svg#Sacramento-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url("../fonts/LibreBaskerville-Regular.eot");
+  src: url("../fonts/LibreBaskerville-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/LibreBaskerville-Regular.woff2") format("woff2"), url("../fonts/LibreBaskerville-Regular.woff") format("woff"), url("../fonts/LibreBaskerville-Regular.ttf") format("truetype"), url("../fonts/LibreBaskerville-Regular.svg#LibreBaskerville-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "alexis";
+  src: url("../fonts/alexis.eot?m0cnj8");
+  src: url("../fonts/alexis.eot?m0cnj8#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?m0cnj8") format("truetype"), url("../fonts/alexis.woff?m0cnj8") format("woff"), url("../fonts/alexis.svg?m0cnj8#alexis") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "alexis" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-app:before {
+  content: ""; }
+
+.icon-awward_company:before {
+  content: ""; }
+
+.icon-bisnes_growt:before {
+  content: ""; }
+
+.icon-chek:before {
+  content: ""; }
+
+.icon-clients:before {
+  content: ""; }
+
+.icon-dollar:before {
+  content: ""; }
+
+.icon-facebook:before {
+  content: ""; }
+
+.icon-feedbaks:before {
+  content: ""; }
+
+.icon-fooeter_google:before {
+  content: ""; }
+
+.icon-footer_facedook:before {
+  content: ""; }
+
+.icon-footer_inst:before {
+  content: ""; }
+
+.icon-footer_twitter:before {
+  content: ""; }
+
+.icon-free:before {
+  content: ""; }
+
+.icon-graff:before {
+  content: ""; }
+
+.icon-instagramm:before {
+  content: ""; }
+
+.icon-linkedin:before {
+  content: ""; }
+
+.icon-photo:before {
+  content: ""; }
+
+.icon-play:before {
+  content: ""; }
+
+.icon-send:before {
+  content: ""; }
+
+.icon-smart_experient:before {
+  content: ""; }
+
+.icon-stick_dedline:before {
+  content: ""; }
+
+.icon-time:before {
+  content: ""; }
+
+.icon-twitter:before {
+  content: ""; }
+
+.icon-ultimeate_perfection:before {
+  content: ""; }
+
+.icon-unlimited_revision:before {
+  content: ""; }
+
+.icon-ux_desing:before {
+  content: ""; }
+
+.icon-web_desing:before {
+  content: ""; }
+
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+.header__top {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff; }
+  .header__top .container_center {
+    display: grid;
+    grid-template-columns: 97px 1fr;
+    grid-column-gap: 26.2%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 24px 15px; }
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.header__link {
+  color: #272727;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 27px;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color; }
+
+.header__link:hover {
+  -webkit-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  transition-duration: .2s;
+  color: red; }
+
+/*Block features*/
+.features {
+  background-color: rgba(38, 39, 50, 0.85);
+  text-align: center;
+  padding-top: 175px;
+  padding-bottom: 176px; }
+  .features__title {
+    color: #ffffff;
+    font-family: "Libre Baskerville";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 85px; }
+  .features .btn.btn__features {
+    color: #ffffff;
+    background: #fc5f45;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 49px;
+    margin-bottom: 83px;
+    -webkit-transition-property: background, color,font-weight, padding;
+    -o-transition-property: background, color,font-weight, padding;
+    transition-property: background, color,font-weight, padding; }
+  .features .btn.btn__features:hover {
+    padding: 10px 46px;
+    color: red;
+    background: #fff;
+    font-weight: 600;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s; }
+  .features__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .features__item {
+    min-width: 198px;
+    margin-right: 73px; }
+  .features__item:nth-child(3) {
+    margin-right: 0px; }
+  .features i {
+    font-size: 40px; }
+  .features .icon-dollar {
+    display: inline-block;
+    color: #38c695; }
+  .features .icon-time {
+    display: inline-block;
+    color: #b27cf5; }
+  .features .icon-chek {
+    display: inline-block;
+    color: #feb960; }
+  .features__text {
+    margin-top: 38px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase; }
+    .features__text.one {
+      color: #38c695; }
+    .features__text.two {
+      color: #b27cf5; }
+    .features__text.three {
+      color: #feb960; }
+
+#about {
+  padding-top: 149px;
+  padding-bottom: 151px; }
+  #about .container_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  #about .ubout__us {
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    margin-left: -65px;
+    padding: 94px 83px 106px 81px;
+    width: 652px;
+    height: 550px;
+    border-bottom-style: solid;
+    border-image-width: 15px;
+    -webkit-border-image: url(../../img/line.png);
+    -o-border-image: url(../../img/line.png);
+    border-image: url(../../img/line.png);
+    border-image-slice: 5; }
+    #about .ubout__us_title {
+      color: #313131;
+      font-family: "Libre Baskerville";
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 40px; }
+    #about .ubout__us_text {
+      color: #616161;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 400;
+      word-break: normal; }

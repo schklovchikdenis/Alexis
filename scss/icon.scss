@@ -1,0 +1,191 @@
+$icomoon-font-family: "alexis" !default;
+$icomoon-font-path: "../fonts" !default;
+
+$icon-app: "\e900";
+$icon-awward_company: "\e901";
+$icon-bisnes_growt: "\e902";
+$icon-chek: "\e903";
+$icon-clients: "\e904";
+$icon-dollar: "\e905";
+$icon-facebook: "\e906";
+$icon-feedbaks: "\e907";
+$icon-fooeter_google: "\e908";
+$icon-footer_facedook: "\e909";
+$icon-footer_inst: "\e90a";
+$icon-footer_twitter: "\e90b";
+$icon-free: "\e90c";
+$icon-graff: "\e90d";
+$icon-instagramm: "\e90e";
+$icon-linkedin: "\e90f";
+$icon-photo: "\e910";
+$icon-play: "\e911";
+$icon-send: "\e912";
+$icon-smart_experient: "\e913";
+$icon-stick_dedline: "\e914";
+$icon-time: "\e915";
+$icon-twitter: "\e916";
+$icon-ultimeate_perfection: "\e917";
+$icon-unlimited_revision: "\e918";
+$icon-ux_desing: "\e919";
+$icon-web_desing: "\e91a";
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?m0cnj8');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?m0cnj8#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?m0cnj8') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?m0cnj8') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?m0cnj8##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-app {
+  &:before {
+    content: $icon-app;
+  }
+}
+.icon-awward_company {
+  &:before {
+    content: $icon-awward_company;
+  }
+}
+.icon-bisnes_growt {
+  &:before {
+    content: $icon-bisnes_growt;
+  }
+}
+.icon-chek {
+  &:before {
+    content: $icon-chek;
+  }
+}
+.icon-clients {
+  &:before {
+    content: $icon-clients;
+  }
+}
+.icon-dollar {
+  &:before {
+    content: $icon-dollar;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook;
+  }
+}
+.icon-feedbaks {
+  &:before {
+    content: $icon-feedbaks;
+  }
+}
+.icon-fooeter_google {
+  &:before {
+    content: $icon-fooeter_google;
+  }
+}
+.icon-footer_facedook {
+  &:before {
+    content: $icon-footer_facedook;
+  }
+}
+.icon-footer_inst {
+  &:before {
+    content: $icon-footer_inst;
+  }
+}
+.icon-footer_twitter {
+  &:before {
+    content: $icon-footer_twitter;
+  }
+}
+.icon-free {
+  &:before {
+    content: $icon-free;
+  }
+}
+.icon-graff {
+  &:before {
+    content: $icon-graff;
+  }
+}
+.icon-instagramm {
+  &:before {
+    content: $icon-instagramm;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+.icon-photo {
+  &:before {
+    content: $icon-photo;
+  }
+}
+.icon-play {
+  &:before {
+    content: $icon-play;
+  }
+}
+.icon-send {
+  &:before {
+    content: $icon-send;
+  }
+}
+.icon-smart_experient {
+  &:before {
+    content: $icon-smart_experient;
+  }
+}
+.icon-stick_dedline {
+  &:before {
+    content: $icon-stick_dedline;
+  }
+}
+.icon-time {
+  &:before {
+    content: $icon-time;
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-ultimeate_perfection {
+  &:before {
+    content: $icon-ultimeate_perfection;
+  }
+}
+.icon-unlimited_revision {
+  &:before {
+    content: $icon-unlimited_revision;
+  }
+}
+.icon-ux_desing {
+  &:before {
+    content: $icon-ux_desing;
+  }
+}
+.icon-web_desing {
+  &:before {
+    content: $icon-web_desing;
+  }
+}
