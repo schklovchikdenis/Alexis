@@ -7,7 +7,8 @@
 
 img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  display: block; }
 
 body {
   max-width: 100%;
@@ -78,8 +79,8 @@ body {
 
 @font-face {
   font-family: "alexis";
-  src: url("../fonts/alexis.eot?m0cnj8");
-  src: url("../fonts/alexis.eot?m0cnj8#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?m0cnj8") format("truetype"), url("../fonts/alexis.woff?m0cnj8") format("woff"), url("../fonts/alexis.svg?m0cnj8#alexis") format("svg");
+  src: url("../fonts/alexis.eot?a5djji");
+  src: url("../fonts/alexis.eot?a5djji#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?a5djji") format("truetype"), url("../fonts/alexis.woff?a5djji") format("woff"), url("../fonts/alexis.svg?a5djji#alexis") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -150,32 +151,35 @@ body {
 .icon-play:before {
   content: ""; }
 
-.icon-send:before {
+.icon-plus:before {
   content: ""; }
 
-.icon-smart_experient:before {
+.icon-send:before {
   content: ""; }
 
-.icon-stick_dedline:before {
+.icon-smart_experient:before {
   content: ""; }
 
-.icon-time:before {
+.icon-stick_dedline:before {
   content: ""; }
 
-.icon-twitter:before {
+.icon-time:before {
   content: ""; }
 
-.icon-ultimeate_perfection:before {
+.icon-twitter:before {
   content: ""; }
 
-.icon-unlimited_revision:before {
+.icon-ultimeate_perfection:before {
   content: ""; }
 
-.icon-ux_desing:before {
+.icon-unlimited_revision:before {
   content: ""; }
 
-.icon-web_desing:before {
+.icon-ux_desing:before {
   content: ""; }
+
+.icon-web_desing:before {
+  content: ""; }
 
 /* Slider */
 .slick-slider {
@@ -253,12 +257,44 @@ body {
 .slick-arrow.slick-hidden {
   display: none; }
 
+.title {
+  color: #313131;
+  font-family: "Libre Baskerville";
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center; }
+  .title_ubout_us {
+    margin-bottom: 48px;
+    text-align: left; }
+  .title_uorfocus {
+    margin-bottom: 79px; }
+  .title_portfolio {
+    margin-bottom: 39px; }
+  .title_team {
+    margin-bottom: 39px; }
+
+.subtitle {
+  color: #616161;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center; }
+  .subtitle_uorfocus {
+    margin-bottom: 49px; }
+  .subtitle_portfolio {
+    margin-bottom: 80px; }
+  .subtitle_team {
+    margin-bottom: 78px; }
+
 .header__top {
   position: fixed;
   width: 100%;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  z-index: 1000; }
   .header__top .container_center {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 97px 1fr;
     grid-template-columns: 97px 1fr;
     grid-column-gap: 26.2%;
     -webkit-box-align: center;
@@ -315,17 +351,20 @@ body {
     font-weight: 400;
     margin-top: 49px;
     margin-bottom: 83px;
-    -webkit-transition-property: background, color,font-weight, padding;
-    -o-transition-property: background, color,font-weight, padding;
-    transition-property: background, color,font-weight, padding; }
+    -webkit-transition-property: background, color, font-weight, padding;
+    -o-transition-property: background, color, font-weight, padding;
+    transition-property: background, color, font-weight, padding;
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s; }
   .features .btn.btn__features:hover {
     padding: 10px 46px;
     color: red;
     background: #fff;
     font-weight: 600;
-    -webkit-transition-duration: .2s;
-    -o-transition-duration: .2s;
-    transition-duration: .2s; }
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s; }
   .features__box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -362,6 +401,7 @@ body {
     .features__text.three {
       color: #feb960; }
 
+/*Block about*/
 #about {
   padding-top: 149px;
   padding-bottom: 151px; }
@@ -371,6 +411,7 @@ body {
     display: flex; }
   #about .ubout__us {
     -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -385,15 +426,245 @@ body {
     -o-border-image: url(../../img/line.png);
     border-image: url(../../img/line.png);
     border-image-slice: 5; }
-    #about .ubout__us_title {
-      color: #313131;
-      font-family: "Libre Baskerville";
-      font-size: 50px;
-      font-weight: 700;
-      margin-bottom: 40px; }
     #about .ubout__us_text {
       color: #616161;
       font-family: Poppins;
       font-size: 15px;
       font-weight: 400;
       word-break: normal; }
+
+/*end block about*/
+/*Block video*/
+.video {
+  background-color: rgba(38, 39, 50, 0.85);
+  text-align: center;
+  padding-top: 148px;
+  padding-bottom: 151px; }
+  .video .video__title {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400; }
+  .video .icon-play {
+    display: block;
+    font-size: 80px;
+    color: #38c695;
+    margin: 33px 0px 41px 0px; }
+  .video .video__subtitle {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400; }
+
+/*end block video*/
+/*Block uorfocus*/
+#uorfocus {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 150px; }
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .services .services__item {
+    display: inline-block;
+    padding: 63px 34px 67px 33px;
+    margin-right: 30px;
+    background: #ffffff; }
+    .services .services__item_title {
+      color: #313131;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 30px;
+      margin-bottom: 32px; }
+    .services .services__item_text {
+      color: #616161;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 400; }
+    .services .services__item .icon-web_desing {
+      font-size: 50px;
+      color: #fc5f45; }
+    .services .services__item .icon-ux_desing {
+      font-size: 50px;
+      color: #38c695; }
+    .services .services__item .icon-photo {
+      font-size: 50px;
+      color: #b27cf5; }
+    .services .services__item .icon-app {
+      font-size: 50px;
+      color: #feb960; }
+  .services .services__item:first-child {
+    border-bottom: 3px solid #fc5f45; }
+  .services .services__item:nth-child(2) {
+    border-bottom: 3px solid #38c695; }
+  .services .services__item:nth-child(3) {
+    border-bottom: 3px solid #b27cf5; }
+  .services .services__item:last-child {
+    margin-right: 0px;
+    border-bottom: 3px solid #feb960; }
+
+/*end block uorfocus*/
+/*Block portfolio*/
+#portfolio {
+  padding-top: 144px;
+  padding-bottom: 149px; }
+  #portfolio .container_center .portfolio__items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 21px;
+    grid-row-gap: 23px; }
+    #portfolio .container_center .portfolio__items .portfolio__items_item {
+      position: relative; }
+    #portfolio .container_center .portfolio__items img:hover {
+      opacity: 0; }
+    #portfolio .container_center .portfolio__items .block__hover {
+      text-decoration: none;
+      bottom: 0px;
+      cursor: pointer;
+      position: absolute;
+      opacity: 0;
+      text-align: center;
+      -webkit-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity;
+      -webkit-transition-duration: .4s;
+      -o-transition-duration: .4s;
+      transition-duration: .4s;
+      width: 100%;
+      height: 100%;
+      padding-top: 25%; }
+      #portfolio .container_center .portfolio__items .block__hover .icon-plus {
+        color: #ffffff;
+        display: block;
+        font-size: 50px;
+        margin-bottom: 18%; }
+      #portfolio .container_center .portfolio__items .block__hover_bottom {
+        display: block;
+        height: 42%;
+        border-top-style: solid;
+        border-image-width: 15px;
+        -webkit-border-image: url(../../img/line.png);
+        -o-border-image: url(../../img/line.png);
+        border-image: url(../../img/line.png);
+        border-image-slice: 5;
+        background-color: #ffffff;
+        color: #313131;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        padding-top: 8%; }
+      #portfolio .container_center .portfolio__items .block__hover:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-transition-duration: .4s;
+        -o-transition-duration: .4s;
+        transition-duration: .4s;
+        opacity: 1; }
+
+/*end portfolio*/
+/*Block team*/
+#team {
+  background-color: #f7f7f7;
+  padding-top: 151px;
+  padding-bottom: 149px; }
+  #team .cardteam {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #team .cardteam .cardteam__item {
+      -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      background-color: #ffffff;
+      margin-right: 30px;
+      text-align: center;
+      padding-bottom: 25px; }
+      #team .cardteam .cardteam__item_title {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 17px;
+        margin-bottom: 13px; }
+      #team .cardteam .cardteam__item_subtitle {
+        color: #616161;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400; }
+      #team .cardteam .cardteam__item.schmitt {
+        border-bottom: 3px solid #fc5f45; }
+        #team .cardteam .cardteam__item.schmitt .cardteam__item_title {
+          color: #fc5f45; }
+      #team .cardteam .cardteam__item.krammer {
+        border-bottom: 3px solid #38c695; }
+        #team .cardteam .cardteam__item.krammer .cardteam__item_title {
+          color: #38c695; }
+      #team .cardteam .cardteam__item.schroder {
+        border-bottom: 3px solid #b27cf5; }
+        #team .cardteam .cardteam__item.schroder .cardteam__item_title {
+          color: #b27cf5; }
+      #team .cardteam .cardteam__item.teichmann {
+        border-bottom: 3px solid #feb960; }
+        #team .cardteam .cardteam__item.teichmann .cardteam__item_title {
+          color: #feb960; }
+    #team .cardteam .cardteam__item:last-child {
+      margin-right: 0px; }
+  #team .cardteam__item_resume {
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 75px 105px 76px 97px; }
+    #team .cardteam__item_resume .cardteam__item_resume-title {
+      color: #272727;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 33px; }
+    #team .cardteam__item_resume .cardteam__item_resume-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      #team .cardteam__item_resume .cardteam__item_resume-block .cardteam__item_resume-text {
+        border: 1px solid green;
+        color: #616161;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-right: 105px; }
+      #team .cardteam__item_resume .cardteam__item_resume-block .icon-send {
+        font-size: 36px;
+        margin-right: 34px;
+        border: 1px solid #f2d810; }
+    #team .cardteam__item_resume .cardteam__item_resume-soc {
+      border: 1px solid red; }
+      #team .cardteam__item_resume .cardteam__item_resume-soc a {
+        color: #616161;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer; }
+      #team .cardteam__item_resume .cardteam__item_resume-soc .icon-facebook {
+        margin-bottom: 18px;
+        margin-right: 6px; }
+      #team .cardteam__item_resume .cardteam__item_resume-soc .icon-twitter {
+        margin-bottom: 17px;
+        margin-right: 6px; }
+      #team .cardteam__item_resume .cardteam__item_resume-soc .icon-linkedin {
+        margin-bottom: 19px;
+        margin-right: 6px; }
+      #team .cardteam__item_resume .cardteam__item_resume-soc .icon-instagramm {
+        margin-right: 6px; }
+
+/*end team*/
