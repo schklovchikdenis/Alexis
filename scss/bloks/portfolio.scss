@@ -3,12 +3,12 @@
 	padding-top: 144px;
 	padding-bottom: 149px;
 	.container_center {
-		.portfolio__items {
+		.portfolio__list {
 			display: grid;
 			grid-template-columns: auto auto auto;
 			grid-column-gap: 21px;
 			grid-row-gap: 23px;
-			.portfolio__items_item {
+			.portfolio__item {
 				position: relative;		
 			}
 			img:hover {
