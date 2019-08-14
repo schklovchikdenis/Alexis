@@ -1,19 +1,19 @@
 // Mixin =======================================================================
 
-// Style for columns text 
+// Style for columns text
 // Используется для многоколоночного адаптивного текста, а также для списков
 // $width - минимальная ширина колонок
 // $count - количество колонок (при уменьшении экрана меняются автоматически в зависимости от первого значения)
 // $padding - отступ между колонками
 // $divider_widh - ширина разделительной линии между колонками
-// $divider_line - стиль разделительной линии 
-// $divider_color - цвет разделительной линии 
+// $divider_line - стиль разделительной линии
+// $divider_color - цвет разделительной линии
 // Лишнее можно просто закомментировать
 // ---------------------------------
-// Example for html 
+// Example for html
 // div class="column"
 // ---------------------------------
-// Example for scss 
+// Example for scss
 // .column {
 // 	@include columns-text(300px, 3, 40px);
 // }
@@ -60,7 +60,7 @@
 	&::-webkit-input-placeholder {@content};
 	&:-moz-placeholder           {@content};
 	&::-moz-placeholder          {@content};
-	&:-ms-input-placeholder      {@content}; 
+	&:-ms-input-placeholder      {@content};
 }
 
 // %form_field {
@@ -101,7 +101,7 @@
     vertical-align: middle;
     border-top: 4px solid;
     border-right: 4px solid transparent;
-    border-left: 4px solid transparent;	
+    border-left: 4px solid transparent;
     @include trs(.3);
 }
 
@@ -120,11 +120,11 @@
   }
 }
 
-// 
+//
 // @TODO: Add docs to flexbox!
-// 
+//
 @mixin flex() {
-	@include browser("flexible") {	
+	@include browser("flexible") {
 		display: -webkit-box;
 		display: -moz-box;
 		display: -webkit-flex;
@@ -135,7 +135,7 @@
 			display: block;
 		}
 	}
-	@include browser("not-flex") {	
+	@include browser("not-flex") {
 		display: block;
 		line-height: 0;
 		letter-spacing: -1px;
@@ -152,12 +152,12 @@
 
 @mixin order($val) {
 	@include browser("flexible") {
-		// -webkit-order: $val;  
+		// -webkit-order: $val;
 		order: $val;
 	}
 }
 
-// 
+//
 // @TODO: Add docs to flex-flow!
 // flex-flow: flex-direction flex-wrap|initial|inherit;
 //
@@ -168,10 +168,10 @@
 	}
 }
 
-// 
+//
 // @TODO: Add docs to justify-content!
 // justify-content: flex-start|flex-end|center|space-between|space-around|initial|inherit;
-// 
+//
 @mixin justify-content($params) {
 	@include browser("flexible") {
 	    // -webkit-justify-content: $params; /* Safari 6.1+ */
@@ -179,7 +179,7 @@
 	}
 }
 
-// 
+//
 // @TODO: Add docs to     -webkit-align-content!
 //
 @mixin align-content($params) {
@@ -213,7 +213,7 @@
 // 	     url("fonts/SamplinaNeue.ttf") format("truetype"),
 // 	     url("fonts/SamplinaNeue.svg#Samplina_Neue") format("svg");
 // }
-// 
+//
 // =============================================================================
 // String Replace
 // =============================================================================

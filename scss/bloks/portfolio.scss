@@ -9,7 +9,7 @@
 			grid-column-gap: 21px;
 			grid-row-gap: 23px;
 			.portfolio__item {
-				position: relative;		
+				position: relative;
 			}
 			img:hover {
 				opacity: 0;
@@ -19,13 +19,13 @@
 			.block__hover{
 				text-decoration: none;
 				bottom: 0px;
-				cursor: pointer;				
+				cursor: pointer;
 				position: absolute;
 				opacity: 0;
 				text-align: center;
 				transition-property: opacity;
 				transition-duration: .4s;
-				
+
 				width: 100%;
 				height: 100%;
 				padding-top: 25%;
@@ -49,7 +49,7 @@
 					font-weight: 500;
 					padding-top: 8%;
 				}
-				
+
 				&:hover {
 					background-color: rgba(0, 0, 0, 0.4);
 					transition-duration: .4s;
