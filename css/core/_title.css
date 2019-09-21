@@ -1,0 +1,42 @@
+.title {
+  color: #313131;
+  font-family: "Libre Baskerville";
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center; }
+  .title_ubout_us {
+    margin-bottom: 48px;
+    text-align: left; }
+  .title_uor-focus {
+    margin-bottom: 79px; }
+  .title_portfolio {
+    margin-bottom: 39px; }
+  .title_team {
+    margin-bottom: 39px; }
+
+.subtitle {
+  color: #616161;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center; }
+  .subtitle_uor-focus {
+    margin-bottom: 49px; }
+  .subtitle_portfolio {
+    margin-bottom: 80px; }
+  .subtitle_team {
+    margin-bottom: 78px; }
+
+.services__title {
+  color: #313131;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 32px; }
+
+.services__text {
+  color: #616161;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400; }

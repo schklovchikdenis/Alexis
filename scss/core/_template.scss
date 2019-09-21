@@ -1,0 +1,22 @@
+// Основные настройки сайта
+
+body {	
+  max-width: 100%;
+  min-width: 320px;	
+}
+
+.container_center {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+// Button
+.btn {
+  text-align: center;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}

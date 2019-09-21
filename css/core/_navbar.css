@@ -1,0 +1,28 @@
+/* Navbar
+-------------------------------------------------------------------------------*/
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .navbar__link {
+    color: #272727;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color; }
+    .navbar__link__link:hover {
+      -webkit-transition-duration: .2s;
+      -o-transition-duration: .2s;
+      transition-duration: .2s;
+      color: red; }

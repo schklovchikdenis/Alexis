@@ -4,23 +4,27 @@
 	text-align: center;
 	padding-top: 148px;
 	padding-bottom: 151px;
-	.video__title {
+
+	&__title {
 		color: #ffffff;
 		font-family: Poppins;
 		font-size: 30px;
 		font-weight: 400;
 	}
-	.icon-play {
-		display: block;
-		font-size: 80px;
-		color: #38c695;
-		margin: 33px 0px 41px 0px;
-	}
-	.video__subtitle {
-		color: #ffffff;
-		font-family: Poppins;
-		font-size: 15px;
-		font-weight: 400;
-	}
 }
+
+.icon-play {
+	display: block;
+	font-size: 80px;
+	color: #38c695;
+	margin: 33px 0px 41px 0px;
+}
+
+.video__subtitle {
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 400;
+}
+
 /*end block video*/

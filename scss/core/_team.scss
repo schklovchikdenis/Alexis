@@ -7,9 +7,9 @@
 
 	.container_center {
 	}
-
+	
 	.cardteam {
-		display: flex;
+		display: flex;		
 
 		.cardteam__item {
 			box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -17,7 +17,7 @@
 			margin-right: 30px;
 			text-align: center;
 			padding-bottom: 25px;
-
+			
 			&_title {
 				font-family: Poppins;
 				font-size: 18px;
@@ -31,40 +31,41 @@
 				font-size: 13px;
 				font-weight: 400;
 			}
-
-
+			
+			
 			&.schmitt{
 				border-bottom: 3px solid #fc5f45;
 				.cardteam__item_title {
 					color: #fc5f45;
 				}
+
 			}
 
 			&.krammer{
 				border-bottom: 3px solid #38c695;
 				.cardteam__item_title {
 					color: #38c695;
-				}
+				}				
 			}
 			&.schroder{
 				border-bottom: 3px solid #b27cf5;
 				.cardteam__item_title {
 					color: #b27cf5;
-				}
+				}				
 			}
 			&.teichmann{
 				border-bottom: 3px solid #feb960;
 				.cardteam__item_title {
 					color: #feb960;
-				}
-			}
+				}				
+			}	
 		}
 		.cardteam__item:last-child{
 			margin-right: 0px;
 		}
 
 	}
-
+	
 	.cardteam__item_resume {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 	background-color: #ffffff;
@@ -75,7 +76,7 @@
 			color: #272727;
 			font-family: Poppins;
 			font-size: 20px;
-			font-weight: 500;
+			font-weight: 500;				
 			margin-bottom: 33px;
 		}
 		.cardteam__item_resume-block {
@@ -83,7 +84,7 @@
 			align-items: center;
 			.cardteam__item_resume-text {
 				border:1px solid green;
-
+				
 				color: #616161;
 				font-family: Poppins;
 				font-size: 15px;
@@ -98,7 +99,7 @@
 				border: 1px solid #f2d810;
 			}
 		}
-
+		
 		.cardteam__item_resume-soc {
 			border: 1px solid red;
 			a {
@@ -108,7 +109,7 @@
 				font-weight: 400;
 				text-decoration: none;
 				cursor: pointer;
-
+				
 				&:hover {}
 			}
 
@@ -130,7 +131,7 @@
 			.icon-instagramm {
 				margin-right: 6px;
 			}
-		}
-	}
+		}	
+	}	
 }
 /*end team*/
