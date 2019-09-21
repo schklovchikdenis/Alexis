@@ -1,9 +1,30 @@
-// Button
-
+/* Button
+-------------------------------------------------------------------------------*/
 .btn {
   text-align: center;
   border-radius: 25px;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
+  &__features {
+		color: #ffffff;
+		background: #fc5f45;
+		font-family: "Poppins";
+		font-size: 16px;
+		font-weight: 400;
+		margin-top: 49px;
+		margin-bottom: 83px;
+		padding: 10px 41px;
+		transition-property: background,
+			color, font-weight, padding;
+		transition-duration: .3s;
+
+		&:hover {
+			padding: 10px 46px;
+			color: red;
+			background: #fff;
+			font-weight: 600;
+			transition-duration: .3s;
+		}
+	}
 }

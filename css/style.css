@@ -426,6 +426,8 @@ template {
 [hidden] {
   display: none; }
 
+/* Основные настройки сайта
+-------------------------------------------------------------------------------*/
 body {
   max-width: 100%;
   min-width: 320px; }
@@ -589,19 +591,51 @@ body {
 .icon-web_desing:before {
   content: ""; }
 
+/* Button
+-------------------------------------------------------------------------------*/
 .btn {
   text-align: center;
   border-radius: 25px;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase; }
+  .btn__features {
+    color: #ffffff;
+    background: #fc5f45;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 49px;
+    margin-bottom: 83px;
+    padding: 10px 41px;
+    -webkit-transition-property: background, color, font-weight, padding;
+    -o-transition-property: background, color, font-weight, padding;
+    transition-property: background, color, font-weight, padding;
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s; }
+    .btn__features:hover {
+      padding: 10px 46px;
+      color: red;
+      background: #fff;
+      font-weight: 600;
+      -webkit-transition-duration: .3s;
+      -o-transition-duration: .3s;
+      transition-duration: .3s; }
 
+/* Title & Subtitle
+-------------------------------------------------------------------------------*/
 .title {
   color: #313131;
   font-family: "Libre Baskerville";
   font-size: 50px;
   font-weight: 700;
   text-align: center; }
+  .title__features {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 85px; }
   .title_ubout_us {
     margin-bottom: 48px;
     text-align: left; }
@@ -668,6 +702,8 @@ body {
     transition-duration: 0.2s;
     color: red; }
 
+/* Block Header
+-------------------------------------------------------------------------------*/
 .header__top {
   position: fixed;
   width: 100%;
@@ -688,35 +724,6 @@ body {
   text-align: center;
   padding-top: 175px;
   padding-bottom: 176px; }
-  .features__title {
-    color: #ffffff;
-    font-family: "Libre Baskerville";
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 85px; }
-  .features .btn.btn__features {
-    color: #ffffff;
-    background: #fc5f45;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
-    padding: 10px 41px;
-    -webkit-transition-property: background, color, font-weight, padding;
-    -o-transition-property: background, color, font-weight, padding;
-    transition-property: background, color, font-weight, padding;
-    -webkit-transition-duration: .3s;
-    -o-transition-duration: .3s;
-    transition-duration: .3s; }
-    .features .btn.btn__features:hover {
-      padding: 10px 46px;
-      color: red;
-      background: #fff;
-      font-weight: 600;
-      -webkit-transition-duration: .3s;
-      -o-transition-duration: .3s;
-      transition-duration: .3s; }
   .features__box {
     display: -webkit-box;
     display: -ms-flexbox;
