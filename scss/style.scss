@@ -1,8 +1,9 @@
-// @import 'core/reset';
+@import 'variables/variables';
+@import 'core/reset';
 @import 'core/template';
 @import 'mixins/mixin';
-@import 'fonts';
-@import 'icon';
+@import 'fonts/fonts';
+@import 'icon/icon';
 // @import 'slick';
 @import 'core/title';
 @import 'core/navbar';
