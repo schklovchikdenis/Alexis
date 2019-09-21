@@ -9,7 +9,7 @@ $icon-clients: "\e904";
 $icon-dollar: "\e905";
 $icon-facebook: "\e906";
 $icon-feedbaks: "\e907";
-$icon-fooeter_google: "\e908";
+$icon-footer_google: "\e908";
 $icon-footer_facedook: "\e909";
 $icon-footer_inst: "\e90a";
 $icon-footer_twitter: "\e90b";
@@ -95,9 +95,9 @@ $icon-web_desing: "\e91b";
     content: $icon-feedbaks; 
   }
 }
-.icon-fooeter_google {
+.icon-footer_google {
   &:before {
-    content: $icon-fooeter_google; 
+    content: $icon-footer_google; 
   }
 }
 .icon-footer_facedook {

@@ -436,13 +436,6 @@ body {
   padding-right: 15px;
   margin: 0 auto; }
 
-.btn {
-  text-align: center;
-  border-radius: 25px;
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase; }
-
 @font-face {
   font-family: 'Poppins';
   src: url("../fonts/Poppins-Medium.eot");
@@ -536,7 +529,7 @@ body {
 .icon-feedbaks:before {
   content: ""; }
 
-.icon-fooeter_google:before {
+.icon-footer_google:before {
   content: ""; }
 
 .icon-footer_facedook:before {
@@ -595,6 +588,13 @@ body {
 
 .icon-web_desing:before {
   content: ""; }
+
+.btn {
+  text-align: center;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase; }
 
 .title {
   color: #313131;
