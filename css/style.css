@@ -646,12 +646,21 @@ body {
   .title_team {
     margin-bottom: 39px; }
 
+.video__title {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400; }
+
 .subtitle {
   color: #616161;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 400;
   text-align: center; }
+  .subtitle__video {
+    color: #ffffff;
+    font-size: 15px; }
   .subtitle__uor-focus {
     margin-bottom: 49px; }
   .subtitle_portfolio {
@@ -845,3 +854,18 @@ body {
   border-bottom: 3px solid #feb960; }
 
 /*end block uorfocus*/
+/* Block Video
+-------------------------------------------------------------------------------*/
+.video {
+  background-color: rgba(38, 39, 50, 0.85);
+  text-align: center;
+  padding-top: 148px;
+  padding-bottom: 151px; }
+
+.icon-play {
+  display: block;
+  font-size: 80px;
+  color: #38c695;
+  margin: 33px 0px 41px 0px; }
+
+/*end block video*/
