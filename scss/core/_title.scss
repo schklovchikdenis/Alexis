@@ -46,6 +46,11 @@
   font-weight: 400;
   text-align: center;
 
+  &__about-us {    
+    word-break: normal;
+    text-align: left;
+  }
+
   &__video {
     color: #ffffff;
     font-size: 15px;
