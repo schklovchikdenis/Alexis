@@ -23,21 +23,15 @@
     margin-bottom: 79px;
   }
 
-  &_portfolio {
+  &__portfolio {
     margin-bottom: 39px;
   }
 
-  &_team {
+  &__team {
     margin-bottom: 39px;
   }
 }
 
-.video__title {
-  color: #ffffff;
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 400;
-}
 
 .subtitle {
   color: #616161;
@@ -45,26 +39,26 @@
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-
+  
   &__about-us {    
     word-break: normal;
     text-align: left;
   }
-
+  
   &__video {
     color: #ffffff;
     font-size: 15px;
   }
-
+  
   &__uor-focus {
     margin-bottom: 49px;
   }
-
-  &_portfolio {
+  
+  &__portfolio {
     margin-bottom: 80px;
   }
-
-  &_team {
+  
+  &__team {
     margin-bottom: 78px;
   }
 }
@@ -82,5 +76,12 @@
   color: #616161;
   font-family: Poppins;
   font-size: 15px;
+  font-weight: 400;
+}
+
+.video__title {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 30px;
   font-weight: 400;
 }
