@@ -636,7 +636,7 @@ body {
     font-size: 60px;
     font-weight: 400;
     line-height: 85px; }
-  .title_ubout_us {
+  .title__ubout-us {
     margin-bottom: 48px;
     text-align: left; }
   .title_uor-focus {
@@ -759,3 +759,38 @@ body {
       color: #b27cf5; }
     .features__text_color-orange {
       color: #feb960; }
+
+/* Block About
+-------------------------------------------------------------------------------*/
+.about {
+  padding-top: 149px;
+  padding-bottom: 151px; }
+  .about .container_center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.about-us {
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-left: -65px;
+  padding: 94px 83px 106px 81px;
+  max-width: 652px;
+  max-height: 550px;
+  border-bottom-style: solid;
+  border-image-width: 15px;
+  -webkit-border-image: url(../../img/line.png);
+  -o-border-image: url(../../img/line.png);
+  border-image: url(../../img/line.png);
+  border-image-slice: 5; }
+  .about-us_text {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    word-break: normal; }
+
+/*end block about*/
