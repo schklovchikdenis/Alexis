@@ -748,17 +748,6 @@ body {
     margin-right: 73px; }
   .features__item:nth-child(3) {
     margin-right: 0px; }
-  .features i {
-    font-size: 40px; }
-  .features .icon-dollar {
-    display: inline-block;
-    color: #38c695; }
-  .features .icon-time {
-    display: inline-block;
-    color: #b27cf5; }
-  .features .icon-chek {
-    display: inline-block;
-    color: #feb960; }
   .features__text {
     margin-top: 38px;
     font-family: Poppins;
@@ -771,6 +760,21 @@ body {
       color: #b27cf5; }
     .features__text_color-orange {
       color: #feb960; }
+
+.icon-dollar {
+  display: inline-block;
+  color: #38c695;
+  font-size: 40px; }
+
+.icon-time {
+  display: inline-block;
+  color: #b27cf5;
+  font-size: 40px; }
+
+.icon-chek {
+  display: inline-block;
+  color: #feb960;
+  font-size: 40px; }
 
 /* Block About
 -------------------------------------------------------------------------------*/

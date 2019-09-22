@@ -1,79 +1,76 @@
 /* Block Header
 -------------------------------------------------------------------------------*/
 .header__top {
-	position: fixed;
-	width: 100%;
-	background-color: #ffffff;
-	z-index: 10;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 10;
 
-	.container_center {
-		display: grid;
-		grid-template-columns: 97px 1fr;
-		grid-column-gap: 26.2%;
-		align-items: center;
-		padding: 24px 15px;
-	}
-	
+  .container_center {
+    display: grid;
+    grid-template-columns: 97px 1fr;
+    grid-column-gap: 26.2%;
+    align-items: center;
+    padding: 24px 15px;
+  }
 }
-
 
 /*Block features*/
 .features {
-	background-color: rgba(38, 39, 50, 0.85);
-	text-align: center;
-	padding-top: 175px;
-	padding-bottom: 176px;
+  background-color: rgba(38, 39, 50, 0.85);
+  text-align: center;
+  padding-top: 175px;
+  padding-bottom: 176px;
 
-	&__box {
-		display: flex;
-		justify-content: center;
-	}
+  &__box {
+    display: flex;
+    justify-content: center;
+  }
 
-	&__item {
-		min-width: 198px;
-		margin-right: 73px;
-	}
+  &__item {
+    min-width: 198px;
+    margin-right: 73px;
+  }
 
-	&__item:nth-child(3) {
-		margin-right: 0px;
-	}
+  &__item:nth-child(3) {
+    margin-right: 0px;
+  }
 
-	i {
-		font-size: 40px;
-	}
+  &__text {
+    margin-top: 38px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
 
-	.icon-dollar {
-		display: inline-block;
-		color: #38c695;
-	}
+    &_color-red {
+      color: #38c695;
+    }
 
-	.icon-time {
-		display: inline-block;
-		color: #b27cf5;
-	}
+    &_color-violet {
+      color: #b27cf5;
+    }
 
-	.icon-chek {
-		display: inline-block;
-		color: #feb960;
-	}
+    &_color-orange {
+      color: #feb960;
+    }
+  }
+}
 
-	&__text {
-		margin-top: 38px;
-		font-family: Poppins;
-		font-size: 18px;
-		font-weight: 500;
-		text-transform: uppercase;
+.icon-dollar {
+  display: inline-block;
+  color: #38c695;
+  font-size: 40px;
+}
 
-		&_color-red {
-			color: #38c695;
-		}
+.icon-time {
+  display: inline-block;
+  color: #b27cf5;
+  font-size: 40px;
+}
 
-		&_color-violet {
-			color: #b27cf5;
-		}
-
-		&_color-orange {
-			color: #feb960;
-		}
-	}
+.icon-chek {
+  display: inline-block;
+  color: #feb960;
+  font-size: 40px;
 }
