@@ -798,9 +798,9 @@ body {
   max-height: 550px;
   border-bottom-style: solid;
   border-image-width: 15px;
-  -webkit-border-image: url(../../img/line.png);
-  -o-border-image: url(../../img/line.png);
-  border-image: url(../../img/line.png);
+  -webkit-border-image: url(../img/line.png);
+  -o-border-image: url(../img/line.png);
+  border-image: url(../img/line.png);
   border-image-slice: 5; }
 
 /*end block about*/
@@ -885,7 +885,6 @@ body {
 
 .block-hover {
   text-decoration: none;
-  bottom: 0;
   right: 0;
   cursor: pointer;
   position: absolute;
@@ -898,16 +897,16 @@ body {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
   width: 100%;
-  height: 100%;
+  height: 98%;
   padding-top: 25%; }
-  .block-hover_bottom {
+  .block-hover__bottom {
     display: block;
     height: 43%;
     border-top-style: solid;
     border-image-width: 15px;
-    -webkit-border-image: url(../../img/line.png);
-    -o-border-image: url(../../img/line.png);
-    border-image: url(../../img/line.png);
+    -webkit-border-image: url(../img/line.png);
+    -o-border-image: url(../img/line.png);
+    border-image: url(../img/line.png);
     border-image-slice: 5;
     background-color: #ffffff;
     color: #313131;
