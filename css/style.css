@@ -740,12 +740,11 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .features__item {
-    min-width: 198px;
-    margin-right: 73px; }
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto; }
   .features__item:nth-child(3) {
     margin-right: 0px; }
   .features__text {

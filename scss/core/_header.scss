@@ -16,6 +16,7 @@
 }
 
 /*Block features*/
+
 .features {
   background-color: rgba(38, 39, 50, 0.85);
   text-align: center;
@@ -24,13 +25,12 @@
 
   &__box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
   }
 
-  &__item {
-    min-width: 198px;
-    margin-right: 73px;
-  }
+  
 
   &__item:nth-child(3) {
     margin-right: 0px;
