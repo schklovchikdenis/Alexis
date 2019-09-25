@@ -1,138 +1,134 @@
 /* Block team
 -------------------------------------------------------------------------------*/
 
-.team {
-	background-color: #f7f7f7;
-	padding-top: 151px;
-	padding-bottom: 149px;
+.team-members {
+  background-color: #f7f7f7;
+  padding-top: 151px;
+  padding-bottom: 149px;
 
-	.container_center {
-	}
-	
-	.cardteam {
-		display: flex;		
+  .container_center {
+  }
 
-		.cardteam__item {
-			box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-			background-color: #ffffff;
-			margin-right: 30px;
-			text-align: center;
-			padding-bottom: 25px;
-			
-			&_title {
-				font-family: Poppins;
-				font-size: 18px;
-				font-weight: 500;
-				margin-top: 17px;
-				margin-bottom: 13px;
-			}
-			&_subtitle {
-				color: #616161;
-				font-family: Poppins;
-				font-size: 13px;
-				font-weight: 400;
-			}
-			
-			
-			&.schmitt{
-				border-bottom: 3px solid #fc5f45;
-				.cardteam__item_title {
-					color: #fc5f45;
-				}
+  .single-member {
+    display: flex;
+    &__title {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 17px;
+      margin-bottom: 13px;
+    }
+    &__subtitle {
+      color: #616161;
+      font-family: Poppins;
+      font-size: 13px;
+      font-weight: 400;
+    }
+    &__item {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      background-color: #ffffff;
+      margin-right: 30px;
+      text-align: center;
+      padding-bottom: 25px;
 
-			}
+      &.schmitt {
+        border-bottom: 3px solid #fc5f45;
+        .single-member__title {
+          color: #fc5f45;
+        }
+      }
 
-			&.krammer{
-				border-bottom: 3px solid #38c695;
-				.cardteam__item_title {
-					color: #38c695;
-				}				
-			}
-			&.schroder{
-				border-bottom: 3px solid #b27cf5;
-				.cardteam__item_title {
-					color: #b27cf5;
-				}				
-			}
-			&.teichmann{
-				border-bottom: 3px solid #feb960;
-				.cardteam__item_title {
-					color: #feb960;
-				}				
-			}	
-		}
-		.cardteam__item:last-child{
-			margin-right: 0px;
-		}
+      &.krammer {
+        border-bottom: 3px solid #38c695;
+        .single-member__title {
+          color: #38c695;
+        }
+      }
+      &.schroder {
+        border-bottom: 3px solid #b27cf5;
+        .single-member__title {
+          color: #b27cf5;
+        }
+      }
+      &.teichmann {
+        border-bottom: 3px solid #feb960;
+        .single-member__title {
+          color: #feb960;
+        }
+      }
 
-	}
-	
-	.cardteam__item_resume {
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-	background-color: #ffffff;
-	margin-top: 50px;
-	padding: 75px 105px 76px 97px;
+      .cardteam__item:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+  .member-details {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 75px 105px 76px 97px;
 
-		.cardteam__item_resume-title {
-			color: #272727;
-			font-family: Poppins;
-			font-size: 20px;
-			font-weight: 500;				
-			margin-bottom: 33px;
-		}
-		.cardteam__item_resume-block {
-			display: flex;
-			align-items: center;
-			.cardteam__item_resume-text {
-				border:1px solid green;
-				
-				color: #616161;
-				font-family: Poppins;
-				font-size: 15px;
-				font-weight: 400;
-				line-height: 27px;
-//				min-width: 634px;
-				margin-right: 105px;
-			}
-			.icon-send {
-				font-size: 36px;
-				margin-right: 34px;
-				border: 1px solid #f2d810;
-			}
-		}
-		
-		.cardteam__item_resume-soc {
-			border: 1px solid red;
-			a {
-				color: #616161;
-				font-family: Poppins;
-				font-size: 15px;
-				font-weight: 400;
-				text-decoration: none;
-				cursor: pointer;
-				
-				&:hover {}
-			}
+    &__title {
+      color: #272727;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 33px;
+    }
+    .cardteam__item_resume-block {
+      display: flex;
+      align-items: center;
+      .cardteam__item_resume-text {
+        border: 1px solid green;
 
-			.icon-facebook {
-				margin-bottom: 18px;
-				margin-right: 6px;
-			}
+        color: #616161;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+        //				min-width: 634px;
+        margin-right: 105px;
+      }
+      .icon-send {
+        font-size: 36px;
+        margin-right: 34px;
+        border: 1px solid #f2d810;
+      }
+    }
 
-			.icon-twitter {
-				margin-bottom: 17px;
-				margin-right: 6px;
-			}
+    .cardteam__item_resume-soc {
+      border: 1px solid red;
+      a {
+        color: #616161;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer;
 
-			.icon-linkedin {
-				margin-bottom: 19px;
-				margin-right: 6px;
-			}
+        &:hover {
+        }
+      }
 
-			.icon-instagramm {
-				margin-right: 6px;
-			}
-		}	
-	}	
+      .icon-facebook {
+        margin-bottom: 18px;
+        margin-right: 6px;
+      }
+
+      .icon-twitter {
+        margin-bottom: 17px;
+        margin-right: 6px;
+      }
+
+      .icon-linkedin {
+        margin-bottom: 19px;
+        margin-right: 6px;
+      }
+
+      .icon-instagramm {
+        margin-right: 6px;
+      }
+    }
+  }
 }
 /*end team*/
