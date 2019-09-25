@@ -426,6 +426,21 @@ template {
 [hidden] {
   display: none; }
 
+ul {
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+  -webkit-margin-start: 0px;
+  -moz-margin-start: 0px;
+  margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+  -moz-margin-end: 0px;
+  margin-inline-end: 0px;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+  padding-inline-start: 0; }
+
 /* Основные настройки сайта
 -------------------------------------------------------------------------------*/
 body {
@@ -437,6 +452,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; }
+
+.header__top:after {
+  content: '';
+  display: table;
+  clear: both; }
 
 @font-face {
   font-family: 'Poppins';
@@ -698,8 +718,9 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  min-width: 736px;
-  margin-top: 5px; }
+  width: 100%;
+  max-width: 736px;
+  padding-top: 5px; }
   .navbar__link {
     color: #272727;
     font-family: Poppins;
@@ -724,7 +745,7 @@ body {
   width: 100%;
   background-color: #ffffff;
   z-index: 10;
-  padding: 24px 0 3px; }
+  padding: 24px 0; }
 
 .logo {
   float: left; }
