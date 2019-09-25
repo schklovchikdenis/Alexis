@@ -5,14 +5,14 @@
   width: 100%;
   background-color: #ffffff;
   z-index: 10;
-
-  .container_center {
-    display: grid;
-    grid-template-columns: 97px 1fr;
-    grid-column-gap: 26.2%;
-    align-items: center;
-    padding: 24px 15px;
-  }
+  padding: 24px 0 3px;
+}
+.logo {
+  float: left;
+  
+}
+.navbar {
+  float: right;
 }
 
 /*Block features*/
@@ -29,8 +29,6 @@
     max-width: 500px;
     margin: 0 auto;
   }
-
-  
 
   &__item:nth-child(3) {
     margin-right: 0px;

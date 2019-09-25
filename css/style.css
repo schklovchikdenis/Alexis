@@ -697,12 +697,15 @@ body {
   justify-content: flex-end;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  min-width: 736px;
+  margin-top: 5px; }
   .navbar__link {
     color: #272727;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: normal;
     line-height: 27px;
     text-decoration: none;
     -webkit-transition-property: color;
@@ -720,15 +723,14 @@ body {
   position: fixed;
   width: 100%;
   background-color: #ffffff;
-  z-index: 10; }
-  .header__top .container_center {
-    display: grid;
-    grid-template-columns: 97px 1fr;
-    grid-column-gap: 26.2%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 24px 15px; }
+  z-index: 10;
+  padding: 24px 0 3px; }
+
+.logo {
+  float: left; }
+
+.navbar {
+  float: right; }
 
 /*Block features*/
 .features {
