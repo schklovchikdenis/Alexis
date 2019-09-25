@@ -780,7 +780,7 @@ body {
 .about {
   padding-top: 149px;
   padding-bottom: 151px; }
-  .about .container_center {
+  .about .about__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
