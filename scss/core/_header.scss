@@ -5,16 +5,14 @@
   width: 100%;
   background-color: #ffffff;
   z-index: 10;
-  @extend %clear_a;
   padding: 24px 0;
 }
-.logo {
-  float: left;
-  
+
+.header-top__content {
+  display: flex;
+  justify-content: space-between;
 }
-.navbar {
-  float: right;
-}
+
 
 /*Block features*/
 

@@ -453,11 +453,6 @@ body {
   padding-right: 15px;
   margin: 0 auto; }
 
-.header__top:after {
-  content: '';
-  display: table;
-  clear: both; }
-
 @font-face {
   font-family: 'Poppins';
   src: url("../fonts/Poppins-Medium.eot");
@@ -747,11 +742,13 @@ body {
   z-index: 10;
   padding: 24px 0; }
 
-.logo {
-  float: left; }
-
-.navbar {
-  float: right; }
+.header-top__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 /*Block features*/
 .features {
