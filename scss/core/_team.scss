@@ -6,8 +6,6 @@
   padding-top: 151px;
   padding-bottom: 149px;
 
- 
-
   .single-member {
     display: flex;
     &__title {
@@ -51,22 +49,21 @@
       }
       &.teichmann {
         border-bottom: 3px solid #feb960;
+        margin-right: 0px;
         .single-member__title {
           color: #feb960;
         }
-      }
-
-      .cardteam__item:last-child {
-        margin-right: 0px;
-      }
+      }      
     }
   }
+
+
   .member-details {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
     margin-top: 50px;
     padding: 75px 105px 76px 97px;
-
+    
     &__title {
       color: #272727;
       font-family: Poppins;
@@ -74,58 +71,59 @@
       font-weight: 500;
       margin-bottom: 33px;
     }
-    .cardteam__item_resume-block {
+
+    &__block {
       display: flex;
       align-items: center;
-      .cardteam__item_resume-text {
+      &__text {
         border: 1px solid green;
-
         color: #616161;
         font-family: Poppins;
         font-size: 15px;
         font-weight: 400;
         line-height: 27px;
-        //				min-width: 634px;
         margin-right: 105px;
       }
+
       .icon-send {
         font-size: 36px;
         margin-right: 34px;
         border: 1px solid #f2d810;
+        color: #fc5f45;
       }
-    }
 
-    .cardteam__item_resume-soc {
-      border: 1px solid red;
-      a {
-        color: #616161;
-        font-family: Poppins;
-        font-size: 15px;
-        font-weight: 400;
-        text-decoration: none;
-        cursor: pointer;
+      &__soc {
+        border: 1px solid red;
+        a {
+          color: #616161;
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 400;
+          text-decoration: none;
+          cursor: pointer;
 
-        &:hover {
+          &:hover {
+          }
         }
-      }
 
-      .icon-facebook {
-        margin-bottom: 18px;
-        margin-right: 6px;
-      }
+        .icon-facebook {
+          margin-bottom: 18px;
+          margin-right: 6px;
+        }
 
-      .icon-twitter {
-        margin-bottom: 17px;
-        margin-right: 6px;
-      }
+        .icon-twitter {
+          margin-bottom: 17px;
+          margin-right: 6px;
+        }
 
-      .icon-linkedin {
-        margin-bottom: 19px;
-        margin-right: 6px;
-      }
+        .icon-linkedin {
+          margin-bottom: 19px;
+          margin-right: 6px;
+        }
 
-      .icon-instagramm {
-        margin-right: 6px;
+        .icon-instagramm {
+          margin-right: 6px;
+        }
       }
     }
   }
