@@ -905,6 +905,7 @@ body {
 .block-hover {
   text-decoration: none;
   right: 0;
+  top: 0;
   cursor: pointer;
   position: absolute;
   opacity: 0;
