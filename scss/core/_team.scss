@@ -53,17 +53,16 @@
         .single-member__title {
           color: #feb960;
         }
-      }      
+      }
     }
   }
-
 
   .member-details {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
     margin-top: 50px;
     padding: 75px 105px 76px 97px;
-    
+
     &__title {
       color: #272727;
       font-family: Poppins;
@@ -75,55 +74,60 @@
     &__block {
       display: flex;
       align-items: center;
-      &__text {
-        border: 1px solid green;
+    }
+
+    &__text {
+      
+      border: 1px solid green;
+      color: #616161;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 27px;
+      margin-right: 105px;
+    }
+
+    .icon-send {
+      font-size: 36px;
+      margin-right: 34px;
+      border-right: 2px solid #efefef;
+      color: #fc5f45;
+      padding-right: 25px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    &__soc {
+      border: 1px solid red;
+      a {
         color: #616161;
         font-family: Poppins;
         font-size: 15px;
         font-weight: 400;
-        line-height: 27px;
-        margin-right: 105px;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+        }
       }
 
-      .icon-send {
-        font-size: 36px;
-        margin-right: 34px;
-        border: 1px solid #f2d810;
-        color: #fc5f45;
+      .icon-facebook {
+        margin-bottom: 18px;
+        margin-right: 6px;
       }
 
-      &__soc {
-        border: 1px solid red;
-        a {
-          color: #616161;
-          font-family: Poppins;
-          font-size: 15px;
-          font-weight: 400;
-          text-decoration: none;
-          cursor: pointer;
+      .icon-twitter {
+        margin-bottom: 17px;
+        margin-right: 6px;
+      }
 
-          &:hover {
-          }
-        }
+      .icon-linkedin {
+        margin-bottom: 19px;
+        margin-right: 6px;
+      }
 
-        .icon-facebook {
-          margin-bottom: 18px;
-          margin-right: 6px;
-        }
-
-        .icon-twitter {
-          margin-bottom: 17px;
-          margin-right: 6px;
-        }
-
-        .icon-linkedin {
-          margin-bottom: 19px;
-          margin-right: 6px;
-        }
-
-        .icon-instagramm {
-          margin-right: 6px;
-        }
+      .icon-instagramm {
+        margin-right: 6px;
       }
     }
   }

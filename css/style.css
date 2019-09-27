@@ -1012,38 +1012,41 @@ body {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      .team-members .member-details__block__text {
-        border: 1px solid green;
+    .team-members .member-details__text {
+      border: 1px solid green;
+      color: #616161;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 27px;
+      margin-right: 105px; }
+    .team-members .member-details .icon-send {
+      font-size: 36px;
+      margin-right: 34px;
+      border-right: 2px solid #efefef;
+      color: #fc5f45;
+      padding-right: 25px;
+      padding-top: 60px;
+      padding-bottom: 60px; }
+    .team-members .member-details__soc {
+      border: 1px solid red; }
+      .team-members .member-details__soc a {
         color: #616161;
         font-family: Poppins;
         font-size: 15px;
         font-weight: 400;
-        line-height: 27px;
-        margin-right: 105px; }
-      .team-members .member-details__block .icon-send {
-        font-size: 36px;
-        margin-right: 34px;
-        border: 1px solid #f2d810;
-        color: #fc5f45; }
-      .team-members .member-details__block__soc {
-        border: 1px solid red; }
-        .team-members .member-details__block__soc a {
-          color: #616161;
-          font-family: Poppins;
-          font-size: 15px;
-          font-weight: 400;
-          text-decoration: none;
-          cursor: pointer; }
-        .team-members .member-details__block__soc .icon-facebook {
-          margin-bottom: 18px;
-          margin-right: 6px; }
-        .team-members .member-details__block__soc .icon-twitter {
-          margin-bottom: 17px;
-          margin-right: 6px; }
-        .team-members .member-details__block__soc .icon-linkedin {
-          margin-bottom: 19px;
-          margin-right: 6px; }
-        .team-members .member-details__block__soc .icon-instagramm {
-          margin-right: 6px; }
+        text-decoration: none;
+        cursor: pointer; }
+      .team-members .member-details__soc .icon-facebook {
+        margin-bottom: 18px;
+        margin-right: 6px; }
+      .team-members .member-details__soc .icon-twitter {
+        margin-bottom: 17px;
+        margin-right: 6px; }
+      .team-members .member-details__soc .icon-linkedin {
+        margin-bottom: 19px;
+        margin-right: 6px; }
+      .team-members .member-details__soc .icon-instagramm {
+        margin-right: 6px; }
 
 /*end team*/
