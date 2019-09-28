@@ -30,9 +30,7 @@
   &__team-members {
     margin-bottom: 39px;
   }
-  
 }
-
 
 .subtitle {
   color: #616161;
@@ -40,30 +38,31 @@
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-  
-  &__about-us {    
+
+  &__about-us {
     word-break: normal;
     text-align: left;
   }
-  
+
   &__video {
     color: #ffffff;
     font-size: 15px;
   }
-  
+
   &__uor-focus {
     margin-bottom: 49px;
   }
-  
+
   &__portfolio {
     margin-bottom: 80px;
   }
-  
+
   &__team-members {
     margin-bottom: 78px;
   }
 }
 
+// Services
 .services__title {
   color: #313131;
   font-family: Poppins;
@@ -80,9 +79,28 @@
   font-weight: 400;
 }
 
+// Video
 .video__title {
   color: #ffffff;
   font-family: Poppins;
   font-size: 30px;
+  font-weight: 400;
+}
+
+// Stats
+.stats__title {
+  margin-bottom: 28px;
+  color: #fefefe;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.stats__subtitle {
+  margin-bottom: 39px;
+  opacity: 0.7;
+  color: #fefefe;
+  font-family: Poppins;
+  font-size: 15px;
   font-weight: 400;
 }
