@@ -448,7 +448,7 @@ body {
   min-width: 320px; }
 
 .container_center {
-  max-width: 1140px;
+  max-width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; }
@@ -954,99 +954,117 @@ body {
   background-color: #f7f7f7;
   padding-top: 151px;
   padding-bottom: 149px; }
-  .team-members .single-member {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .team-members .single-member__title {
-      font-family: Poppins;
-      font-size: 18px;
-      font-weight: 500;
-      margin-top: 17px;
-      margin-bottom: 13px; }
-    .team-members .single-member__subtitle {
-      color: #616161;
-      font-family: Poppins;
-      font-size: 13px;
-      font-weight: 400; }
-    .team-members .single-member__item {
-      -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-      background-color: #ffffff;
-      margin-right: 30px;
-      text-align: center;
-      padding-bottom: 25px; }
-      .team-members .single-member__item.schmitt {
-        border-bottom: 3px solid #fc5f45; }
-        .team-members .single-member__item.schmitt .single-member__title {
-          color: #fc5f45; }
-      .team-members .single-member__item.krammer {
-        border-bottom: 3px solid #38c695; }
-        .team-members .single-member__item.krammer .single-member__title {
-          color: #38c695; }
-      .team-members .single-member__item.schroder {
-        border-bottom: 3px solid #b27cf5; }
-        .team-members .single-member__item.schroder .single-member__title {
-          color: #b27cf5; }
-      .team-members .single-member__item.teichmann {
-        border-bottom: 3px solid #feb960;
-        margin-right: 0px; }
-        .team-members .single-member__item.teichmann .single-member__title {
-          color: #feb960; }
-  .team-members .member-details {
+
+.single-member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer; }
+  .single-member__title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-bottom: 13px; }
+  .single-member__subtitle {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400; }
+  .single-member__item {
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
-    margin-top: 50px;
-    padding: 75px 105px 76px 97px; }
-    .team-members .member-details__title {
-      color: #272727;
-      font-family: Poppins;
-      font-size: 20px;
-      font-weight: 500;
-      margin-bottom: 33px; }
-    .team-members .member-details__block {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-    .team-members .member-details__text {
-      border: 1px solid green;
-      color: #616161;
-      font-family: Poppins;
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 27px;
-      margin-right: 105px; }
-    .team-members .member-details .icon-send {
-      font-size: 36px;
-      margin-right: 34px;
-      border-right: 2px solid #efefef;
-      color: #fc5f45;
-      padding-right: 25px;
-      padding-top: 60px;
-      padding-bottom: 60px; }
-    .team-members .member-details__soc {
-      border: 1px solid red; }
-      .team-members .member-details__soc a {
-        color: #616161;
-        font-family: Poppins;
-        font-size: 15px;
-        font-weight: 400;
-        text-decoration: none;
-        cursor: pointer; }
-      .team-members .member-details__soc .icon-facebook {
-        margin-bottom: 18px;
-        margin-right: 6px; }
-      .team-members .member-details__soc .icon-twitter {
-        margin-bottom: 17px;
-        margin-right: 6px; }
-      .team-members .member-details__soc .icon-linkedin {
-        margin-bottom: 19px;
-        margin-right: 6px; }
-      .team-members .member-details__soc .icon-instagramm {
-        margin-right: 6px; }
+    margin-right: 30px;
+    text-align: center;
+    padding-bottom: 25px; }
+    .single-member__item.schmitt {
+      border-bottom: 3px solid #fc5f45; }
+      .single-member__item.schmitt .single-member__title {
+        color: #fc5f45; }
+    .single-member__item.krammer {
+      border-bottom: 3px solid #38c695; }
+      .single-member__item.krammer .single-member__title {
+        color: #38c695; }
+    .single-member__item.schroder {
+      border-bottom: 3px solid #b27cf5; }
+      .single-member__item.schroder .single-member__title {
+        color: #b27cf5; }
+    .single-member__item.teichmann {
+      border-bottom: 3px solid #feb960;
+      margin-right: 0px; }
+      .single-member__item.teichmann .single-member__title {
+        color: #feb960; }
+
+.member-details {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding: 75px 105px 76px 97px;
+  position: relative; }
+  .member-details::before {
+    content: "";
+    position: absolute;
+    border: 40px solid transparent;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border-bottom-color: #ffffff;
+    bottom: 100%;
+    z-index: 100; }
+  .member-details__title {
+    color: #272727;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 33px; }
+  .member-details__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .member-details__text {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-right: 111px; }
+  .member-details .icon-send {
+    font-size: 36px;
+    margin-right: 24px;
+    border-right: 2px solid #efefef;
+    color: #fc5f45;
+    padding-right: 34px;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+  .member-details__soc a {
+    display: block;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 16px; }
+    .member-details__soc a:last-child {
+      margin-bottom: 0; }
+  .member-details__soc .icon-facebook {
+    font-size: 15px;
+    margin-bottom: 18px;
+    margin-right: 6px; }
+  .member-details__soc .icon-twitter {
+    font-size: 15px;
+    margin-bottom: 17px;
+    margin-right: 6px; }
+  .member-details__soc .icon-linkedin {
+    font-size: 15px;
+    margin-bottom: 19px;
+    margin-right: 6px; }
+  .member-details__soc .icon-instagramm {
+    font-size: 15px;
+    margin-right: 6px; }
 
 /*end team*/
