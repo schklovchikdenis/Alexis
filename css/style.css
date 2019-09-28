@@ -1077,3 +1077,75 @@ body {
 /*end team*/
 /* Block Stats
 -------------------------------------------------------------------------------*/
+.stats {
+  background-image: url(../img/bg_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 147px;
+  padding-bottom: 127px; }
+  .stats__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .stats__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .stats__item:first-child {
+      margin-left: 58px; }
+    .stats__item:last-child {
+      margin-right: 65px; }
+  .stats__title {
+    margin-bottom: 28px;
+    color: #fefefe;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500; }
+  .stats__subtitle {
+    margin-bottom: 39px;
+    opacity: 0.7;
+    color: #fefefe;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400; }
+
+.icon-stat-graff,
+.icon-stat-client,
+.icon-stat-head,
+.icon-stat-box {
+  font-size: 51px;
+  margin-bottom: 31px; }
+
+.icon-stat-graff {
+  color: #fc5f45; }
+
+.icon-stat-client {
+  color: #38c695; }
+
+.icon-stat-head {
+  color: #b27cf5; }
+
+.icon-stat-box {
+  color: #feb960; }
+
+.icon-stat-punkt {
+  font-size: 15px; }
+  .icon-stat-punkt.red {
+    color: #fc5f45; }
+  .icon-stat-punkt.green {
+    color: #38c695; }
+  .icon-stat-punkt.violet {
+    color: #b27cf5; }
+  .icon-stat-punkt.yellou {
+    color: #feb960; }
