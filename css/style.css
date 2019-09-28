@@ -504,10 +504,11 @@ body {
 
 @font-face {
   font-family: "alexis";
-  src: url("../fonts/alexis.eot?a5djji");
-  src: url("../fonts/alexis.eot?a5djji#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?a5djji") format("truetype"), url("../fonts/alexis.woff?a5djji") format("woff"), url("../fonts/alexis.svg?a5djji#alexis") format("svg");
+  src: url("../fonts/alexis.eot?ngi2xc");
+  src: url("../fonts/alexis.eot?ngi2xc#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?ngi2xc") format("truetype"), url("../fonts/alexis.woff?ngi2xc") format("woff"), url("../fonts/alexis.svg?ngi2xc#alexis") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  font-display: block; }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -522,89 +523,92 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-app:before {
+.icon-award-company:before {
   content: ""; }
 
-.icon-awward_company:before {
+.icon-bussines-growth:before {
   content: ""; }
 
-.icon-bisnes_growt:before {
+.icon-facebook:before {
   content: ""; }
 
-.icon-chek:before {
+.icon-focus-app:before {
   content: ""; }
 
-.icon-clients:before {
+.icon-focus-foto:before {
   content: ""; }
 
-.icon-dollar:before {
+.icon-focus-web-design:before {
   content: ""; }
 
-.icon-facebook:before {
+.icon-focus-web-ux:before {
   content: ""; }
 
-.icon-feedbaks:before {
+.icon-footer-facebook:before {
   content: ""; }
 
-.icon-footer_google:before {
+.icon-footer-google:before {
   content: ""; }
 
-.icon-footer_facedook:before {
+.icon-footer-instagram:before {
   content: ""; }
 
-.icon-footer_inst:before {
+.icon-footer-twitter:before {
   content: ""; }
 
-.icon-footer_twitter:before {
+.icon-header-check:before {
   content: ""; }
 
-.icon-free:before {
+.icon-header-dollar:before {
   content: ""; }
 
-.icon-graff:before {
+.icon-header-time:before {
   content: ""; }
 
-.icon-instagramm:before {
+.icon-instagram:before {
   content: ""; }
 
-.icon-linkedin:before {
+.icon-linkidin:before {
   content: ""; }
 
-.icon-photo:before {
+.icon-portfolio-plus:before {
   content: ""; }
 
-.icon-play:before {
+.icon-smart-experience:before {
   content: ""; }
 
-.icon-plus:before {
+.icon-stat-box:before {
   content: ""; }
 
-.icon-send:before {
+.icon-stat-client:before {
   content: ""; }
 
-.icon-smart_experient:before {
+.icon-stat-graff:before {
   content: ""; }
 
-.icon-stick_dedline:before {
+.icon-stat-head:before {
   content: ""; }
 
-.icon-time:before {
+.icon-stat-punkt:before {
   content: ""; }
 
-.icon-twitter:before {
+.icon-stict-dedline:before {
   content: ""; }
 
-.icon-ultimeate_perfection:before {
+.icon-team-share:before {
   content: ""; }
 
-.icon-unlimited_revision:before {
+.icon-twitter:before {
   content: ""; }
 
-.icon-ux_desing:before {
+.icon-ultimate-perfection:before {
   content: ""; }
 
-.icon-web_desing:before {
+.icon-ultimate-revision:before {
   content: ""; }
+
+.icon-video-play:before {
+  content: ""; }
 
 /* Button
 -------------------------------------------------------------------------------*/
@@ -780,20 +784,23 @@ body {
     .features__text_color-orange {
       color: #feb960; }
 
-.icon-dollar {
+.icon-header-dollar {
   display: inline-block;
   color: #38c695;
-  font-size: 40px; }
+  font-size: 40px;
+  margin-bottom: 38px; }
 
-.icon-time {
+.icon-header-time {
   display: inline-block;
   color: #b27cf5;
-  font-size: 40px; }
+  font-size: 40px;
+  margin-bottom: 38px; }
 
-.icon-chek {
+.icon-header-check {
   display: inline-block;
   color: #feb960;
-  font-size: 40px; }
+  font-size: 40px;
+  margin-bottom: 38px; }
 
 /* Block About
 -------------------------------------------------------------------------------*/
@@ -844,19 +851,19 @@ body {
     margin-right: 30px;
     background: #ffffff; }
 
-.icon-web_desing {
+.icon-focus-web-design {
   font-size: 50px;
   color: #fc5f45; }
 
-.icon-ux_desing {
+.icon-focus-web-ux {
   font-size: 50px;
   color: #38c695; }
 
-.icon-photo {
+.icon-focus-foto {
   font-size: 50px;
   color: #b27cf5; }
 
-.icon-app {
+.icon-focus-app {
   font-size: 50px;
   color: #feb960; }
 
@@ -882,7 +889,7 @@ body {
   padding-top: 148px;
   padding-bottom: 151px; }
 
-.icon-play {
+.icon-video-play {
   display: block;
   font-size: 80px;
   color: #38c695;
@@ -941,7 +948,7 @@ body {
     transition-duration: 0.4s;
     opacity: 1; }
 
-.icon-plus {
+.icon-portfolio-plus {
   color: #ffffff;
   display: block;
   font-size: 50px;
@@ -1032,7 +1039,7 @@ body {
     font-weight: 400;
     line-height: 27px;
     margin-right: 111px; }
-  .member-details .icon-send {
+  .member-details .icon-team-share {
     font-size: 36px;
     margin-right: 24px;
     border-right: 2px solid #efefef;
@@ -1059,11 +1066,11 @@ body {
     font-size: 15px;
     margin-bottom: 17px;
     margin-right: 6px; }
-  .member-details__soc .icon-linkedin {
+  .member-details__soc .icon-linkidin {
     font-size: 15px;
     margin-bottom: 19px;
     margin-right: 6px; }
-  .member-details__soc .icon-instagramm {
+  .member-details__soc .icon-instagram {
     font-size: 15px;
     margin-right: 6px; }
 
