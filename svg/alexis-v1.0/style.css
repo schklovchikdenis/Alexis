@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'alexis';
+  src:  url('fonts/alexis.eot?ngi2xc');
+  src:  url('fonts/alexis.eot?ngi2xc#iefix') format('embedded-opentype'),
+    url('fonts/alexis.ttf?ngi2xc') format('truetype'),
+    url('fonts/alexis.woff?ngi2xc') format('woff'),
+    url('fonts/alexis.svg?ngi2xc#alexis') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'alexis' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-award-company:before {
+  content: "\e900";
+}
+.icon-bussines-growth:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-focus-app:before {
+  content: "\e903";
+}
+.icon-focus-foto:before {
+  content: "\e904";
+}
+.icon-focus-web-design:before {
+  content: "\e905";
+}
+.icon-focus-web-ui:before {
+  content: "\e906";
+}
+.icon-footer-facebook:before {
+  content: "\e907";
+}
+.icon-footer-google:before {
+  content: "\e908";
+}
+.icon-footer-instagram:before {
+  content: "\e909";
+}
+.icon-footer-twitter:before {
+  content: "\e90a";
+}
+.icon-header-check:before {
+  content: "\e90b";
+}
+.icon-header-dollar:before {
+  content: "\e90c";
+}
+.icon-header-time:before {
+  content: "\e90d";
+}
+.icon-instagram:before {
+  content: "\e90e";
+}
+.icon-linkidin:before {
+  content: "\e90f";
+}
+.icon-portfolio-plus:before {
+  content: "\e910";
+}
+.icon-smart-experience:before {
+  content: "\e911";
+}
+.icon-stat-box:before {
+  content: "\e912";
+}
+.icon-stat-client:before {
+  content: "\e913";
+}
+.icon-stat-graff:before {
+  content: "\e914";
+}
+.icon-stat-head:before {
+  content: "\e915";
+}
+.icon-stat-punkt:before {
+  content: "\e916";
+}
+.icon-stict-dedline:before {
+  content: "\e917";
+}
+.icon-team-share:before {
+  content: "\e918";
+}
+.icon-twitter:before {
+  content: "\e919";
+}
+.icon-ultimate-perfection:before {
+  content: "\e91a";
+}
+.icon-ultimate-revision:before {
+  content: "\e91b";
+}
+.icon-video-play:before {
+  content: "\e91c";
+}
