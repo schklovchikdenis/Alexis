@@ -30,6 +30,9 @@
   &__team-members {
     margin-bottom: 39px;
   }
+  &__work{
+    margin-bottom: 27px;
+  }
 }
 
 .subtitle {
@@ -59,6 +62,10 @@
 
   &__team-members {
     margin-bottom: 78px;
+  }
+  &__work{
+    margin-bottom: 77px;
+    
   }
 }
 
@@ -94,6 +101,15 @@
   font-family: Poppins;
   font-size: 20px;
   font-weight: 500;
+}
+
+.steps__title {
+  display: inline-block;
+  color: #272727;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  
 }
 
 .stats__subtitle {
