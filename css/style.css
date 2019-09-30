@@ -720,7 +720,9 @@ body {
   color: #272727;
   font-family: Poppins;
   font-size: 24px;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 10px; }
 
 .stats__subtitle {
   margin-bottom: 39px;
@@ -1170,24 +1172,43 @@ body {
   padding-bottom: 150px; }
 
 .steps {
-  max-width: 458px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: 3.5% 18.5% 3.6% 18.5% 3.6% 18.5% 3.6% 18.5% 3.6%;
+  grid-template-columns: 25.6% 14.56% 19.65% 14.56% 25.6%; }
 
 .steps__item {
+  max-width: 458px;
   padding: 41px 60px 46px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  z-index: 10;
+  background-color: #fff; }
   .steps__item.project {
-    border-bottom: 3px solid #fc5f45; }
+    border-bottom: 3px solid #fc5f45;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3; }
   .steps__item.research {
-    border-bottom: 3px solid #38c695; }
+    border-bottom: 3px solid #38c695;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 6; }
   .steps__item.wireframe {
-    border-bottom: 3px solid #b27cf5; }
+    border-bottom: 3px solid #b27cf5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3; }
   .steps__item.development {
-    border-bottom: 3px solid #feb960; }
+    border-bottom: 3px solid #feb960;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 4;
+    grid-column-end: 6; }
 
 .steps__number-wrapper {
   display: inline-block;
@@ -1208,3 +1229,27 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 27px; }
+
+.work__img_red {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5; }
+
+.work__img_green {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 5; }
+
+.work__img_violet {
+  grid-row-start: 6;
+  grid-row-end: 8;
+  grid-column-start: 2;
+  grid-column-end: 5; }
+
+.work__img_yellou {
+  grid-row-start: 8;
+  grid-row-end: 10;
+  grid-column-start: 2;
+  grid-column-end: 5; }
