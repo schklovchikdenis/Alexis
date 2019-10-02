@@ -667,7 +667,7 @@ body {
     margin-bottom: 39px; }
   .title__team-members {
     margin-bottom: 39px; }
-  .title__work {
+  .title__work, .title__pricing {
     margin-bottom: 27px; }
 
 .subtitle {
@@ -688,7 +688,7 @@ body {
     margin-bottom: 80px; }
   .subtitle__team-members {
     margin-bottom: 78px; }
-  .subtitle__work {
+  .subtitle__work, .subtitle__pricing {
     margin-bottom: 77px; }
 
 .services__title {
@@ -1205,3 +1205,38 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 27px; }
+
+/* Block Pricing
+-------------------------------------------------------------------------------*/
+.pricing {
+  padding-top: 146px;
+  padding-bottom: 150px;
+  background: #f7f7f7; }
+
+.packages {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 35px 80px 37px 82px; }
+
+.packages__title {
+  color: #313131;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 32px; }
+
+.packages__price {
+  width: 106px;
+  height: 106px;
+  background: #38c695;
+  border-radius: 50%;
+  vertical-align: middle; }
