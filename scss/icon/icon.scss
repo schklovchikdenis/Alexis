@@ -3,43 +3,48 @@ $icomoon-font-path: "../fonts" !default;
 
 $icon-award-company: "\e900";
 $icon-bussines-growth: "\e901";
-$icon-facebook: "\e902";
-$icon-focus-app: "\e903";
-$icon-focus-foto: "\e904";
-$icon-focus-web-design: "\e905";
-$icon-focus-web-ux: "\e906";
-$icon-footer-facebook: "\e907";
-$icon-footer-google: "\e908";
-$icon-footer-instagram: "\e909";
-$icon-footer-twitter: "\e90a";
-$icon-header-check: "\e90b";
-$icon-header-dollar: "\e90c";
-$icon-header-time: "\e90d";
-$icon-instagram: "\e90e";
-$icon-linkidin: "\e90f";
-$icon-portfolio-plus: "\e910";
-$icon-smart-experience: "\e911";
-$icon-stat-box: "\e912";
-$icon-stat-client: "\e913";
-$icon-stat-graff: "\e914";
-$icon-stat-head: "\e915";
-$icon-stat-punkt: "\e916";
-$icon-stict-dedline: "\e917";
-$icon-team-share: "\e918";
-$icon-twitter: "\e919";
-$icon-ultimate-perfection: "\e91a";
-$icon-ultimate-revision: "\e91b";
-$icon-video-play: "\e91c";
+$icon-check-solid: "\e902";
+$icon-facebook: "\e903";
+$icon-focus-app: "\e904";
+$icon-focus-foto: "\e905";
+$icon-focus-web-design: "\e906";
+$icon-focus-web-ui: "\e907";
+$icon-footer-facebook: "\e908";
+$icon-footer-google: "\e909";
+$icon-footer-instagram: "\e90a";
+$icon-footer-twitter: "\e90b";
+$icon-header-check: "\e90c";
+$icon-header-dollar: "\e90d";
+$icon-header-time: "\e90e";
+$icon-instagram: "\e90f";
+$icon-linkidin: "\e910";
+$icon-portfolio-plus: "\e911";
+$icon-smart-experience: "\e912";
+$icon-stat-box: "\e913";
+$icon-stat-client: "\e914";
+$icon-stat-graff: "\e915";
+$icon-stat-head: "\e916";
+$icon-stat-punkt: "\e917";
+$icon-stict-dedline: "\e918";
+$icon-team-share: "\e919";
+$icon-twitter: "\e91a";
+$icon-ultimate-perfection: "\e91b";
+$icon-ultimate-revision: "\e91c";
+$icon-video-play: "\e91d";
+$icon-bg-pricing-path1: "\e91e";
+$icon-bg-pricing-path2: "\e91f";
+$icon-bg-pricing-path3: "\e920";
+$icon-bg-pricing-path4: "\e921";
 
 
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ngi2xc');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ngi2xc#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ngi2xc') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ngi2xc') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ngi2xc##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?zejbto');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?zejbto#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?zejbto') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?zejbto') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?zejbto##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -70,6 +75,11 @@ $icon-video-play: "\e91c";
     content: $icon-bussines-growth; 
   }
 }
+.icon-check-solid {
+  &:before {
+    content: $icon-check-solid; 
+  }
+}
 .icon-facebook {
   &:before {
     content: $icon-facebook; 
@@ -90,9 +100,9 @@ $icon-video-play: "\e91c";
     content: $icon-focus-web-design; 
   }
 }
-.icon-focus-web-ux {
+.icon-focus-web-ui {
   &:before {
-    content: $icon-focus-web-ux; 
+    content: $icon-focus-web-ui; 
   }
 }
 .icon-footer-facebook {
@@ -203,6 +213,33 @@ $icon-video-play: "\e91c";
 .icon-video-play {
   &:before {
     content: $icon-video-play; 
+  }
+}
+.icon-bg-pricing .path1 {
+  &:before {
+    content: $icon-bg-pricing-path1;  
+    // color: none;
+  }
+}
+.icon-bg-pricing .path2 {
+  &:before {
+    content: $icon-bg-pricing-path2;  
+    margin-left: -1em;  
+    // color: ;
+  }
+}
+.icon-bg-pricing .path3 {
+  &:before {
+    content: $icon-bg-pricing-path3;  
+    margin-left: -1em;  
+    // color: ;
+  }
+}
+.icon-bg-pricing .path4 {
+  &:before {
+    content: $icon-bg-pricing-path4;  
+    margin-left: -1em;  
+    color: none;
   }
 }
 

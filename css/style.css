@@ -504,8 +504,8 @@ body {
 
 @font-face {
   font-family: "alexis";
-  src: url("../fonts/alexis.eot?ngi2xc");
-  src: url("../fonts/alexis.eot?ngi2xc#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?ngi2xc") format("truetype"), url("../fonts/alexis.woff?ngi2xc") format("woff"), url("../fonts/alexis.svg?ngi2xc#alexis") format("svg");
+  src: url("../fonts/alexis.eot?zejbto");
+  src: url("../fonts/alexis.eot?zejbto#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?zejbto") format("truetype"), url("../fonts/alexis.woff?zejbto") format("woff"), url("../fonts/alexis.svg?zejbto#alexis") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -529,86 +529,105 @@ body {
 .icon-bussines-growth:before {
   content: ""; }
 
-.icon-facebook:before {
+.icon-check-solid:before {
   content: ""; }
 
-.icon-focus-app:before {
+.icon-facebook:before {
   content: ""; }
 
-.icon-focus-foto:before {
+.icon-focus-app:before {
   content: ""; }
 
-.icon-focus-web-design:before {
+.icon-focus-foto:before {
   content: ""; }
 
-.icon-focus-web-ux:before {
+.icon-focus-web-design:before {
   content: ""; }
 
-.icon-footer-facebook:before {
+.icon-focus-web-ui:before {
   content: ""; }
 
-.icon-footer-google:before {
+.icon-footer-facebook:before {
   content: ""; }
 
-.icon-footer-instagram:before {
+.icon-footer-google:before {
   content: ""; }
 
-.icon-footer-twitter:before {
+.icon-footer-instagram:before {
   content: ""; }
 
-.icon-header-check:before {
+.icon-footer-twitter:before {
   content: ""; }
 
-.icon-header-dollar:before {
+.icon-header-check:before {
   content: ""; }
 
-.icon-header-time:before {
+.icon-header-dollar:before {
   content: ""; }
 
-.icon-instagram:before {
+.icon-header-time:before {
   content: ""; }
 
-.icon-linkidin:before {
+.icon-instagram:before {
   content: ""; }
 
-.icon-portfolio-plus:before {
+.icon-linkidin:before {
   content: ""; }
 
-.icon-smart-experience:before {
+.icon-portfolio-plus:before {
   content: ""; }
 
-.icon-stat-box:before {
+.icon-smart-experience:before {
   content: ""; }
 
-.icon-stat-client:before {
+.icon-stat-box:before {
   content: ""; }
 
-.icon-stat-graff:before {
+.icon-stat-client:before {
   content: ""; }
 
-.icon-stat-head:before {
+.icon-stat-graff:before {
   content: ""; }
 
-.icon-stat-punkt:before {
+.icon-stat-head:before {
   content: ""; }
 
-.icon-stict-dedline:before {
+.icon-stat-punkt:before {
   content: ""; }
 
-.icon-team-share:before {
+.icon-stict-dedline:before {
   content: ""; }
 
-.icon-twitter:before {
+.icon-team-share:before {
   content: ""; }
 
-.icon-ultimate-perfection:before {
+.icon-twitter:before {
   content: ""; }
 
-.icon-ultimate-revision:before {
+.icon-ultimate-perfection:before {
   content: ""; }
 
-.icon-video-play:before {
+.icon-ultimate-revision:before {
   content: ""; }
+
+.icon-video-play:before {
+  content: ""; }
+
+.icon-bg-pricing .path1:before {
+  content: ""; }
+
+.icon-bg-pricing .path2:before {
+  content: "";
+  margin-left: -1em; }
+
+.icon-bg-pricing .path3:before {
+  content: "";
+  margin-left: -1em; }
+
+.icon-bg-pricing .path4:before {
+  content: "";
+  margin-left: -1em;
+  color: none; }
 
 /* Button
 -------------------------------------------------------------------------------*/
@@ -1271,7 +1290,8 @@ body {
     background-image: url(../img/bg-pricing.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; }
+    background-size: cover;
+    margin-bottom: 29px; }
 
 .packages__price-title {
   display: inline-block;
@@ -1282,14 +1302,16 @@ body {
   font-family: Poppins;
   font-size: 15px;
   font-weight: 400;
-  line-height: 40px; }
+  line-height: 40px;
+  margin-bottom: -22px; }
 
 .text-first {
   color: #0c0c0c;
   font-weight: 500; }
 
-.text-chek:before {
-  content: url(/svg/Alexis-svg/check-solid.svg);
+.icon-check-solid {
   display: inline-block;
   color: #272727;
-  width: 10px; }
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 10px; }
