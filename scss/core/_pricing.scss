@@ -13,47 +13,63 @@
   flex-direction: column;
   padding: 35px 80px 37px 82px;
   text-align: center;
-}
+  &__starter{
+    border-top: 3px solid #38c695;
+  }
+  &__ultimate{
+    border-top: 3px solid #fc5f45;
+  }
 
-.packages__title {
-  color: #313131;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 32px;
-}
-.packages-price {
-  width: 106px;
-  height: 106px;
-  vertical-align: middle;
-  padding-top: 33px;
-  color: #ffffff;
-  font-family: Poppins;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 20px;
-  // margin-bottom: 41px;
-  &__starter {
-    background-image: url(../img/bg-pricing.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 29px;
+  &__title {
+    color: #313131;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+
+  &-price {
+    width: 106px;
+    height: 106px;
+    vertical-align: middle;
+    padding-top: 33px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    // margin-bottom: 41px;
+    &__starter {
+      background-image: url(../svg/Alexis-svg/bg-pricing.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 29px;      
+    }
+    &__ultimate{
+      background-image: url(../svg/Alexis-svg/bg.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 29px;
+    }
+  }
+
+  &__price-title {
+    display: inline-block;
+    font-size: 25px;
+  }
+
+  &__decription {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: -22px;
   }
 }
-.packages__price-title {
-  display: inline-block;
-  font-size: 25px;
-}
 
-.packages__decription {
-  color: #616161;
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 40px;
-  margin-bottom: -22px;
-}
 .text-first {
   color: #0c0c0c;
   font-weight: 500;

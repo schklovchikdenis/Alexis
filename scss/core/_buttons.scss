@@ -28,10 +28,10 @@
       transition-duration: 0.3s;
     }
   }
-  &__get-started {
-	color: #38c695;
-	background: #fff;
-	border: 2px solid #38c695; 
+  &__get-started {    
+    color: #38c695;
+    background: #fff;
+    border: 2px solid #38c695;
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
@@ -39,10 +39,28 @@
     margin-bottom: 83px;
     padding: 15px 37px;
     transition-property: background, color, font-weight, padding;
-	transition-duration: 0.3s;
-	&:hover {
+    transition-duration: 0.3s;
+    &:hover {
       color: #fff;
       background: #38c695;
+      transition-duration: 0.3s;
+    }
+  }
+  &__get-ultimate{
+    color: #fc5f45;;
+    background: #fff;
+    border: 2px solid #fc5f45;;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 49px;
+    margin-bottom: 83px;
+    padding: 15px 37px;
+    transition-property: background, color, font-weight, padding;
+    transition-duration: 0.3s;
+    &:hover {
+      color: #fff;
+      background: #fc5f45;;
       transition-duration: 0.3s;
     }
   }
