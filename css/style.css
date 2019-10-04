@@ -1311,13 +1311,13 @@ body {
     font-weight: 400;
     line-height: 20px; }
     .packages-price__starter {
-      background-image: url(../svg/Alexis-svg/bg-pricing.svg);
+      background-image: url(../svg/Alexis-svg/bg-pricing-starter.svg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       margin-bottom: 29px; }
     .packages-price__ultimate {
-      background-image: url(../svg/Alexis-svg/bg.svg);
+      background-image: url(../svg/Alexis-svg/bg-pricing-ultimate.svg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
