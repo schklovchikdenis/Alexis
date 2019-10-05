@@ -47,9 +47,9 @@
     }
   }
   &__get-ultimate{
-    color: #fc5f45;;
+    color: #fc5f45;
     background: #fff;
-    border: 2px solid #fc5f45;;
+    border: 2px solid #fc5f45;
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
@@ -60,8 +60,28 @@
     transition-duration: 0.3s;
     &:hover {
       color: #fff;
-      background: #fc5f45;;
+      background: #fc5f45;
       transition-duration: 0.3s;
     }
   }
+
+  &__get-professional{
+    color: #b27cf5;
+    background: #fff;
+    border: 2px solid #b27cf5;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 49px;
+    margin-bottom: 83px;
+    padding: 15px 37px;
+    transition-property: background, color, font-weight, padding;
+    transition-duration: 0.3s;
+    &:hover {
+      color: #fff;
+      background: #b27cf5;
+      transition-duration: 0.3s;
+    }
+  }
+
 }
