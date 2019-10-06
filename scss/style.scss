@@ -1,6 +1,6 @@
 * {
   // поиск выпадающих элементов
-//   border: 1px solid #f00 !important;
+  border: 1px solid #f00 !important;
 }
 @import "variables/variables";
 @import "core/reset";
@@ -9,7 +9,7 @@
 @import "fonts/fonts";
 @import "icon/icon";
 @import "core/buttons";
-// @import 'slick';
+@import 'slick/slick';
 @import "core/title";
 @import "core/navbar";
 @import "core/header";
@@ -21,3 +21,4 @@
 @import "core/stats";
 @import "core/work";
 @import "core/pricing";
+@import "core/testimonials";
