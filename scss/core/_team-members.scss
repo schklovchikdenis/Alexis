@@ -4,12 +4,12 @@
 .team-members {
   background-color: #f7f7f7;
   padding-top: 151px;
-  padding-bottom: 149px;  
+  padding-bottom: 149px;
 }
 .single-member {
   display: flex;
   cursor: pointer;
-  
+
   &__title {
     font-family: Poppins;
     font-size: 18px;
@@ -60,7 +60,7 @@
 }
 
 .member-details {
-  
+
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   margin-top: 50px;

@@ -500,6 +500,13 @@ body {
   font-style: normal; }
 
 @font-face {
+  font-family: 'Sacramento';
+  src: url("../fonts/Sacramento-Regular.eot");
+  src: url("../fonts/Sacramento-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Sacramento-Regular.woff2") format("woff2"), url("../fonts/Sacramento-Regular.woff") format("woff"), url("../fonts/Sacramento-Regular.ttf") format("truetype"), url("../fonts/Sacramento-Regular.svg#Sacramento-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: "alexis";
   src: url("../fonts/alexis.eot?zejbto");
   src: url("../fonts/alexis.eot?zejbto#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?zejbto") format("truetype"), url("../fonts/alexis.woff?zejbto") format("woff"), url("../fonts/alexis.svg?zejbto#alexis") format("svg");
