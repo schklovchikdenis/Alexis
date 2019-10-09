@@ -8,13 +8,14 @@
 }
 
 .testi-slider__feedbacks {
-  border: 1px solid green;
+  // border: 1px solid green;
   img {
     display: inline-block;
   }
 }
 
 .detals {
+  position: relative;
   margin-top: 40px;
   padding: 41px 76px 36px 55px;
   border-bottom: 3px solid #fc5f45;
@@ -51,5 +52,29 @@
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
+  }
+}
+
+.details__quote{
+  font-family: "Libre Baskerville";
+  font-size: 400px;
+  color: #e0e0e0;
+  opacity: .3;
+  position: absolute;
+  top: -50px;
+  left: -5px;
+}
+
+.slick-dots{
+  list-style: none;
+  position: absolute;
+  right: 0;
+  bottom:10px;
+  
+  li{
+    display: inline-block;    
+  }
+  botton {
+    background-color: #fff;
   }
 }
