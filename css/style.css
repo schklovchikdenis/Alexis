@@ -432,10 +432,13 @@ ul {
   -webkit-margin-after: 0;
   margin-block-end: 0;
   -webkit-margin-start: 0px;
+  -moz-margin-start: 0px;
   margin-inline-start: 0px;
   -webkit-margin-end: 0px;
+  -moz-margin-end: 0px;
   margin-inline-end: 0px;
   -webkit-padding-start: 0;
+  -moz-padding-start: 0;
   padding-inline-start: 0; }
 
 /* Основные настройки сайта
@@ -1019,7 +1022,6 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1108,9 +1110,7 @@ body {
   padding-top: 144px;
   padding-bottom: 149px; }
   .portfolio__wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
     grid-template-columns: auto auto auto;
     grid-column-gap: 21px;
     grid-row-gap: 23px; }
@@ -1521,7 +1521,14 @@ body {
     font-size: 13px;
     font-weight: 400; }
 
-<<<<<<< HEAD
+.detals__quote {
+  position: absolute;
+  width: 122px;
+  height: 99px;
+  opacity: 0.3;
+  color: #e0e0e0;
+  top: 0; }
+
 .details__quote {
   font-family: "Libre Baskerville";
   font-size: 400px;
@@ -1540,12 +1547,3 @@ body {
     display: inline-block; }
   .slick-dots botton {
     background-color: #fff; }
-=======
-.detals__quote {
-  position: absolute;
-  width: 122px;
-  height: 99px;
-  opacity: 0.3;
-  color: #e0e0e0;
-  top: 0; }
->>>>>>> 1f43be385e1baac49f705dbec83ca538d2b01f18

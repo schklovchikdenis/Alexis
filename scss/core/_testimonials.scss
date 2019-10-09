@@ -8,7 +8,6 @@
 }
 
 .testi-slider__feedbacks {
-<<<<<<< HEAD
   // border: 1px solid green;
   img {
     display: inline-block;
@@ -32,33 +31,6 @@
     font-weight: 400;
     line-height: 27px;
   }
-=======
-	border: 1px solid green;
-
-	img {
-		display: inline-block;
-	}
-}
-
-.detals {
-	position: relative;
-	margin-top: 40px;
-	padding: 41px 76px 36px 55px;
-	border-bottom: 3px solid #fc5f45;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-	background-color: #ffffff;
-	max-width: 66.2%;
-	float: right;
-	@extend %clear_a;
-
-	&__text {
-		color: #616161;
-		font-family: Poppins;
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 27px;
-	}
->>>>>>> 1f43be385e1baac49f705dbec83ca538d2b01f18
 }
 
 .signature {
