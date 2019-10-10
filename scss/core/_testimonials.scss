@@ -25,8 +25,7 @@
   max-width: 66.3%;
   float: right;
   @extend %clear_a;
-  &__text {
-    
+  &__text {    
     color: #616161;
     font-family: Poppins;
     font-size: 15px;
@@ -65,7 +64,6 @@
   color: #e0e0e0;
   opacity: 0.3;
   position: absolute;
-  z-index: 1;
   top: -48px;
   left: -5px;
 }
