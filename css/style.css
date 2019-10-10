@@ -1493,7 +1493,8 @@ body {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
-  max-width: 66.2%;
+  width: 100%;
+  max-width: 66.3%;
   float: right; }
   .detals__text {
     color: #616161;
@@ -1521,29 +1522,52 @@ body {
     font-size: 13px;
     font-weight: 400; }
 
-.detals__quote {
-  position: absolute;
-  width: 122px;
-  height: 99px;
-  opacity: 0.3;
-  color: #e0e0e0;
-  top: 0; }
-
 .details__quote {
   font-family: "Libre Baskerville";
   font-size: 400px;
   color: #e0e0e0;
-  opacity: .3;
+  opacity: 0.3;
   position: absolute;
-  top: -50px;
+  z-index: 1;
+  top: -48px;
   left: -5px; }
 
 .slick-dots {
+  display: block;
   list-style: none;
   position: absolute;
+  text-align: center;
+  padding: 0;
   right: 0;
   bottom: 10px; }
   .slick-dots li {
-    display: inline-block; }
-  .slick-dots botton {
-    background-color: #fff; }
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer; }
+    .slick-dots li:last-child {
+      margin-right: 0; }
+    .slick-dots li button {
+      font-size: 0;
+      line-height: 0;
+      display: block;
+      width: 18px;
+      height: 18px;
+      padding: 5px;
+      cursor: pointer;
+      color: transparent;
+      border: 0;
+      outline: none;
+      background: transparent; }
+      .slick-dots li button:before {
+        font-family: "slick";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 18px;
+        height: 18px;
+        content: url("/svg/Alexis-svg/dots.svg");
+        text-align: center; }
+  .slick-dots li.slick-active button:before {
+    content: url("/svg/Alexis-svg/dots-activ.svg");
+    opacity: 1; }
