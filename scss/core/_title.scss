@@ -30,12 +30,16 @@
   &__team-members {
     margin-bottom: 39px;
   }
-  &__work, &__pricing{
+  &__work,
+  &__pricing {
     margin-bottom: 27px;
   }
-  &__testi{
-    color:#ffffff;
-     margin-bottom: 39px;
+  &__testi {
+    color: #ffffff;
+    margin-bottom: 39px;
+  }
+  &__select-us {
+    margin-bottom: 15px;
   }
 }
 
@@ -64,15 +68,16 @@
     margin-bottom: 80px;
   }
 
-  &__team-members {
+  &__team-members,
+  &__select-us {
     margin-bottom: 78px;
   }
-  &__work, &__pricing{
+  &__work,
+  &__pricing {
     margin-bottom: 77px;
-
   }
-  &__testi{
-    color:#ffffff;
+  &__testi {
+    color: #ffffff;
     margin-bottom: 79px;
   }
 }
@@ -128,4 +133,21 @@
   font-family: Poppins;
   font-size: 15px;
   font-weight: 400;
+}
+
+//Select-us
+.select-us__title {
+  color: #272727;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  max-width: 140px;
+  margin-top: -6px;
+  float: right;
+  margin-right: 100px;
+  &_small{
+    max-width: 130px;
+    margin-right: 110px;
+  }
 }

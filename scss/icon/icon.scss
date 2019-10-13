@@ -25,11 +25,11 @@ $icon-stat-client: "\e914";
 $icon-stat-graff: "\e915";
 $icon-stat-head: "\e916";
 $icon-stat-punkt: "\e917";
-$icon-stict-dedline: "\e918";
+$icon-strict-deadline: "\e918";
 $icon-team-share: "\e919";
 $icon-twitter: "\e91a";
 $icon-ultimate-perfection: "\e91b";
-$icon-ultimate-revision: "\e91c";
+$icon-unlimited-revisions: "\e91c";
 $icon-video-play: "\e91d";
 $icon-bg-pricing-path1: "\e91e";
 $icon-bg-pricing-path2: "\e91f";
@@ -185,9 +185,9 @@ $icon-bg-pricing-path4: "\e921";
     content: $icon-stat-punkt;
   }
 }
-.icon-stict-dedline {
+.icon-strict-deadline {
   &:before {
-    content: $icon-stict-dedline;
+    content: $icon-strict-deadline;
   }
 }
 .icon-team-share {
@@ -205,9 +205,9 @@ $icon-bg-pricing-path4: "\e921";
     content: $icon-ultimate-perfection;
   }
 }
-.icon-ultimate-revision {
+.icon-unlimited-revisions {
   &:before {
-    content: $icon-ultimate-revision;
+    content: $icon-unlimited-revisions;
   }
 }
 .icon-video-play {

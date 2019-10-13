@@ -608,7 +608,7 @@ body {
 .icon-stat-punkt:before {
   content: ""; }
 
-.icon-stict-dedline:before {
+.icon-strict-deadline:before {
   content: ""; }
 
 .icon-team-share:before {
@@ -620,7 +620,7 @@ body {
 .icon-ultimate-perfection:before {
   content: ""; }
 
-.icon-ultimate-revision:before {
+.icon-unlimited-revisions:before {
   content: ""; }
 
 .icon-video-play:before {
@@ -648,17 +648,18 @@ body {
   text-align: center;
   border-radius: 25px;
   display: inline-block;
+  margin-top: 49px;
+  margin-bottom: 83px;
+  padding: 15px 37px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer; }
   .btn__features {
     color: #ffffff;
     background: #fc5f45;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
     padding: 10px 41px;
     -webkit-transition-property: background, color, font-weight, padding;
     -o-transition-property: background, color, font-weight, padding;
@@ -678,12 +679,6 @@ body {
     color: #38c695;
     background: #fff;
     border: 2px solid #38c695;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
-    padding: 15px 37px;
     -webkit-transition-property: background, color, font-weight, padding;
     -o-transition-property: background, color, font-weight, padding;
     transition-property: background, color, font-weight, padding;
@@ -700,12 +695,6 @@ body {
     color: #fc5f45;
     background: #fff;
     border: 2px solid #fc5f45;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
-    padding: 15px 37px;
     -webkit-transition-property: background, color, font-weight, padding;
     -o-transition-property: background, color, font-weight, padding;
     transition-property: background, color, font-weight, padding;
@@ -722,12 +711,6 @@ body {
     color: #b27cf5;
     background: #fff;
     border: 2px solid #b27cf5;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
-    padding: 15px 37px;
     -webkit-transition-property: background, color, font-weight, padding;
     -o-transition-property: background, color, font-weight, padding;
     transition-property: background, color, font-weight, padding;
@@ -740,6 +723,12 @@ body {
       -webkit-transition-duration: 0.3s;
       -o-transition-duration: 0.3s;
       transition-duration: 0.3s; }
+  .btn__call {
+    background: #fc5f45;
+    color: #ffffff;
+    font-family: "Poppins-SemiBold";
+    font-size: 16px;
+    font-weight: 400; }
 
 /* Slider */
 .slick-slider {
@@ -844,6 +833,8 @@ body {
   .title__testi {
     color: #ffffff;
     margin-bottom: 39px; }
+  .title__select-us {
+    margin-bottom: 15px; }
 
 .subtitle {
   color: #616161;
@@ -861,7 +852,7 @@ body {
     margin-bottom: 49px; }
   .subtitle__portfolio {
     margin-bottom: 80px; }
-  .subtitle__team-members {
+  .subtitle__team-members, .subtitle__select-us {
     margin-bottom: 78px; }
   .subtitle__work, .subtitle__pricing {
     margin-bottom: 77px; }
@@ -912,6 +903,20 @@ body {
   font-family: Poppins;
   font-size: 15px;
   font-weight: 400; }
+
+.select-us__title {
+  color: #272727;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  max-width: 140px;
+  margin-top: -6px;
+  float: right;
+  margin-right: 100px; }
+  .select-us__title_small {
+    max-width: 130px;
+    margin-right: 110px; }
 
 /* Navbar
 -------------------------------------------------------------------------------*/
@@ -1571,3 +1576,62 @@ body {
   .slick-dots li.slick-active button:before {
     content: url("/svg/Alexis-svg/dots-activ.svg");
     opacity: 1; }
+
+/* Block Select-us -----------------------------------------------------------------------------*/
+.select-us {
+  padding-top: 145px;
+  padding-bottom: 150px; }
+
+.select-us___wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.select-us__item {
+  max-width: 311px;
+  margin-bottom: 72px; }
+  .select-us__item i {
+    font-size: 49px; }
+
+.select-us__text {
+  color: #616161;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.93px;
+  margin-top: 25px; }
+
+.icon-bussines-growth {
+  color: #fc5f45; }
+
+.icon-unlimited-revisions {
+  color: #38c695; }
+
+.icon-ultimate-perfection {
+  color: #b27cf5; }
+
+.icon-smart-experience {
+  color: #feb960; }
+
+.icon-strict-deadline {
+  color: #fc5f45; }
+
+.icon-award-company {
+  color: #38c695; }
+
+.call {
+  margin-top: 79px;
+  text-align: center; }
+  .call__text {
+    display: inline-block;
+    margin-right: 23px;
+    color: #272727;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px; }

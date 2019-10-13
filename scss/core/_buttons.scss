@@ -4,6 +4,14 @@
   text-align: center;
   border-radius: 25px;
   display: inline-block;
+  margin-top: 49px;
+  margin-bottom: 83px;
+  padding: 15px 37px;
+  font-family: "Poppins";
+
+  font-size: 16px;
+  font-weight: 400;
+
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
@@ -11,11 +19,6 @@
   &__features {
     color: #ffffff;
     background: #fc5f45;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
     padding: 10px 41px;
     transition-property: background, color, font-weight, padding;
     transition-duration: 0.3s;
@@ -28,16 +31,11 @@
       transition-duration: 0.3s;
     }
   }
+
   &__get-started {
     color: #38c695;
     background: #fff;
     border: 2px solid #38c695;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
-    padding: 15px 37px;
     transition-property: background, color, font-weight, padding;
     transition-duration: 0.3s;
     &:hover {
@@ -46,16 +44,10 @@
       transition-duration: 0.3s;
     }
   }
-  &__get-ultimate{
+  &__get-ultimate {
     color: #fc5f45;
     background: #fff;
     border: 2px solid #fc5f45;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
-    padding: 15px 37px;
     transition-property: background, color, font-weight, padding;
     transition-duration: 0.3s;
     &:hover {
@@ -65,16 +57,10 @@
     }
   }
 
-  &__get-professional{
+  &__get-professional {
     color: #b27cf5;
     background: #fff;
     border: 2px solid #b27cf5;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 83px;
-    padding: 15px 37px;
     transition-property: background, color, font-weight, padding;
     transition-duration: 0.3s;
     &:hover {
@@ -84,4 +70,11 @@
     }
   }
 
+  &__call {
+    background: #fc5f45;
+    color: #ffffff;
+    font-family: "Poppins-SemiBold";
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
