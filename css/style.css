@@ -1413,8 +1413,16 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 35px 80px 37px 82px;
-  text-align: center; }
+  padding: 35px 30px 37px;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0 5px; }
+  .packages:first-child {
+    margin-left: 0; }
+  .packages:last-child {
+    margin-right: 0; }
   .packages-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;

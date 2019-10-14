@@ -11,8 +11,16 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   display: inline-flex;
   flex-direction: column;
-  padding: 35px 80px 37px 82px;
+  padding: 35px 30px 37px;
   text-align: center;
+  flex-grow: 1;
+  margin: 0 5px;
+  &:first-child{
+    margin-left: 0;
+  }
+  &:last-child{
+    margin-right: 0;
+  }
 
   &-wrapper {
     display: flex;
