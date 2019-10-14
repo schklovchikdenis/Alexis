@@ -1434,31 +1434,30 @@ body {
   .packages-price {
     width: 106px;
     height: 106px;
-    vertical-align: middle;
-    padding-top: 33px;
     color: #ffffff;
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
-    line-height: 20px; }
+    padding-top: 27px;
+    margin-bottom: 29px; }
     .packages-price__starter {
-      background-image: url(../svg/Alexis-svg/bg-pricing-starter.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin-bottom: 29px; }
+      background: #38c695;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      -webkit-box-shadow: 0 0 0 3px #38c695;
+      box-shadow: 0 0 0 3px #38c695; }
     .packages-price__ultimate {
-      background-image: url(../svg/Alexis-svg/bg-pricing-ultimate.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin-bottom: 29px; }
+      background: #fc5f45;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      -webkit-box-shadow: 0 0 0 3px #fc5f45;
+      box-shadow: 0 0 0 3px #fc5f45; }
     .packages-price__professional {
-      background-image: url(../svg/Alexis-svg/bg-pricing-professional.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin-bottom: 29px; }
+      background: #b27cf5;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      -webkit-box-shadow: 0 0 0 3px #b27cf5;
+      box-shadow: 0 0 0 3px #b27cf5; }
   .packages__price-title {
     display: inline-block;
     font-size: 25px; }
@@ -1571,10 +1570,10 @@ body {
         left: 0;
         width: 18px;
         height: 18px;
-        content: url("/svg/Alexis-svg/dots.svg");
+        content: url("../svg/Alexis-svg/dots.svg");
         text-align: center; }
   .slick-dots li.slick-active button:before {
-    content: url("/svg/Alexis-svg/dots-activ.svg");
+    content: url("../svg/Alexis-svg/dots-activ.svg");
     opacity: 1; }
 
 /* Block Select-us -----------------------------------------------------------------------------*/

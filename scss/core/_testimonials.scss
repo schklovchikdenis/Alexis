@@ -105,7 +105,7 @@
         left: 0;
         width: 18px;
         height: 18px;
-        content: url("/svg/Alexis-svg/dots.svg");
+        content: url("../svg/Alexis-svg/dots.svg");
         text-align: center;
         // opacity: 0.5;
         // color: #ffffff;         
@@ -113,7 +113,7 @@
     }
   }
   li.slick-active button:before{
-    content: url("/svg/Alexis-svg/dots-activ.svg");
+    content: url("../svg/Alexis-svg/dots-activ.svg");
     opacity: 1;
   }
 }

@@ -14,19 +14,19 @@
   padding: 35px 80px 37px 82px;
   text-align: center;
 
-  &-wrapper{
+  &-wrapper {
     display: flex;
     justify-content: space-between;
   }
 
-  &__starter{
+  &__starter {
     border-top: 3px solid #38c695;
   }
-  &__ultimate{
+  &__ultimate {
     border-top: 3px solid #fc5f45;
   }
-  &__professional{
-   border-top: 3px solid #b27cf5;
+  &__professional {
+    border-top: 3px solid #b27cf5;
   }
 
   &__title {
@@ -40,34 +40,29 @@
   &-price {
     width: 106px;
     height: 106px;
-    vertical-align: middle;
-    padding-top: 33px;
     color: #ffffff;
     font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
-    line-height: 20px;
-    // margin-bottom: 41px;
+    padding-top: 27px;
+    margin-bottom: 29px;
     &__starter {
-      background-image: url(../svg/Alexis-svg/bg-pricing-starter.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin-bottom: 29px;
+      background: #38c695;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      box-shadow: 0 0 0 3px #38c695;
     }
-    &__ultimate{
-      background-image: url(../svg/Alexis-svg/bg-pricing-ultimate.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin-bottom: 29px;
+    &__ultimate {
+      background: #fc5f45;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      box-shadow: 0 0 0 3px #fc5f45;
     }
-    &__professional{
-      background-image: url(../svg/Alexis-svg/bg-pricing-professional.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      margin-bottom: 29px;
+    &__professional {
+      background: #b27cf5;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      box-shadow: 0 0 0 3px #b27cf5;
     }
   }
 
@@ -90,11 +85,10 @@
   color: #0c0c0c;
   font-weight: 500;
 }
-.icon-check-solid{
+.icon-check-solid {
   display: inline-block;
-  color:#272727;
+  color: #272727;
   font-weight: bold;
   font-size: 15px;
   margin-right: 10px;
 }
-
