@@ -1031,6 +1031,7 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1119,7 +1120,9 @@ body {
   padding-top: 144px;
   padding-bottom: 149px; }
   .portfolio__wrapper {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto auto auto;
     grid-template-columns: auto auto auto;
     grid-column-gap: 21px;
     grid-row-gap: 23px; }
