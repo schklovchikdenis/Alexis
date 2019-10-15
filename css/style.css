@@ -1,4 +1,7 @@
 @charset "UTF-8";
+* {
+  border: 1px solid #f00 !important; }
+
 /* Global variables */
 /* ======================================================================== */
 /* Grid */
@@ -229,7 +232,7 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
-img {
+img, picture {
   border-style: none;
   max-width: 100%;
   height: auto;
@@ -831,7 +834,7 @@ body {
     margin-bottom: 39px; }
   .title__team-members {
     margin-bottom: 39px; }
-  .title__work, .title__pricing {
+  .title__work, .title__pricing, .title__our-blog {
     margin-bottom: 27px; }
   .title__testi {
     color: #ffffff;
@@ -857,7 +860,7 @@ body {
     margin-bottom: 80px; }
   .subtitle__team-members, .subtitle__select-us {
     margin-bottom: 78px; }
-  .subtitle__work, .subtitle__pricing {
+  .subtitle__work, .subtitle__pricing, .subtitle__our-blog {
     margin-bottom: 77px; }
   .subtitle__testi {
     color: #ffffff;
@@ -1031,7 +1034,6 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1120,9 +1122,7 @@ body {
   padding-top: 144px;
   padding-bottom: 149px; }
   .portfolio__wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
     grid-template-columns: auto auto auto;
     grid-column-gap: 21px;
     grid-row-gap: 23px; }
@@ -1648,3 +1648,20 @@ body {
     font-size: 25px;
     font-weight: 400;
     line-height: 26px; }
+
+/* Block our-blog -----------------------------------------------------------------------------*/
+.our-blog {
+  padding-top: 147px;
+  padding-bottom: 151px;
+  background-color: #f7f7f7; }
+
+.our-blog__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.post {
+  max-width: 555px; }

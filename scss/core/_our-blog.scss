@@ -1,0 +1,15 @@
+/* Block our-blog -----------------------------------------------------------------------------*/
+
+.our-blog {
+  padding-top: 147px;
+  padding-bottom: 151px;
+  background-color: #f7f7f7;
+}
+ .our-blog__wrapper{
+    //  height: 676px;
+     display: flex;
+     justify-content: space-between;
+ } 
+ .post{
+     max-width: 555px;
+ }  
