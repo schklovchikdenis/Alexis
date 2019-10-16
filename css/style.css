@@ -1663,5 +1663,28 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
+.blog-foto {
+  position: relative; }
+
 .post {
   max-width: 555px; }
+  .post__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .post__header_foto {
+      position: absolute;
+      bottom: 250px; }
+  .post__author {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase; }
+  .post__date {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400; }
+    .post__date_color-white {
+      color: #ffffff;
+      font-family: Poppins; }
