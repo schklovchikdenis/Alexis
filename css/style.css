@@ -1738,3 +1738,34 @@ body {
       color: #b27cf5; }
     .post__link_orange {
       color: #feb960; }
+
+/* Block subscribe -----------------------------------------------------------------------------*/
+.subscribe {
+  padding: 149px 0;
+  text-align: center; }
+  .subscribe__title {
+    color: #272727;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 85px; }
+  .subscribe #form.form .form-email {
+    border-radius: 25px 0 0 25px;
+    border: 2px solid #efefef;
+    background-color: #f7f7f7;
+    max-width: 200px;
+    margin: 0 auto; }
+    .subscribe #form.form .form-email__input {
+      border: none;
+      color: #616161;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400; }
+    .subscribe #form.form .form-email__button {
+      padding: 19px 23px 19px 31px;
+      border-radius: 0 25px 25px 0;
+      background-color: #fc5f45;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase; }
