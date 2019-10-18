@@ -8,8 +8,10 @@
 }
 
 .testi-slider__feedbacks {
-  // border: 1px solid green;
   img {
+    display: inline-block;
+  }
+  picture{
     display: inline-block;
   }
 }

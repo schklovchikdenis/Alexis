@@ -1418,7 +1418,7 @@ body {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  margin: 0 5px; }
+  margin: 0 15px; }
   .packages:first-child {
     margin-left: 0; }
   .packages:last-child {
@@ -1499,6 +1499,9 @@ body {
   background: rgba(38, 39, 50, 0.85); }
 
 .testi-slider__feedbacks img {
+  display: inline-block; }
+
+.testi-slider__feedbacks picture {
   display: inline-block; }
 
 .detals {
