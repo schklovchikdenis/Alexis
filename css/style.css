@@ -1683,10 +1683,10 @@ body {
     border-bottom: 3px solid #fc5f45; }
   .post_green {
     border-bottom: 3px solid #38c695;
-    margin-bottom: 21px; }
+    margin-bottom: 23px; }
   .post_violet {
     border-bottom: 3px solid #b27cf5;
-    margin-bottom: 22px; }
+    margin-bottom: 23px; }
   .post_orange {
     border-bottom: 3px solid #feb960; }
   .post__author {
@@ -1771,7 +1771,7 @@ body {
         font-family: Poppins;
         font-size: 16px;
         font-weight: 300;
-        margin-top: 7px;
+        margin-top: 9px;
         margin-left: 29px;
         width: 260px;
         background-color: #f7f7f7; }
