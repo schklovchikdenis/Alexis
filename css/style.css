@@ -532,6 +532,13 @@ body {
   font-style: normal; }
 
 @font-face {
+  font-family: 'Wisdom Script';
+  src: url("../fonts/Wisdom-Script.eot");
+  src: url("../fonts/Wisdom-Script.eot?#iefix") format("embedded-opentype"), url("../fonts/Wisdom-Script.woff2") format("woff2"), url("../fonts/Wisdom-Script.woff") format("woff"), url("../fonts/Wisdom-Script.ttf") format("truetype"), url("../fonts/Wisdom-Script.svg#Wisdom-Script") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: "alexis";
   src: url("../fonts/alexis.eot?zejbto");
   src: url("../fonts/alexis.eot?zejbto#iefix") format("embedded-opentype"), url("../fonts/alexis.ttf?zejbto") format("truetype"), url("../fonts/alexis.woff?zejbto") format("woff"), url("../fonts/alexis.svg?zejbto#alexis") format("svg");
@@ -827,7 +834,7 @@ body {
     text-align: left; }
   .title__uor-focus {
     margin-bottom: 79px; }
-  .title__portfolio {
+  .title__portfolio, .title__contact {
     margin-bottom: 39px; }
   .title__team-members {
     margin-bottom: 39px; }
@@ -839,6 +846,7 @@ body {
   .title__select-us {
     margin-bottom: 15px; }
 
+/* Subtitle */
 .subtitle {
   color: #616161;
   font-family: Poppins;
@@ -855,7 +863,7 @@ body {
     margin-bottom: 49px; }
   .subtitle__portfolio {
     margin-bottom: 80px; }
-  .subtitle__team-members, .subtitle__select-us {
+  .subtitle__team-members, .subtitle__select-us, .subtitle__contact {
     margin-bottom: 78px; }
   .subtitle__work, .subtitle__pricing, .subtitle__our-blog {
     margin-bottom: 77px; }
@@ -1752,20 +1760,20 @@ body {
     font-size: 30px;
     font-weight: 400;
     line-height: 85px; }
-  .subscribe .form {
+  .subscribe__form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
-    .subscribe .form .form-email {
+    .subscribe__form .form-email {
       border-radius: 25px 0 0 25px;
       border: 2px solid #efefef;
       background-color: #f7f7f7;
       max-width: 300px;
       border-right: #f7f7f7; }
-      .subscribe .form .form-email__input {
+      .subscribe__form .form-email__input {
         border: none;
         color: #616161;
         font-family: Poppins;
@@ -1775,7 +1783,7 @@ body {
         margin-left: 29px;
         width: 260px;
         background-color: #f7f7f7; }
-      .subscribe .form .form-email__button {
+      .subscribe__form .form-email__button {
         padding: 13px 20px 13px 31px;
         border-radius: 0 25px 25px 0;
         background-color: #fc5f45;
@@ -1786,3 +1794,9 @@ body {
         text-transform: uppercase;
         cursor: pointer;
         border: none; }
+
+/* Block contact -----------------------------------------------------------------------------*/
+.contact {
+  background-color: #ccc;
+  padding-top: 149px;
+  padding-bottom: 126px; }

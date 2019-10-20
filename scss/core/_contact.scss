@@ -1,0 +1,57 @@
+/* Block contact -----------------------------------------------------------------------------*/
+
+.contact {
+    background-color: #ccc;
+    padding-top: 149px;
+    padding-bottom: 126px;
+  .container_center {
+    .title.title__contact {
+    }
+    .subtitle.subtitle__contact {
+    }
+    #contact__form.contact__form {
+      .form-text {
+      }
+      textarea {
+      }
+      .btn.btn__contact {
+        &:hover {
+        }
+        &:active {
+        }
+        &:focus {
+        }
+      }
+    }
+    .alexis__footer {
+      .alexis__footer.logo {
+      }
+      .adress-one {
+        &__title {
+        }
+      }
+      .adress-two {
+        &__title {
+        }
+      }
+      .adress-thre {
+        &__title {
+        }
+      }
+      .adress__text {
+      }
+      .adress__text {
+      }
+      .adress__soc {
+        .icon-footer-facebook {
+        }
+        .icon-footer-twitter {
+        }
+        .icon-footer-instagram {
+        }
+        .icon-footer-google {
+        }
+      }
+    }
+  }
+}

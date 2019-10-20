@@ -23,7 +23,7 @@
     margin-bottom: 79px;
   }
 
-  &__portfolio {
+  &__portfolio, &__contact {
     margin-bottom: 39px;
   }
 
@@ -42,12 +42,13 @@
   &__select-us {
     margin-bottom: 15px;
   }
-}
+}  
+ /* Subtitle */
 
 .subtitle {
   color: #616161;
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 18px;  
   font-weight: 400;
   text-align: center;
 
@@ -70,7 +71,7 @@
   }
 
   &__team-members,
-  &__select-us {
+  &__select-us, &__contact {
     margin-bottom: 78px;
   }
   &__work,
