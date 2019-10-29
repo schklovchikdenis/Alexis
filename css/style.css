@@ -1850,16 +1850,14 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: rgba(38, 39, 50, 0.85);
-    -webkit-border-image: url(../img/line.png);
-    -o-border-image: url(../img/line.png);
-    border-image: url(../img/line.png);
-    border-image-slice: 5; }
+    background-color: rgba(38, 39, 50, 0.85); }
     .contact .alexis__footer.logo {
+      padding: 20px 70px;
       color: #fef4f2;
       font-family: "Wisdom-Script";
       font-size: 50px;
-      font-weight: 400; }
+      font-weight: 400;
+      border-bottom: 3px solid #fc5f45; }
     .contact .alexis__footer .adress-one {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -1868,12 +1866,48 @@ body {
       color: #fef4f2;
       font-family: Poppins;
       font-size: 16px;
-      font-weight: 400; }
+      font-weight: 400;
+      border-bottom: 3px solid #38c695;
+      padding: 20px 70px; }
       .contact .alexis__footer .adress-one__title {
         color: #38c695;
+        font-family: "Poppins Medium";
+        font-size: 18px;
+        font-weight: 500; }
+    .contact .alexis__footer .adress-two {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      color: #fef4f2;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      border-bottom: 3px solid #b27cf5;
+      padding: 20px 70px; }
+      .contact .alexis__footer .adress-two__title {
+        color: #b27cf5;
+        font-family: "Poppins Medium";
+        font-size: 18px;
+        font-weight: 500; }
+    .contact .alexis__footer .adress-thre {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      color: #fef4f2;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      border-bottom: 3px solid #b27cf5;
+      padding: 20px 50px; }
+      .contact .alexis__footer .adress-thre__title {
+        color: #b27cf5;
         font-family: "Poppins Medium";
         font-size: 18px;
         font-weight: 500; }
     .contact .alexis__footer .adress__text span {
       font-family: "Poppins-Regular";
       font-weight: 400; }
+    .contact .alexis__footer .adress__soc {
+      font-size: 20px; }
