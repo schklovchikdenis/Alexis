@@ -14,7 +14,6 @@
       flex-wrap: wrap;
       align-items: center;
       //   max-width: 750px;
-
       justify-content: space-between;
     }
     input {
@@ -37,8 +36,16 @@
       border-radius: 4px;
       border: 1px solid #efefef;
       background-color: #ffffff;
+      resize: none;
+      width: 100%;
+      max-width: 750px;
+      height: 200px;
+      outline: none;
     }
     .btn.btn__contact {
+      border: none;
+      background: #fc5f45;
+      color: #fff;
       &:hover {
       }
       &:active {
@@ -48,10 +55,27 @@
     }
   }
   .alexis__footer {
-    .alexis__footer.logo {
+    display: flex;
+    background-color: rgba(38, 39, 50, 0.85);
+    border-image: url(../img/line.png);
+    border-image-slice: 5;
+    &.logo {
+      color: #fef4f2;
+      font-family: "Wisdom-Script";
+      font-size: 50px;
+      font-weight: 400;
     }
     .adress-one {
+      flex-direction: column;
+      color: #fef4f2;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
       &__title {
+        color: #38c695;
+        font-family: "Poppins Medium";
+        font-size: 18px;
+        font-weight: 500;
       }
     }
     .adress-two {
@@ -63,6 +87,10 @@
       }
     }
     .adress__text {
+      span{
+        font-family: "Poppins-Regular";
+        font-weight: 400;
+      }
     }
     .adress__text {
     }
