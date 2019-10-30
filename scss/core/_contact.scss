@@ -33,7 +33,7 @@
       padding: 10px 10px 10px;
       margin-bottom: 24px;
     }
-    
+
     textarea {
       resize: none;
       border-radius: 4px;
@@ -45,8 +45,7 @@
       height: 200px;
       outline: none;
     }
-    
-  
+
     .btn.btn__contact {
       border: none;
       color: #fff;
@@ -63,12 +62,12 @@
     display: flex;
     background-color: rgba(38, 39, 50, 0.85);
     &.logo {
-      padding: 20px 70px;
       color: #fef4f2;
       font-family: "Wisdom Script";
       font-size: 50px;
       font-weight: 400;
       border-bottom: 3px solid #fc5f45;
+      padding: 93px 86px 94px 61px;
     }
 
     .adress-one {
@@ -77,13 +76,15 @@
       font-family: Poppins;
       font-size: 16px;
       font-weight: 400;
+      line-height: 27px;
       border-bottom: 3px solid #38c695;
-      padding: 20px 70px;
+      padding: 64px 46px 60px 38px;
       &__title {
         color: #38c695;
-        font-family: "Poppins Medium";
+        font-family: "Poppins";
         font-size: 18px;
         font-weight: 500;
+        margin-bottom: 40px;
       }
     }
 
@@ -93,13 +94,15 @@
       font-family: Poppins;
       font-size: 16px;
       font-weight: 400;
+      line-height: 27px;
       border-bottom: 3px solid #b27cf5;
-      padding: 20px 70px;
+      padding: 64px 51px 60px 46px;
       &__title {
         color: #b27cf5;
-        font-family: "Poppins Medium";
+        font-family: "Poppins";
         font-size: 18px;
         font-weight: 500;
+        margin-bottom: 40px;
       }
     }
 
@@ -109,32 +112,34 @@
       font-family: Poppins;
       font-size: 16px;
       font-weight: 400;
-      border-bottom: 3px solid #b27cf5;
-      padding: 20px 50px;
+      border-bottom: 3px solid #feb960;
+      padding: 64px 36px 60px 53px;
       &__title {
-        color: #b27cf5;
-        font-family: "Poppins Medium";
+        color: #feb960;
+        font-family: "Poppins";
         font-size: 18px;
         font-weight: 500;
+        margin-bottom: 40px;
       }
     }
 
     .adress__text {
       span {
-        font-family: "Poppins-Regular";
+        font-family: "Poppins";
         font-weight: 400;
       }
     }
 
-    
     .adress__soc {
-      font-size: 20px;
+      font-size: 30px;
       .icon-footer-facebook {
-
+        margin-right: 15px;
       }
       .icon-footer-twitter {
+        margin-right: 15px;
       }
       .icon-footer-instagram {
+        margin-right: 15px;
       }
       .icon-footer-google {
       }
