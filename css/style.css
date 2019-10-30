@@ -1372,36 +1372,37 @@ body {
   padding-bottom: 150px; }
 
 .steps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  position: relative; }
+  .steps img {
+    margin: 0 auto; }
 
 .steps__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   max-width: 458px;
-  height: 250px; }
-  .steps__row .steps__number-wrapper {
-    display: inline-block; }
-    .steps__row .steps__number-wrapper .steps__number {
-      color: #e0e0e0;
-      font-family: "Libre Baskerville";
-      font-size: 50px;
-      font-weight: 700;
-      text-transform: uppercase; }
-  .steps__row .steps__content .steps__title {
-    color: #272727;
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 400; }
-  .steps__row .steps__content .steps__text {
-    display: inline-block;
-    color: #616161;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 27px; }
+  height: 250px;
+  position: absolute; }
+
+.steps__number-wrapper {
+  display: inline-block; }
+  .steps__number-wrapper .steps__number {
+    color: #e0e0e0;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.steps__content .steps__title {
+  color: #272727;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 400; }
+
+.steps__content .steps__text {
+  display: inline-block;
+  color: #616161;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px; }
 
 /* Block Pricing
 -------------------------------------------------------------------------------*/
