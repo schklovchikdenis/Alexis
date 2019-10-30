@@ -1834,19 +1834,6 @@ body {
       padding: 10px 10px 10px;
       margin-bottom: 24px; }
     .contact__form textarea {
-<<<<<<< HEAD
-      width: 100%;
-      height: 200px;
-      border-radius: 4px;
-      border: 1px solid #efefef;
-      background-color: #ffffff;
-      color: #616161;
-      font-family: Poppins;
-      font-size: 16px;
-      font-weight: 400;
-      outline: none;
-      resize: none; }
-=======
       resize: none;
       border-radius: 4px;
       border: 1px solid #efefef;
@@ -1925,4 +1912,3 @@ body {
       font-weight: 400; }
     .contact .alexis__footer .adress__soc {
       font-size: 20px; }
->>>>>>> de34c5660060876322a23f7b25b8599255199c0a

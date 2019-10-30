@@ -13,16 +13,14 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-<<<<<<< HEAD
-=======
-      //   max-width: 750px;
->>>>>>> de34c5660060876322a23f7b25b8599255199c0a
       justify-content: space-between;
     }
+
     input {
       width: 100%;
       max-width: 360px;
     }
+
     .form-text {
       text-align: center;
       border-radius: 4px;
@@ -35,20 +33,8 @@
       padding: 10px 10px 10px;
       margin-bottom: 24px;
     }
+    
     textarea {
-<<<<<<< HEAD
-      width: 100%;
-      height: 200px;
-      border-radius: 4px;
-      border: 1px solid #efefef;
-      background-color: #ffffff;
-      color: #616161;
-      font-family: Poppins;
-      font-size: 16px;
-      font-weight: 400;
-      outline: none;
-      resize: none;
-=======
       resize: none;
       border-radius: 4px;
       border: 1px solid #efefef;
@@ -71,7 +57,6 @@
       }
       &:focus {
       }
->>>>>>> de34c5660060876322a23f7b25b8599255199c0a
     }
   }
   .alexis__footer {
