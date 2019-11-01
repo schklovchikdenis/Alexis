@@ -1,4 +1,7 @@
 @charset "UTF-8";
+* {
+  border: 1px solid #f00 !important; }
+
 /* Global variables */
 /* ======================================================================== */
 /* Grid */
@@ -1374,12 +1377,23 @@ body {
 .steps {
   position: relative; }
   .steps img {
-    margin: 0 auto; }
+    margin: 0 auto;
+    position: relative; }
 
 .steps__row {
+  padding: 41px 73px 82px 38px;
   max-width: 458px;
   height: 250px;
-  position: absolute; }
+  position: absolute;
+  background: #ffffff;
+  z-index: 100; }
+  .steps__row:first-child {
+    top: 0px; }
+  .steps__row:last-child {
+    bottom: 70px; }
+  .steps__row_inverse {
+    left: 60%;
+    position: absolute; }
 
 .steps__number-wrapper {
   display: inline-block; }

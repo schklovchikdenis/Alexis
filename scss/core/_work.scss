@@ -9,16 +9,29 @@
   position: relative;
   img{
     margin: 0 auto;
+    position: relative;
   }
 }
 
 .steps__row {
   // display: flex;
   // float: left;
+  padding: 41px 73px 82px 38px;
   max-width: 458px;
   height: 250px;
   position: absolute;
-  steps__row_inverse{
+  background: #ffffff;
+  z-index: 100;
+  &:first-child{
+    top: 0px;
+  }
+  &:last-child{
+    bottom: 70px;
+  }
+  &_inverse{
+    left: 60%;
+    position: absolute;
+    // top: 100px;
   }
 }
 .steps__number-wrapper {
