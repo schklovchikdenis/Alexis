@@ -1,7 +1,4 @@
 @charset "UTF-8";
-* {
-  border: 1px solid #f00 !important; }
-
 /* Global variables */
 /* ======================================================================== */
 /* Grid */
@@ -1042,7 +1039,6 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1131,9 +1127,7 @@ body {
   padding-top: 144px;
   padding-bottom: 149px; }
   .portfolio__wrapper {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
     grid-template-columns: auto auto auto;
     grid-column-gap: 21px;
     grid-row-gap: 23px; }
@@ -1377,46 +1371,49 @@ body {
 .steps {
   position: relative; }
   .steps img {
-    margin: 0 auto;
-    position: relative; }
-
-.steps__row {
-  padding: 41px 73px 82px 38px;
-  max-width: 458px;
-  height: 250px;
-  position: absolute;
-  background: #ffffff;
-  z-index: 100; }
-  .steps__row:first-child {
-    top: 0px; }
-  .steps__row:last-child {
-    bottom: 70px; }
+    margin: 0 auto; }
+  .steps__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 458px;
+    position: absolute;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 41px 60px 57px 38px;
+    margin-top: -51px; }
   .steps__row_inverse {
-    left: 60%;
-    position: absolute; }
-
-.steps__number-wrapper {
-  display: inline-block; }
-  .steps__number-wrapper .steps__number {
+    max-width: 458px;
+    position: absolute;
+    right: 0;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff; }
+  .steps .steps__number-wrapper .steps__number {
     color: #e0e0e0;
     font-family: "Libre Baskerville";
     font-size: 50px;
     font-weight: 700;
     text-transform: uppercase; }
+  .steps .steps__content .steps__text {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px; }
 
-.steps__content .steps__title {
-  color: #272727;
-  font-family: Poppins;
-  font-size: 25px;
-  font-weight: 400; }
+.line_red {
+  border-bottom: 3px solid #fc5f45; }
 
-.steps__content .steps__text {
-  display: inline-block;
-  color: #616161;
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 27px; }
+.line_green {
+  border-bottom: 3px solid #38c695; }
+
+.line_violet {
+  border-bottom: 3px solid #b27cf5; }
+
+.line_yellou {
+  border-bottom: 3px solid #feb960; }
 
 /* Block Pricing
 -------------------------------------------------------------------------------*/

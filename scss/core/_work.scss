@@ -1,67 +1,68 @@
 /* Block Work
 -------------------------------------------------------------------------------*/
 .work {
+}
+
+.work {
   padding-top: 138px;
   padding-bottom: 150px;
+  .container_center {
+  }
 }
 .steps {
-  // display: flex;
   position: relative;
-  img{
+  // border: 1px solid red;
+  img {
     margin: 0 auto;
-    position: relative;
   }
-}
-
-.steps__row {
-  // display: flex;
-  // float: left;
-  padding: 41px 73px 82px 38px;
-  max-width: 458px;
-  height: 250px;
-  position: absolute;
-  background: #ffffff;
-  z-index: 100;
-  &:first-child{
-    top: 0px;
-  }
-  &:last-child{
-    bottom: 70px;
-  }
-  &_inverse{
-    left: 60%;
+  &__row {
+    display: flex;
+    max-width: 458px;
     position: absolute;
-    // top: 100px;
+    // left: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 41px 60px 57px 38px;
+    margin-top: -51px;
   }
-}
-.steps__number-wrapper {
-  display: inline-block;
-  .steps__number {
-    color: #e0e0e0;
-    font-family: "Libre Baskerville";
-    font-size: 50px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-}
-.steps__content {
-  // display: block;
 
-  .steps__title {
-    color: #272727;
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 400;
+  &__row_inverse {
+    max-width: 458px;
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
   }
-  .steps__text {
-    display: inline-block;
-    color: #616161;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 27px;
+
+  .steps__number-wrapper {
+    .steps__number {
+      color: #e0e0e0;
+      font-family: "Libre Baskerville";
+      font-size: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  .steps__content {
+    .steps__text {
+      color: #616161;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 27px;
+    }
   }
 }
 
-.work__img_red {
+.line_red {
+  border-bottom: 3px solid #fc5f45;
+}
+.line_green {
+  border-bottom: 3px solid #38c695;
+}
+.line_violet {
+  border-bottom: 3px solid #b27cf5;
+}
+.line_yellou {
+  border-bottom: 3px solid #feb960;
 }
