@@ -1041,6 +1041,7 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1129,7 +1130,9 @@ body {
   padding-top: 144px;
   padding-bottom: 149px; }
   .portfolio__wrapper {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto auto auto;
     grid-template-columns: auto auto auto;
     grid-column-gap: 21px;
     grid-row-gap: 23px; }
@@ -1383,7 +1386,7 @@ body {
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
-    padding: 41px 60px 57px 38px;
+    padding: 41px 60px 53px 38px;
     margin-top: -51px; }
   .steps__row_inverse {
     max-width: 458px;
@@ -1394,8 +1397,21 @@ body {
     background-color: #ffffff; }
   .steps .steps__number-wrapper {
     padding: 0 22px 43px 0;
-    border: 1px solid red;
-    height: 83px; }
+    height: 83px;
+    width: 83px;
+    position: relative; }
+    .steps .steps__number-wrapper:before {
+      content: "";
+      position: absolute;
+      top: 81px;
+      border-bottom: 1px solid #e0e0e0;
+      width: 115px;
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      -webkit-transform-origin: 0% 0%;
+      -ms-transform-origin: 0% 0%;
+      transform-origin: 0% 0%; }
     .steps .steps__number-wrapper .steps__number {
       color: #e0e0e0;
       font-family: "Libre Baskerville";
