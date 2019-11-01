@@ -23,7 +23,8 @@
     margin-bottom: 79px;
   }
 
-  &__portfolio, &__contact {
+  &__portfolio,
+  &__contact {
     margin-bottom: 39px;
   }
 
@@ -42,13 +43,13 @@
   &__select-us {
     margin-bottom: 15px;
   }
-}  
- /* Subtitle */
+}
+/* Subtitle */
 
 .subtitle {
   color: #616161;
   font-family: Poppins;
-  font-size: 18px;  
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
 
@@ -71,10 +72,11 @@
   }
 
   &__team-members,
-  &__select-us, &__contact {
+  &__select-us,
+  &__contact {
     margin-bottom: 78px;
   }
-  &__work,
+
   &__pricing,
   &__our-blog {
     margin-bottom: 77px;
@@ -82,6 +84,10 @@
   &__testi {
     color: #ffffff;
     margin-bottom: 79px;
+  }
+
+  &__work {
+    margin-bottom: 100px;
   }
 }
 
@@ -149,7 +155,7 @@
   margin-top: -6px;
   float: right;
   margin-right: 100px;
-  &_small{
+  &_small {
     max-width: 130px;
     margin-right: 110px;
   }

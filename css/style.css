@@ -865,11 +865,13 @@ body {
     margin-bottom: 80px; }
   .subtitle__team-members, .subtitle__select-us, .subtitle__contact {
     margin-bottom: 78px; }
-  .subtitle__work, .subtitle__pricing, .subtitle__our-blog {
+  .subtitle__pricing, .subtitle__our-blog {
     margin-bottom: 77px; }
   .subtitle__testi {
     color: #ffffff;
     margin-bottom: 79px; }
+  .subtitle__work {
+    margin-bottom: 100px; }
 
 .services__title {
   color: #313131;
@@ -1390,12 +1392,16 @@ body {
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background-color: #ffffff; }
-  .steps .steps__number-wrapper .steps__number {
-    color: #e0e0e0;
-    font-family: "Libre Baskerville";
-    font-size: 50px;
-    font-weight: 700;
-    text-transform: uppercase; }
+  .steps .steps__number-wrapper {
+    padding: 0 22px 43px 0;
+    border: 1px solid red;
+    height: 83px; }
+    .steps .steps__number-wrapper .steps__number {
+      color: #e0e0e0;
+      font-family: "Libre Baskerville";
+      font-size: 50px;
+      font-weight: 700;
+      text-transform: uppercase; }
   .steps .steps__content .steps__text {
     color: #616161;
     font-family: Poppins;
