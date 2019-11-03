@@ -830,7 +830,7 @@ body {
     line-height: 85px;
     margin-bottom: 42px; }
   .title__ubout-us {
-    margin-bottom: 48px;
+    margin-bottom: 33px;
     text-align: left; }
   .title__uor-focus {
     margin-bottom: 79px; }
@@ -855,7 +855,12 @@ body {
   text-align: center; }
   .subtitle__about-us {
     word-break: normal;
-    text-align: left; }
+    text-align: left;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27.01px; }
   .subtitle__video {
     color: #ffffff;
     font-size: 15px; }
@@ -1056,7 +1061,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   margin-left: -65px;
-  padding: 94px 83px 106px 81px;
+  padding: 89px 83px 106px 81px;
   max-width: 652px;
   max-height: 550px;
   border-bottom-style: solid;
