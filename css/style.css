@@ -671,9 +671,8 @@ body {
   text-align: center;
   border-radius: 25px;
   display: inline-block;
-  margin-top: 49px;
   margin-bottom: 83px;
-  padding: 15px 37px;
+  padding: 15px 42px;
   font-family: "Poppins";
   -webkit-transition-property: background, color, font-weight, padding;
   -o-transition-property: background, color, font-weight, padding;
@@ -682,7 +681,7 @@ body {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer; }
@@ -828,7 +827,8 @@ body {
     color: #ffffff;
     font-size: 60px;
     font-weight: 400;
-    line-height: 85px; }
+    line-height: 85px;
+    margin-bottom: 42px; }
   .title__ubout-us {
     margin-bottom: 48px;
     text-align: left; }
@@ -985,8 +985,8 @@ body {
 .features {
   background-color: rgba(38, 39, 50, 0.85);
   text-align: center;
-  padding-top: 175px;
-  padding-bottom: 176px; }
+  padding-top: 239px;
+  padding-bottom: 173px; }
   .features__box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -994,40 +994,49 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 500px;
+    width: 100%;
+    max-width: 743px;
     margin: 0 auto; }
-  .features__item:nth-child(3) {
-    margin-right: 0px; }
+  .features__item:nth-child(2) {
+    padding-left: 40px; }
   .features__text {
-    margin-top: 38px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase; }
+    margin-top: 38px; }
     .features__text_color-red {
-      color: #38c695; }
+      color: #38c695;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: Poppins;
+      font-weight: 500; }
     .features__text_color-violet {
-      color: #b27cf5; }
+      color: #b27cf5;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: Poppins;
+      font-weight: 500; }
     .features__text_color-orange {
-      color: #feb960; }
+      color: #feb960;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: Poppins;
+      font-weight: 500; }
 
 .icon-header-dollar {
   display: inline-block;
   color: #38c695;
   font-size: 40px;
-  margin-bottom: 38px; }
+  margin-bottom: 34px; }
 
 .icon-header-time {
   display: inline-block;
   color: #b27cf5;
   font-size: 40px;
-  margin-bottom: 38px; }
+  margin-bottom: 34px; }
 
 .icon-header-check {
   display: inline-block;
   color: #feb960;
   font-size: 40px;
-  margin-bottom: 38px; }
+  margin-bottom: 34px; }
 
 /* Block About
 -------------------------------------------------------------------------------*/
@@ -1896,8 +1905,6 @@ body {
       font-weight: 400;
       border-bottom: 3px solid #fc5f45;
       padding: 93px 86px 94px 61px; }
-    .contact .alexis__footer.logo:first-letter {
-      color: red; }
     .contact .alexis__footer .adress-one {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -1944,13 +1951,13 @@ body {
       font-size: 16px;
       font-weight: 400;
       border-bottom: 3px solid #feb960;
-      padding: 64px 36px 60px 53px; }
+      padding: 67px 36px 60px 53px; }
       .contact .alexis__footer .adress-thre__title {
         color: #feb960;
         font-family: "Poppins";
         font-size: 18px;
         font-weight: 500;
-        margin-bottom: 40px; }
+        margin-bottom: 43px; }
     .contact .alexis__footer .adress__text span {
       font-family: "Poppins";
       font-weight: 400; }

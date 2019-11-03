@@ -13,43 +13,53 @@
   justify-content: space-between;
 }
 
-
 /*Block features*/
 
 .features {
   background-color: rgba(38, 39, 50, 0.85);
   text-align: center;
-  padding-top: 175px;
-  padding-bottom: 176px;
+  padding-top: 239px;
+  padding-bottom: 173px;
 
   &__box {
     display: flex;
     justify-content: space-between;
-    max-width: 500px;
+    width: 100%;
+    max-width: 743px;
     margin: 0 auto;
   }
 
-  &__item:nth-child(3) {
-    margin-right: 0px;
+  &__item:nth-child(2) {
+    padding-left: 40px;
   }
+
+  
 
   &__text {
     margin-top: 38px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
 
     &_color-red {
       color: #38c695;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: Poppins;
+      font-weight: 500;
     }
 
     &_color-violet {
       color: #b27cf5;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: Poppins;
+      font-weight: 500;
     }
 
     &_color-orange {
       color: #feb960;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: Poppins;
+      font-weight: 500;
     }
   }
 }
@@ -58,19 +68,19 @@
   display: inline-block;
   color: #38c695;
   font-size: 40px;
-  margin-bottom: 38px;
+  margin-bottom: 34px;
 }
 
 .icon-header-time {
   display: inline-block;
   color: #b27cf5;
   font-size: 40px;
-  margin-bottom: 38px;
+  margin-bottom: 34px;
 }
 
 .icon-header-check {
   display: inline-block;
   color: #feb960;
   font-size: 40px;
-  margin-bottom: 38px;
+  margin-bottom: 34px;
 }
