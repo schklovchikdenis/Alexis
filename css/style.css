@@ -1401,7 +1401,8 @@ body {
 .steps {
   position: relative; }
   .steps img {
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 50%; }
   .steps__row {
     display: -webkit-box;
     display: -ms-flexbox;
