@@ -834,7 +834,9 @@ body {
     text-align: left; }
   .title__uor-focus {
     margin-bottom: 26px; }
-  .title__portfolio, .title__contact {
+  .title__portfolio {
+    margin-bottom: 25px; }
+  .title__contact {
     margin-bottom: 39px; }
   .title__team-members {
     margin-bottom: 39px; }
@@ -1142,7 +1144,7 @@ body {
 /* Block Portfolio
 -------------------------------------------------------------------------------*/
 .portfolio {
-  padding-top: 144px;
+  padding-top: 139px;
   padding-bottom: 149px; }
   .portfolio__wrapper {
     display: -ms-grid;
