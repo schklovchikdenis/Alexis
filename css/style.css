@@ -839,7 +839,7 @@ body {
   .title__contact {
     margin-bottom: 39px; }
   .title__team-members {
-    margin-bottom: 39px; }
+    margin-bottom: 22px; }
   .title__work, .title__pricing, .title__our-blog {
     margin-bottom: 27px; }
   .title__testi {
@@ -1206,8 +1206,8 @@ body {
 -------------------------------------------------------------------------------*/
 .team-members {
   background-color: #f7f7f7;
-  padding-top: 151px;
-  padding-bottom: 149px; }
+  padding-top: 144px;
+  padding-bottom: 145px; }
 
 .single-member {
   display: -webkit-box;
@@ -1219,7 +1219,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     margin-top: 17px;
-    margin-bottom: 13px; }
+    margin-bottom: 8px; }
   .single-member__subtitle {
     color: #616161;
     font-family: Poppins;
@@ -1231,7 +1231,7 @@ body {
     background-color: #ffffff;
     margin-right: 30px;
     text-align: center;
-    padding-bottom: 25px; }
+    padding-bottom: 19px; }
     .single-member__item.schmitt {
       border-bottom: 3px solid #fc5f45; }
       .single-member__item.schmitt .single-member__title {
@@ -1255,9 +1255,9 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   margin-top: 50px;
-  padding: 75px 105px 76px 97px;
+  padding: 70px 105px 76px 97px;
   position: relative; }
-  .member-details::before {
+  .member-details:before {
     content: "";
     position: absolute;
     border: 40px solid transparent;
@@ -1271,7 +1271,7 @@ body {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 33px; }
+    margin-bottom: 22px; }
   .member-details__block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1285,41 +1285,49 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 27px;
-    margin-right: 111px; }
+    margin-right: 100px; }
   .member-details .icon-team-share {
     font-size: 36px;
-    margin-right: 24px;
+    margin-right: 22px;
     border-right: 2px solid #efefef;
     color: #fc5f45;
     padding-right: 34px;
-    padding-top: 60px;
+    padding-top: 62px;
     padding-bottom: 60px; }
-  .member-details__soc a {
-    display: block;
-    color: #616161;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 400;
-    text-decoration: none;
-    cursor: pointer;
-    margin-bottom: 16px; }
-    .member-details__soc a:last-child {
-      margin-bottom: 0; }
-  .member-details__soc .icon-facebook {
-    font-size: 15px;
-    margin-bottom: 18px;
-    margin-right: 6px; }
-  .member-details__soc .icon-twitter {
-    font-size: 15px;
-    margin-bottom: 17px;
-    margin-right: 6px; }
-  .member-details__soc .icon-linkidin {
-    font-size: 15px;
-    margin-bottom: 19px;
-    margin-right: 6px; }
-  .member-details__soc .icon-instagram {
-    font-size: 15px;
-    margin-right: 6px; }
+  .member-details__soc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 114px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .member-details__soc a {
+      display: block;
+      color: #616161;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 400;
+      text-decoration: none;
+      cursor: pointer; }
+      .member-details__soc a:first-child {
+        margin-top: 4px; }
+    .member-details__soc .icon-facebook {
+      font-size: 15px;
+      margin-right: 7px; }
+    .member-details__soc .icon-twitter {
+      font-size: 15px;
+      margin-right: 6px; }
+    .member-details__soc .icon-linkidin {
+      font-size: 15px;
+      margin-right: 6px; }
+    .member-details__soc .icon-instagram {
+      font-size: 15px;
+      margin-right: 6px; }
 
 /*end team*/
 /* Block Stats

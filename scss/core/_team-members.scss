@@ -3,8 +3,8 @@
 
 .team-members {
   background-color: #f7f7f7;
-  padding-top: 151px;
-  padding-bottom: 149px;
+  padding-top: 144px;
+  padding-bottom: 145px;
 }
 .single-member {
   display: flex;
@@ -15,7 +15,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 17px;
-    margin-bottom: 13px;
+    margin-bottom: 8px;
   }
   &__subtitle {
     color: #616161;
@@ -28,7 +28,7 @@
     background-color: #ffffff;
     margin-right: 30px;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 19px;
 
     &.schmitt {
       border-bottom: 3px solid #fc5f45;
@@ -64,9 +64,9 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   margin-top: 50px;
-  padding: 75px 105px 76px 97px;
+  padding: 70px 105px 76px 97px;
   position: relative;
-  &::before {
+  &:before {
     content: "";
     position: absolute;
     border: 40px solid transparent;
@@ -81,7 +81,7 @@
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 33px;
+    margin-bottom: 22px;
   }
 
   &__block {
@@ -90,27 +90,32 @@
   }
 
   &__text {
-    // border: 1px solid green;
     color: #616161;
     font-family: Poppins;
     font-size: 15px;
     font-weight: 400;
     line-height: 27px;
-    margin-right: 111px;
+    margin-right: 100px;
   }
 
   .icon-team-share {
     font-size: 36px;
-    margin-right: 24px;
+    margin-right: 22px;
     border-right: 2px solid #efefef;
     color: #fc5f45;
     padding-right: 34px;
-    padding-top: 60px;
+    padding-top: 62px;
     padding-bottom: 60px;
   }
 
   &__soc {
     // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 114px;
+    justify-content: space-between;
+    
+
     a {
       display: block;
       color: #616161;
@@ -119,29 +124,26 @@
       font-weight: 400;
       text-decoration: none;
       cursor: pointer;
-      margin-bottom: 16px;
-      &:last-child {
-        margin-bottom: 0;
+      &:first-child {
+        margin-top: 4px;
       }
       &:hover {
       }
-    }
+    }   
+    
 
     .icon-facebook {
       font-size: 15px;
-      margin-bottom: 18px;
-      margin-right: 6px;
+      margin-right: 7px;
     }
 
     .icon-twitter {
       font-size: 15px;
-      margin-bottom: 17px;
       margin-right: 6px;
     }
 
     .icon-linkidin {
       font-size: 15px;
-      margin-bottom: 19px;
       margin-right: 6px;
     }
 
