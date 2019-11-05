@@ -231,7 +231,7 @@ audio:not([controls]) {
  */
 img, picture {
   border-style: none;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block; }
 
@@ -1151,8 +1151,8 @@ body {
     display: grid;
     -ms-grid-columns: auto auto auto;
     grid-template-columns: auto auto auto;
-    grid-column-gap: 21px;
-    grid-row-gap: 23px; }
+    grid-column-gap: 19px;
+    grid-row-gap: 18px; }
   .portfolio__content {
     position: relative; }
 
@@ -1171,8 +1171,8 @@ body {
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
   width: 100%;
-  height: 98%;
-  padding-top: 23%; }
+  height: 100%;
+  padding-top: 25%; }
   .block-hover__bottom {
     display: block;
     height: 43%;
@@ -1187,7 +1187,7 @@ body {
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
-    padding-top: 8%; }
+    padding-top: 5%; }
   .block-hover:hover {
     background-color: rgba(0, 0, 0, 0.4);
     -webkit-transition-duration: 0.4s;
@@ -1199,7 +1199,7 @@ body {
   color: #ffffff;
   display: block;
   font-size: 50px;
-  margin-bottom: 20%; }
+  margin-bottom: 23%; }
 
 /*end portfolio*/
 /* Block team
