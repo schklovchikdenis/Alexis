@@ -44,105 +44,10 @@
       max-width: 750px;
       height: 200px;
       outline: none;
-    }
-
-    .btn.btn__contact {
-      border: none;
-      color: #fff;
-      background-color: #fc5f45;
-      &:hover {
-      }
-      &:active {
-      }
-      &:focus {
-      }
+      margin-bottom: 50px;
     }
   }
-  .alexis__footer {
-    display: flex;
-    background-color: rgba(38, 39, 50, 0.85);
-    &.logo {
-      color: #fef4f2;
-      font-family: "Wisdom Script";
-      font-size: 50px;
-      font-weight: 400;
-      border-bottom: 3px solid #fc5f45;
-      padding: 93px 86px 94px 61px;
-    }
 
-    .adress-one {
-      flex-direction: column;
-      color: #fef4f2;
-      font-family: Poppins;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 27px;
-      border-bottom: 3px solid #38c695;
-      padding: 64px 46px 60px 38px;
-      &__title {
-        color: #38c695;
-        font-family: "Poppins";
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 40px;
-      }
-    }
 
-    .adress-two {
-      flex-direction: column;
-      color: #fef4f2;
-      font-family: Poppins;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 27px;
-      border-bottom: 3px solid #b27cf5;
-      padding: 64px 51px 60px 46px;
-      &__title {
-        color: #b27cf5;
-        font-family: "Poppins";
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 40px;
-      }
-    }
-
-    .adress-thre {
-      flex-direction: column;
-      color: #fef4f2;
-      font-family: Poppins;
-      font-size: 16px;
-      font-weight: 400;
-      border-bottom: 3px solid #feb960;
-      padding: 67px 36px 60px 53px;
-      &__title {
-        color: #feb960;
-        font-family: "Poppins";
-        font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 43px;
-      }
-    }
-
-    .adress__text {
-      span {
-        font-family: "Poppins";
-        font-weight: 400;
-      }
-    }
-
-    .adress__soc {
-      font-size: 30px;
-      .icon-footer-facebook {
-        margin-right: 15px;
-      }
-      .icon-footer-twitter {
-        margin-right: 15px;
-      }
-      .icon-footer-instagram {
-        margin-right: 15px;
-      }
-      .icon-footer-google {
-      }
-    }
-  }
+  
 }

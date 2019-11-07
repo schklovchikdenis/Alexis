@@ -73,16 +73,18 @@
       background: #ffffff;
       border: 2px solid #fc5f45;
       transition-duration: 0.3s;
-      
     }
   }
   &__contact {
-    
-      &:hover {
-      }
-      &:active {
-      }
-      &:focus {
-      }
+    border: none;
+    color: #fff;
+    background-color: #fc5f45;
+    margin-bottom: 149px;
+    &:hover {
     }
+    &:active {
+    }
+    &:focus {
+    }
+  }
 }

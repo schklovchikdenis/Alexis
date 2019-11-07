@@ -5,22 +5,26 @@
   padding-bottom: 149px;
 
   &__wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 19px;
-    grid-row-gap: 18px;
+    // display: grid;
+    // grid-template-columns: auto auto auto;
+    // grid-column-gap: 21px;
+    // grid-row-gap: 18px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
   }
 
   &__content {
     position: relative;
+    margin-bottom: 23px;
   }
 }
 
-
 .block-hover {
   text-decoration: none;
-  right: 0;
-  top:0;
+  top: 0;
   cursor: pointer;
   position: absolute;
   opacity: 0;
