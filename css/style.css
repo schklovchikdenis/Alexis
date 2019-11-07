@@ -1063,6 +1063,7 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1263,7 +1264,11 @@ body {
       .single-member__item.teichmann .single-member__title {
         color: #feb960; }
 
+.tab_link {
+  text-decoration: none; }
+
 .member-details {
+  display: none;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
@@ -1279,6 +1284,8 @@ body {
     border-bottom-color: #ffffff;
     bottom: 100%;
     z-index: 100; }
+  .member-details.activ {
+    display: block; }
   .member-details__title {
     color: #272727;
     font-family: Poppins;

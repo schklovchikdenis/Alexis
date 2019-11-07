@@ -59,8 +59,16 @@
   }
 }
 
-.member-details {
 
+.tab_link{
+  text-decoration: none;
+}
+
+
+
+
+.member-details {
+display: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   margin-top: 50px;
@@ -76,6 +84,10 @@
     bottom: 100%;
     z-index: 100;
   }
+&.activ{
+  display: block;
+}
+
   &__title {
     color: #272727;
     font-family: Poppins;
