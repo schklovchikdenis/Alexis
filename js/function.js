@@ -22,6 +22,7 @@ function tabs() {
     $('[data-tabs-pane]').removeClass('activ');
     $(elId).addClass('activ');
   });
+  
 }
 
 
