@@ -59,34 +59,75 @@
   }
 }
 
-
-.tab_link{
+.tab_link {
   text-decoration: none;
 }
 
-
-
-
 .member-details {
-display: none;
+  display: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   margin-top: 50px;
   padding: 70px 105px 76px 97px;
   position: relative;
-  &:before {
-    content: "";
-    position: absolute;
-    border: 40px solid transparent;
-    border-left-width: 30px;
-    border-right-width: 30px;
-    border-bottom-color: #ffffff;
-    bottom: 100%;
-    z-index: 100;
+
+  &.schmitt {
+    &:before {
+      content: "";
+      position: absolute;
+      border: 40px solid transparent;
+      border-left-width: 30px;
+      border-right-width: 30px;
+      border-bottom-color: #ffffff;
+      bottom: 100%;
+      left: 8%;
+      z-index: 100;
+    }
   }
-&.activ{
-  display: block;
-}
+  &.krammer {
+    &:before {
+      content: "";
+      position: absolute;
+      border: 40px solid transparent;
+      border-left-width: 30px;
+      border-right-width: 30px;
+      border-bottom-color: #ffffff;
+      bottom: 100%;
+      left: 34%;
+      z-index: 100;
+    }
+  }
+  &.schroder {
+    &:before {
+      content: "";
+      position: absolute;
+      border: 40px solid transparent;
+      border-left-width: 30px;
+      border-right-width: 30px;
+      border-bottom-color: #ffffff;
+      bottom: 100%;
+      left: 60%;
+      z-index: 100;
+    }
+  }
+  &.teichmann {
+    &:before {
+      content: "";
+      position: absolute;
+      border: 40px solid transparent;
+      border-left-width: 30px;
+      border-right-width: 30px;
+      border-bottom-color: #ffffff;
+      bottom: 100%;
+      left: 86%;
+      z-index: 100;
+    }
+  }
+  
+
+  &.activ {
+    display: block;
+  }
 
   &__title {
     color: #272727;
@@ -126,7 +167,6 @@ display: none;
     flex-direction: column;
     height: 114px;
     justify-content: space-between;
-    
 
     a {
       display: block;
@@ -141,8 +181,7 @@ display: none;
       }
       &:hover {
       }
-    }   
-    
+    }
 
     .icon-facebook {
       font-size: 15px;

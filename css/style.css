@@ -1063,7 +1063,6 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1275,7 +1274,7 @@ body {
   margin-top: 50px;
   padding: 70px 105px 76px 97px;
   position: relative; }
-  .member-details:before {
+  .member-details.schmitt:before {
     content: "";
     position: absolute;
     border: 40px solid transparent;
@@ -1283,6 +1282,37 @@ body {
     border-right-width: 30px;
     border-bottom-color: #ffffff;
     bottom: 100%;
+    left: 8%;
+    z-index: 100; }
+  .member-details.krammer:before {
+    content: "";
+    position: absolute;
+    border: 40px solid transparent;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border-bottom-color: #ffffff;
+    bottom: 100%;
+    left: 34%;
+    z-index: 100; }
+  .member-details.schroder:before {
+    content: "";
+    position: absolute;
+    border: 40px solid transparent;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border-bottom-color: #ffffff;
+    bottom: 100%;
+    left: 60%;
+    z-index: 100; }
+  .member-details.teichmann:before {
+    content: "";
+    position: absolute;
+    border: 40px solid transparent;
+    border-left-width: 30px;
+    border-right-width: 30px;
+    border-bottom-color: #ffffff;
+    bottom: 100%;
+    left: 86%;
     z-index: 100; }
   .member-details.activ {
     display: block; }
