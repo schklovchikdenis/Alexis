@@ -976,6 +976,8 @@ body {
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
     color: red; }
+  .navbar__mobile {
+    display: none; }
   @media (max-width: 991px) {
     .navbar {
       display: none; } }
