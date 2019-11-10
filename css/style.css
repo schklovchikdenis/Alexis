@@ -976,6 +976,13 @@ body {
     -o-transition-duration: 0.2s;
     transition-duration: 0.2s;
     color: red; }
+  @media (max-width: 991px) {
+    .navbar {
+      display: none; } }
+
+@media (max-width: 991px) {
+  .logo {
+    margin: 0 auto; } }
 
 /* Block Header
 -------------------------------------------------------------------------------*/
@@ -993,6 +1000,9 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+  @media (max-width: 991px) {
+    .header-top__content {
+      margin: 0 auto; } }
 
 /*Block features*/
 .features {
@@ -1063,6 +1073,7 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
