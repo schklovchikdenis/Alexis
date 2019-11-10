@@ -1084,9 +1084,9 @@ body {
   max-height: 550px;
   border-bottom-style: solid;
   border-image-width: 15px;
-  -webkit-border-image: url(../img/line.png);
-  -o-border-image: url(../img/line.png);
-  border-image: url(../img/line.png);
+  -webkit-border-image: url("../img/line.png");
+  -o-border-image: url("../img/line.png");
+  border-image: url("../img/line.png");
   border-image-slice: 5; }
 
 /*end block about*/
@@ -1394,7 +1394,7 @@ body {
 /* Block Stats
 -------------------------------------------------------------------------------*/
 .stats {
-  background-image: url(../img/bg_2.png);
+  background-image: url("../img/bg_2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1423,10 +1423,10 @@ body {
     .stats__item:last-child {
       margin-right: 65px; }
 
-.icon-stat-graff,
+.icon-stat-box,
 .icon-stat-client,
-.icon-stat-head,
-.icon-stat-box {
+.icon-stat-graff,
+.icon-stat-head {
   font-size: 51px;
   margin-bottom: 31px; }
 
