@@ -30,7 +30,29 @@
   }
 
   @media (max-width: 991px) {
-    display: none;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100%;
+    z-index: 100;
+    background-color: #fff;
+    display: block;
+    &.open {
+      left: 0;
+      box-shadow: 0 0 36px rgba(#000, 0.1);
+    }
+    &__item.mobile {
+      position: relative;
+      left: 10px;
+      list-style: none;
+      margin-right: 0;
+      display: block;
+    }
+    &__link {
+      margin-top: 30px;
+    }
   }
 }
 

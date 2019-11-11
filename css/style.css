@@ -980,7 +980,27 @@ body {
     display: none; }
   @media (max-width: 991px) {
     .navbar {
-      display: none; } }
+      position: fixed;
+      left: -250px;
+      top: 0;
+      bottom: 0;
+      width: 250px;
+      height: 100%;
+      z-index: 100;
+      background-color: #fff;
+      display: block; }
+      .navbar.open {
+        left: 0;
+        -webkit-box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 36px rgba(0, 0, 0, 0.1); }
+      .navbar__item.mobile {
+        position: relative;
+        left: 10px;
+        list-style: none;
+        margin-right: 0;
+        display: block; }
+      .navbar__link {
+        margin-top: 30px; } }
 
 @media (max-width: 991px) {
   .logo {
