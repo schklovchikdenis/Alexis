@@ -9,6 +9,7 @@ $(document).ready(function () {
   });
 
   tabs();
+  menu();
 });
 
 function tabs() {
@@ -23,4 +24,10 @@ function tabs() {
     $(elId).addClass('activ');
   });
 
+}
+
+function menu() {
+  $('.navbar__mobileToggle').on('click', function () {
+    $('.navbar').toggleClass('open');
+  });  
 }
