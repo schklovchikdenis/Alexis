@@ -1111,6 +1111,7 @@ body {
 
 .about-us {
   -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
