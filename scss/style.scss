@@ -3,9 +3,9 @@
 //  border: 1px solid #f00 !important;   
 }
 @import "variables/variables";
+@import "mixins/mixin";
 @import "core/reset";
 @import "core/template";
-@import "mixins/mixin";
 @import "fonts/fonts";
 @import "icon/icon";
 @import "core/buttons";
