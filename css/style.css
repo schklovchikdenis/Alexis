@@ -1033,6 +1033,10 @@ body {
 
 @media (max-width: 776px) {
   .navbar {
+    width: 30%; } }
+
+@media (min-width: 320px) and (max-width: 776px) {
+  .navbar {
     width: 100%; } }
 
 /* Block Header
@@ -1116,7 +1120,8 @@ body {
 
 @media (max-width: 320px) {
   .features {
-    padding-top: 150px; } }
+    padding-top: 150px;
+    padding-bottom: 150px; } }
 
 /* Block About
 -------------------------------------------------------------------------------*/
