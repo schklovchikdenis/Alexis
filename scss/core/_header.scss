@@ -1,87 +1,103 @@
 /* Block Header
 -------------------------------------------------------------------------------*/
 .header__top {
-    position: fixed;
-    width: 100%;
-    background-color: #ffffff;
-    z-index: 100;
-    padding: 24px 0;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+  padding: 24px 0;
 }
 
 .header-top__content {
-    display: flex;
-    justify-content: space-between;
-    @media (max-width: 991px) {
-        margin: 0 auto;
-    }
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 991px) {
+    margin: 0 auto;
+  }
 }
 
-/*Block features*/
+/*Block features ----------------------------------------------------------------------------*/
 
 .features {
-    background-color: rgba(38, 39, 50, 0.85);
-    text-align: center;
-    padding-top: 239px;
-    padding-bottom: 173px;
+  background-color: rgba(38, 39, 50, 0.85);
+  text-align: center;
+  padding-top: 239px;
+  padding-bottom: 173px;
 
-    &__box {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 743px;
-        margin: 0 auto;
+  &__box {
+    font-size: 0;
+    letter-spacing: -1px;
+    margin-left: -50px;
+  }
+
+  &__item {
+    font-size: initial;
+    letter-spacing: initial;
+    display: inline-block;
+    width: 33.3%;
+    padding-left: 50px;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    &.color-red {
+      color: #38c695;
     }
 
-    &__item:nth-child(2) {
-        padding-left: 40px;
+    &.color-violet {
+      color: #b27cf5;
     }
 
-    &__text {
-        margin-top: 38px;
-
-        &_color-red {
-            color: #38c695;
-            text-transform: uppercase;
-            font-size: 18px;
-            font-family: Poppins;
-            font-weight: 500;
-        }
-
-        &_color-violet {
-            color: #b27cf5;
-            text-transform: uppercase;
-            font-size: 18px;
-            font-family: Poppins;
-            font-weight: 500;
-        }
-
-        &_color-orange {
-            color: #feb960;
-            text-transform: uppercase;
-            font-size: 18px;
-            font-family: Poppins;
-            font-weight: 500;
-        }
+    &.color-orange {
+      color: #feb960;
     }
+  }
 }
 
 .icon-header-dollar {
-    display: inline-block;
-    color: #38c695;
-    font-size: 40px;
-    margin-bottom: 34px;
+  display: inline-block;
+  color: #38c695;
+  font-size: 40px;
+  margin-bottom: 34px;
 }
 
 .icon-header-time {
-    display: inline-block;
-    color: #b27cf5;
-    font-size: 40px;
-    margin-bottom: 34px;
+  display: inline-block;
+  color: #b27cf5;
+  font-size: 40px;
+  margin-bottom: 34px;
 }
 
 .icon-header-check {
-    display: inline-block;
-    color: #feb960;
-    font-size: 40px;
-    margin-bottom: 34px;
+  display: inline-block;
+  color: #feb960;
+  font-size: 40px;
+  margin-bottom: 34px;
+}
+
+@media (max-width: 991px) {
+  .features {
+    padding-top: 180px;
+    &__item {
+      width: 100%;
+      margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .icon-header-dollar,
+  .icon-header-time,
+  .icon-header-check {
+    font-size: 50px;
+  }
+}
+@media (max-width: 320px) {
+.features{
+   padding-top: 150px; 
+}
 }
