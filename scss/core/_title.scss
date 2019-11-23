@@ -21,7 +21,7 @@
     }
   }
 
-  &__ubout-us {
+  &__uboutUs {
     margin-bottom: 33px;
     text-align: left;
   }
@@ -63,7 +63,7 @@
   font-weight: 400;
   text-align: center;
 
-  &__about-us {
+  &__aboutUs {
     word-break: normal;
     text-align: left;
     color: #616161;
@@ -71,6 +71,9 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 27.01px;
+    p:first-child{
+        margin-bottom: 10px;
+    }
   }
 
   &__video {

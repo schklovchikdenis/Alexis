@@ -30,16 +30,6 @@
   }
 }
 
-.logo {
-  @media (max-width: 991px) {
-    margin: 0 auto;
-  }
-  @media (max-width: 320px) {
-    margin: 0;
-    float: right;
-  }
-}
-
 @media (max-width: 991px) {
   .navbar {
     position: fixed;
@@ -51,7 +41,7 @@
     height: 100%;
     z-index: 29;
     background-color: #fff;
-    // display: block;
+
     &.open {
       left: 0;
       box-shadow: 0 0 36px rgba(#000, 0.1);
@@ -67,6 +57,7 @@
       margin-right: 0;
       display: block;
     }
+
     &__link {
       display: inline-block;
       font-size: 20px;
@@ -77,6 +68,11 @@
       display: block;
     }
   }
+
+  .logo {
+    margin: 0 auto;
+  }
+  
   .menu {
     display: block;
     position: absolute;
@@ -88,5 +84,12 @@
 @media (max-width: 776px) {
   .navbar {
     width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    margin: 0;
+    float: right;
   }
 }
