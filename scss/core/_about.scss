@@ -48,13 +48,15 @@
 @media (max-width: 991px) {
   .about {
     padding: 100px;
-    
+
     &__content {
       position: inherit;
     }
   }
 
-  .about__img {
+  &__img {
+    // width: 50%;
+    // border: 1px solid red;
     img {
       margin: 0 auto;
     }
@@ -64,6 +66,7 @@
     position: inherit;
     margin: 0 auto;
     max-width: 555px;
+    padding: 45px 41px 40px 45px;
   }
 }
 

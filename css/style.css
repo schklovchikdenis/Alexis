@@ -843,6 +843,10 @@ body {
   .title__uboutUs {
     margin-bottom: 33px;
     text-align: left; }
+    @media (max-width: 991px) {
+      .title__uboutUs {
+        font-size: 30px;
+        text-align: center; } }
   .title__uor-focus {
     margin-bottom: 26px; }
   .title__portfolio {
@@ -1149,12 +1153,13 @@ body {
     padding: 100px; }
     .about__content {
       position: inherit; }
-  .about__img img {
+  __img img {
     margin: 0 auto; }
   .aboutUs {
     position: inherit;
     margin: 0 auto;
-    max-width: 555px; } }
+    max-width: 555px;
+    padding: 45px 41px 40px 45px; } }
 
 /*end block about*/
 /* Block Uor-focus
