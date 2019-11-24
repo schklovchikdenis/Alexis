@@ -6,7 +6,7 @@
 /* Form */
 /* ======================================================================== */
 /* Breakpoints */
-.detals:after {
+.about__content:after, .detals:after {
   content: '';
   display: table;
   clear: both; }
@@ -840,9 +840,13 @@ body {
     @media (max-width: 320px) {
       .title__features {
         font-size: 35px; } }
-  .title__ubout-us {
+  .title__uboutUs {
     margin-bottom: 33px;
     text-align: left; }
+    @media (max-width: 991px) {
+      .title__uboutUs {
+        font-size: 30px;
+        text-align: center; } }
   .title__uor-focus {
     margin-bottom: 26px; }
   .title__portfolio {
@@ -866,7 +870,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   text-align: center; }
-  .subtitle__about-us {
+  .subtitle__aboutUs {
     word-break: normal;
     text-align: left;
     color: #616161;
@@ -874,6 +878,8 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 27.01px; }
+    .subtitle__aboutUs p:first-child {
+      margin-bottom: 10px; }
   .subtitle__video {
     color: #ffffff;
     font-size: 15px; }
@@ -986,15 +992,6 @@ body {
     display: none; }
 
 @media (max-width: 991px) {
-  .logo {
-    margin: 0 auto; } }
-
-@media (max-width: 320px) {
-  .logo {
-    margin: 0;
-    float: right; } }
-
-@media (max-width: 991px) {
   .navbar {
     position: fixed;
     -webkit-transition: all 0.3s;
@@ -1025,6 +1022,8 @@ body {
       margin-bottom: 20px; }
     .navbar__mobile {
       display: block; }
+  .logo {
+    margin: 0 auto; }
   .menu {
     display: block;
     position: absolute;
@@ -1038,6 +1037,11 @@ body {
 @media (min-width: 320px) and (max-width: 776px) {
   .navbar {
     width: 100%; } }
+
+@media (max-width: 320px) {
+  .logo {
+    margin: 0;
+    float: right; } }
 
 /* Block Header
 -------------------------------------------------------------------------------*/
@@ -1107,7 +1111,7 @@ body {
 
 @media (max-width: 991px) {
   .features {
-    padding-top: 180px; }
+    padding: 100px 0px; }
     .features__item {
       width: 100%;
       margin-bottom: 25px; }
@@ -1128,27 +1132,39 @@ body {
 .about {
   padding-top: 149px;
   padding-bottom: 151px; }
-  .about .about__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+  .about__content {
+    position: relative; }
 
-.about-us {
-  -ms-flex-item-align: center;
-  align-self: center;
+.aboutUs {
+  max-width: 652px;
+  position: absolute;
+  right: 1%;
+  top: 8%;
+  overflow: hidden;
+  padding: 89px 83px 106px 81px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
-  margin-left: -65px;
-  padding: 89px 83px 106px 81px;
-  max-width: 652px;
-  max-height: 550px;
+  margin-top: 20px;
   border-bottom-style: solid;
   border-image-width: 15px;
   -webkit-border-image: url("../img/line.png");
   -o-border-image: url("../img/line.png");
   border-image: url("../img/line.png");
   border-image-slice: 5; }
+
+@media (max-width: 991px) {
+  .about {
+    padding: 100px; }
+    .about__content {
+      position: inherit; }
+  __img img {
+    margin: 0 auto; }
+  .aboutUs {
+    position: inherit;
+    margin: 0 auto;
+    max-width: 555px;
+    padding: 45px 41px 40px 45px; } }
 
 /*end block about*/
 /* Block Uor-focus
