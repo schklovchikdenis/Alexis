@@ -15,6 +15,7 @@
     margin-bottom: 42px;
     @media (max-width: 767px) {
       font-size: 35px;
+      line-height: 65px;
     }
     @media (max-width: 320px) {
       font-size: 35px;
@@ -25,13 +26,17 @@
     margin-bottom: 30px;
     text-align: left;
     @media (max-width: 991px) {
-      font-size: 30px;
+      font-size: 35px;
       text-align: center;
     }
   }
 
-  &__uor-focus {
+  &__uorFocus {
     margin-bottom: 26px;
+    @media (max-width: 991px) {
+      font-size: 35px;
+      text-align: center;
+    }
   }
 
   &__portfolio {
@@ -88,7 +93,7 @@
     font-size: 15px;
   }
 
-  &__uor-focus {
+  &__uorFocus {
     margin-bottom: 79px;
   }
 
@@ -124,6 +129,9 @@
   font-weight: 500;
   margin-top: 23px;
   margin-bottom: 29px;
+  @media (max-width: 1199px) {
+  font-size: 16px;
+  }
 }
 
 .services__text {
