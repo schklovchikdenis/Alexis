@@ -1058,7 +1058,7 @@ body {
   z-index: 100;
   padding: 24px 0; }
 
-.header-top__content {
+.headerTop__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1066,7 +1066,7 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
   @media (max-width: 991px) {
-    .header-top__content {
+    .headerTop__content {
       margin: 0 auto; } }
 
 /*Block features ----------------------------------------------------------------------------*/
@@ -1115,6 +1115,11 @@ body {
   font-size: 40px;
   margin-bottom: 34px; }
 
+/* Media ------------------------------------------------------------------------*/
+@media (max-width: 1080px) {
+  .features__text {
+    font-size: 16px; } }
+
 @media (max-width: 991px) {
   .features {
     padding: 100px 0px; }
@@ -1125,6 +1130,8 @@ body {
         padding-right: 0; }
       .features__item:last-child {
         margin-bottom: 0; }
+    .features__text {
+      font-size: 18px; }
   .icon-header-dollar,
   .icon-header-time,
   .icon-header-check {
