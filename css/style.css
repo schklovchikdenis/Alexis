@@ -841,7 +841,7 @@ body {
       .title__features {
         font-size: 35px; } }
   .title__uboutUs {
-    margin-bottom: 33px;
+    margin-bottom: 30px;
     text-align: left; }
     @media (max-width: 991px) {
       .title__uboutUs {
@@ -879,7 +879,7 @@ body {
     font-weight: 400;
     line-height: 27.01px; }
     .subtitle__aboutUs p:first-child {
-      margin-bottom: 10px; }
+      margin-bottom: 27px; }
   .subtitle__video {
     color: #ffffff;
     font-size: 15px; }
@@ -1034,14 +1034,20 @@ body {
   .navbar {
     width: 30%; } }
 
-@media (min-width: 320px) and (max-width: 776px) {
+@media (min-width: 570px) and (max-width: 776px) {
   .navbar {
-    width: 100%; } }
+    width: 40%; } }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 570px) {
+  .navbar {
+    width: 55%; }
   .logo {
     margin: 0;
     float: right; } }
+
+@media (max-width: 320px) {
+  .navbar {
+    width: 100%; } }
 
 /* Block Header
 -------------------------------------------------------------------------------*/
@@ -1071,14 +1077,14 @@ body {
   padding-bottom: 173px; }
   .features__box {
     font-size: 0;
-    letter-spacing: -1px;
-    margin-left: -50px; }
+    letter-spacing: -1px; }
   .features__item {
     font-size: initial;
     letter-spacing: initial;
     display: inline-block;
-    width: 33.3%;
-    padding-left: 50px; }
+    width: 22.3%; }
+    .features__item:first-child {
+      padding-right: 33px; }
   .features__text {
     font-size: 18px;
     font-family: Poppins;
@@ -1115,6 +1121,8 @@ body {
     .features__item {
       width: 100%;
       margin-bottom: 25px; }
+      .features__item:first-child {
+        padding-right: 0; }
       .features__item:last-child {
         margin-bottom: 0; }
   .icon-header-dollar,
@@ -1138,10 +1146,10 @@ body {
 .aboutUs {
   max-width: 652px;
   position: absolute;
-  right: 1%;
-  top: 8%;
+  right: 0.05%;
+  top: 7.5%;
   overflow: hidden;
-  padding: 89px 83px 106px 81px;
+  padding: 89px 83px 100px 83px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;

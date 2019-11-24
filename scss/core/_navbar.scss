@@ -86,18 +86,25 @@
     width: 30%;
   }
 }
-@media (min-width: 320px) and (max-width: 776px) {
+@media (min-width: 570px) and (max-width: 776px) {
   .navbar {
-    width: 100%;
+    width: 40%;
   }
 }
 
-<<<<<<< HEAD
-=======
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 570px) {
+  .navbar {
+    width: 55%;
+  }
   .logo {
     margin: 0;
     float: right;
   }
 }
->>>>>>> 2cf6d8428c50c992737ad1ea2f68d95163312441
+
+@media (max-width: 320px) {
+  
+  .navbar {
+    width: 100%;
+  }
+}
