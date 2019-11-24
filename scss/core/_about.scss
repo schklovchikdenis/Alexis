@@ -6,12 +6,8 @@
 
   &__content {
     position: relative;
-    @extend %clear_a;
   }
-
-  &__img {
-    // float: left;
-  }
+  
 }
 
 // .about-us {
@@ -31,14 +27,13 @@
 .aboutUs {
   max-width: 652px;
   position: absolute;
-  //   right: 17px;
   right: 0.05%;
   top: 7.5%;
   overflow: hidden;
   padding: 89px 83px 100px 83px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
-  margin-top: 20px; 
+  margin-top: 20px;
   border-bottom-style: solid;
   border-image-width: 15px;
   border-image: url("../img/line.png");
@@ -47,26 +42,24 @@
 
 @media (max-width: 991px) {
   .about {
-    padding: 100px;
+    padding: 100px 0;
 
     &__content {
       position: inherit;
     }
-  }
-
-  &__img {
-    // width: 50%;
-    // border: 1px solid red;
-    img {
-      margin: 0 auto;
+    &__img {
+      img {
+        margin: 0 auto;
+      }
     }
   }
+
 
   .aboutUs {
     position: inherit;
     margin: 0 auto;
     max-width: 555px;
-    padding: 45px 41px 40px 45px;
+    padding: 40px 20px;
   }
 }
 

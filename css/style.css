@@ -6,7 +6,7 @@
 /* Form */
 /* ======================================================================== */
 /* Breakpoints */
-.about__content:after, .detals:after {
+.detals:after {
   content: '';
   display: table;
   clear: both; }
@@ -1163,16 +1163,16 @@ body {
 
 @media (max-width: 991px) {
   .about {
-    padding: 100px; }
+    padding: 100px 0; }
     .about__content {
       position: inherit; }
-  __img img {
-    margin: 0 auto; }
+    .about__img img {
+      margin: 0 auto; }
   .aboutUs {
     position: inherit;
     margin: 0 auto;
     max-width: 555px;
-    padding: 45px 41px 40px 45px; } }
+    padding: 40px 20px; } }
 
 /*end block about*/
 /* Block Uor-focus
