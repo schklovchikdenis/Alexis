@@ -1091,8 +1091,6 @@ body {
     letter-spacing: initial;
     display: inline-block;
     width: 22.3%; }
-    .features__item:first-child {
-      padding-right: 33px; }
   .features__text {
     font-size: 18px;
     font-family: Poppins;
