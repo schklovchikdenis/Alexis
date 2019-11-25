@@ -26,8 +26,20 @@ function tabs() {
 
 }
 
+// function menu() {
+//   $('.navbar__mobileToggle').on('click', function () {
+//     $('.navbar').toggleClass('open');
+//   });  
+// }
 function menu() {
-  $('.navbar__mobileToggle').on('click', function () {
-    $('.navbar').toggleClass('open');
-  });  
+  $('.nav__icon').on('click', function () {
+    $(this).closest('nav')
+    .toggleClass('nav_state_open');
+  });
+
+
+  $('.nav__links-item').on('click',function () {
+    $(this).closest('.nav').removeClass('nav_state_open');
+  })
+  
 }
