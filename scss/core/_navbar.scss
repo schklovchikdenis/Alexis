@@ -20,21 +20,24 @@
 
     &-item {
       display: inline-block;
-      cursor: pointer;
-      color: #272727;
-      font-family: Poppins;
-      font-size: 14px;
-      font-weight: 500;
-      letter-spacing: normal;
-      line-height: 27px;
-      text-decoration: none;
-      transition-property: color;
-      transition: all 0.3s;
+    }
+  }
 
-      &:hover {
-        transition-duration: 0.2s;
-        color: red;
-      }
+  &__link {
+    cursor: pointer;
+    color: #272727;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-decoration: none;
+    transition-property: color;
+    transition: all 0.3s;
+    
+    &:hover {
+      transition-duration: 0.2s;
+      color: red;
     }
   }
 
@@ -74,7 +77,6 @@
       padding: 80px 30px 20px;
       width: 250px;
 
-
       &-item {
         display: block;
         padding: 10px 0;
@@ -87,5 +89,4 @@
   .logo {
     margin: 0 auto;
   }
-
 }

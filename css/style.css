@@ -984,26 +984,27 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .nav__links-item {
-      display: inline-block;
-      cursor: pointer;
-      color: #272727;
-      font-family: Poppins;
-      font-size: 14px;
-      font-weight: 500;
-      letter-spacing: normal;
-      line-height: 27px;
-      text-decoration: none;
-      -webkit-transition-property: color;
-      -o-transition-property: color;
-      transition-property: color;
-      -webkit-transition: all 0.3s;
-      -o-transition: all 0.3s;
-      transition: all 0.3s; }
-      .nav__links-item:hover {
-        -webkit-transition-duration: 0.2s;
-        -o-transition-duration: 0.2s;
-        transition-duration: 0.2s;
-        color: red; }
+      display: inline-block; }
+  .nav__link {
+    cursor: pointer;
+    color: #272727;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-decoration: none;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    .nav__link:hover {
+      -webkit-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      color: red; }
   .nav_state_open .nav__links {
     left: 0;
     display: block; }
