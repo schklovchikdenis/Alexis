@@ -52,9 +52,10 @@
 @media (max-width: 991px) {
   .nav {
     width: 0px;
+    background: #000;
 
     &__icon {
-      display: block;
+      display: inline-block;
       position: absolute;
       z-index: 31;
       left: 10px;
@@ -72,13 +73,12 @@
       bottom: 0;
       box-shadow: 0 0 36px rgba(#000, 0.1);
       padding: 80px 30px 20px;
-      width: 250px;
+      width: 200px;
 
 
       &-item {
         display: block;
         padding: 10px 0;
-        // text-align: center;
         color: #333333;
       }
     }

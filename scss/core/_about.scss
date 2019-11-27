@@ -26,9 +26,9 @@
 
 .aboutUs {
   max-width: 652px;
-  position: absolute;
-  right: 0.05%;
-  top: 7.5%;
+  position: relative;
+  left: 42%;
+  bottom: 650px;
   overflow: hidden;
   padding: 89px 83px 100px 83px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -51,8 +51,10 @@
       position: inherit;
     }
     &__img {
+      margin-bottom: 20px;
       img {
         margin: 0 auto;
+
       }
     }
   }

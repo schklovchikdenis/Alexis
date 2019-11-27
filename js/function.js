@@ -39,7 +39,6 @@ function menu() {
 
 
   $('.nav__links-item').on('click',function () {
-    $(this).closest('.nav').removeClass('nav_state_open');
-  })
-  
+    $(this).closest('nav').removeClass('nav_state_open');
+  });
 }
