@@ -1007,10 +1007,6 @@ body {
     display: block;
     padding: 60px 20px 0px 20px; }
 
-@media (max-width: 991px) {
-  .logo {
-    margin: 0 auto; } }
-
 /* Media ---------------------------------------------------------------------
 */
 @media (max-width: 991px) {
@@ -1059,7 +1055,14 @@ body {
   justify-content: space-between; }
   @media (max-width: 991px) {
     .headerTop__content {
-      margin: 0 auto; } }
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
+  @media (max-width: 320px) {
+    .headerTop__content {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; } }
 
 /*Block features ----------------------------------------------------------------------------*/
 .features {
