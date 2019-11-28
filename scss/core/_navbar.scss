@@ -15,7 +15,7 @@
 
   &__links {
     display: flex;
-    justify-content: flex-end;
+    // justify-content: flex-end;
     justify-content: space-between;
 
     &-item {
@@ -45,6 +45,7 @@
     .nav__links {
       left: 0;
       display: block;
+      padding: 60px 20px 0px 20px;
     }
   }
 }
@@ -60,13 +61,13 @@
       display: block;
       position: absolute;
       z-index: 31;
-      left: 10px;
+      left: 20px;
+      top: 10px;
     }
 
     &__links {
       position: fixed;
       display: none;
-      z-index: 1000;
       overflow: auto;
       height: 100%;
       z-index: 29;
@@ -74,13 +75,10 @@
       top: 0;
       bottom: 0;
       box-shadow: 0 0 36px rgba(#000, 0.1);
-      padding: 80px 30px 20px;
-      width: 250px;
 
       &-item {
         display: block;
         padding: 10px 0;
-        // text-align: center;
         color: #333333;
       }
     }
