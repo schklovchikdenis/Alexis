@@ -995,7 +995,6 @@ body {
         position: fixed;
         display: none;
         overflow: auto;
-        height: 100%;
         z-index: 29;
         background-color: #fff;
         top: 0;
