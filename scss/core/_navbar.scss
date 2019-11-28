@@ -15,26 +15,29 @@
 
   &__links {
     display: flex;
-    justify-content: flex-end;
+    // justify-content: flex-end;
     justify-content: space-between;
 
     &-item {
       display: inline-block;
-      cursor: pointer;
-      color: #272727;
-      font-family: Poppins;
-      font-size: 14px;
-      font-weight: 500;
-      letter-spacing: normal;
-      line-height: 27px;
-      text-decoration: none;
-      transition-property: color;
-      transition: all 0.3s;
+    }
+  }
 
-      &:hover {
-        transition-duration: 0.2s;
-        color: red;
-      }
+  &__link {
+    cursor: pointer;
+    color: #272727;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 27px;
+    text-decoration: none;
+    transition-property: color;
+    transition: all 0.3s;
+    
+    &:hover {
+      transition-duration: 0.2s;
+      color: red;
     }
   }
 
@@ -42,6 +45,7 @@
     .nav__links {
       left: 0;
       display: block;
+      padding: 60px 20px 0px 20px;
     }
   }
 }
@@ -58,13 +62,13 @@
       display: inline-block;
       position: absolute;
       z-index: 31;
-      left: 10px;
+      left: 20px;
+      top: 10px;
     }
 
     &__links {
       position: fixed;
       display: none;
-      z-index: 1000;
       overflow: auto;
       height: 100%;
       z-index: 29;
@@ -72,9 +76,6 @@
       top: 0;
       bottom: 0;
       box-shadow: 0 0 36px rgba(#000, 0.1);
-      padding: 80px 30px 20px;
-      width: 200px;
-
 
       &-item {
         display: block;
@@ -87,5 +88,4 @@
   .logo {
     margin: 0 auto;
   }
-
 }
