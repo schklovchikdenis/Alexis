@@ -15,7 +15,6 @@
 
   &__links {
     display: flex;
-    // justify-content: flex-end;
     justify-content: space-between;
 
     &-item {
@@ -34,7 +33,7 @@
     text-decoration: none;
     transition-property: color;
     transition: all 0.3s;
-    
+
     &:hover {
       transition-duration: 0.2s;
       color: red;
@@ -47,6 +46,16 @@
       display: block;
       padding: 60px 20px 0px 20px;
     }
+  }
+}
+
+.logo {
+  @media (max-width: 991px) {
+    margin: 0 auto;
+  }
+
+  @media (max-width: 320px) {
+    
   }
 }
 
@@ -85,6 +94,5 @@
   }
 
   .logo {
-    margin: 0 auto;
   }
 }
