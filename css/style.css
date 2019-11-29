@@ -1,7 +1,4 @@
 @charset "UTF-8";
-* {
-  border: 1px solid #f00 !important; }
-
 /* Global variables */
 /* ======================================================================== */
 /* Grid */
@@ -469,8 +466,7 @@ ol[class] {
 /* Основные настройки сайта
 -------------------------------------------------------------------------------*/
 body {
-  max-width: 100%;
-  min-width: 320px; }
+  max-width: 100%; }
 
 .container_center {
   max-width: 1170px;
@@ -1193,6 +1189,9 @@ body {
     display: inline-block;
     padding: 59px 31px 59px 32px;
     background: #ffffff; }
+    @media (max-width: 320px) {
+      .services__item {
+        padding: 59px 25px 59px 25px; } }
 
 .icon-focus-web-design {
   font-size: 52px;
