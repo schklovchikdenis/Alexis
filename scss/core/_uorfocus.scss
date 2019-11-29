@@ -34,6 +34,10 @@
     display: inline-block;
     padding: 59px 31px 59px 32px;
     background: #ffffff;
+
+    @media (max-width: 320px) {
+      padding: 59px 25px 59px 25px;
+    }
   }
 }
 
@@ -75,7 +79,7 @@
 
 @media (max-width: 991px) {
   .uorFocus {
-	  padding: 100px 0;
+    padding: 100px 0;
   }
 
   .services__wrapp {

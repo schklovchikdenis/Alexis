@@ -31,7 +31,7 @@
 
     @media (max-width: 991px) {
       position: fixed;
-      display: none;
+      display: none; //если убрать, то менюшка появляеться справа в мобильном виде
       overflow: auto;
       // height: 100%;
       z-index: 29;

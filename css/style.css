@@ -1,4 +1,7 @@
 @charset "UTF-8";
+* {
+  border: 1px solid #f00 !important; }
+
 /* Global variables */
 /* ======================================================================== */
 /* Grid */
