@@ -78,3 +78,43 @@
     }
   }
 }
+
+/* Media ---------------------------------------------------------------------
+*/
+
+@media (max-width: 991px) {
+  .nav {
+    width: 0px;
+    background: #000;
+
+    &__icon {
+      display: inline-block;
+      position: absolute;
+      z-index: 31;
+      left: 20px;
+      top: 10px;
+    }
+
+    &__links {
+      position: fixed;
+      display: none;
+      overflow: auto;
+      height: 100%;
+      z-index: 29;
+      background-color: #fff;
+      top: 0;
+      bottom: 0;
+      box-shadow: 0 0 36px rgba(#000, 0.1);
+
+      &-item {
+        display: block;
+        padding: 10px 0;
+        color: #333333;
+      }
+    }
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+}
