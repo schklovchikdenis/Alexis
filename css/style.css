@@ -1194,7 +1194,6 @@ body {
       max-width: 555px;
       padding: 50px 40px 50px 40px; } }
 
-/* Media -----------------------------------------------------------------------*/
 /*end block about*/
 /* Block Uor-focus
 -------------------------------------------------------------------------------*/
@@ -1214,13 +1213,16 @@ body {
     display: inline-block;
     width: 25%;
     padding-left: 30px; }
+    @media (min-width: 991px) {
+      .services__wrapp {
+        width: 25%; } }
+    @media (min-width: 767px) {
+      .services__wrapp {
+        width: 35%; } }
   .services__item {
     display: inline-block;
     padding: 59px 31px 59px 32px;
     background: #ffffff; }
-    @media (max-width: 320px) {
-      .services__item {
-        padding: 59px 20px 59px 20px; } }
 
 .icon-focus-web-design {
   font-size: 52px;
@@ -1250,11 +1252,6 @@ body {
 .orangeLine {
   margin-right: 0px;
   border-bottom: 3px solid #feb960; }
-
-@media (min-width: 767px) {
-  services__wrapp {
-    width: 50%;
-    margin-bottom: 30px; } }
 
 /*end block uorfocus*/
 /* Block Video
