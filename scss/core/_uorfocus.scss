@@ -18,11 +18,19 @@
     width: 25%; //количество колонок
     padding-left: 30px; //отступы между плитками
 
-    @media (min-width: 991px) {
-      width: 25%;
+    @media (min-width: 370px) {
+      width: 50%;
+    }
+
+    @media (min-width: 500px) {
+      width: 50%;
     }
     @media (min-width: 767px) {
-      width: 35%;
+      width: 50%;
+      // padding-left: 20px;
+    }
+    @media (min-width: 1080px) {
+      width: 25%;
     }
   }
 
