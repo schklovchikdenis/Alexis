@@ -1029,6 +1029,14 @@ body {
     display: block;
     padding: 60px 20px 0px 20px; }
 
+@media (max-width: 991px) {
+  mm .logo {
+    margin: 0 auto; } }
+
+@media (max-width: 320px) {
+  mm .logo {
+    text-align: right; } }
+
 /* Media ---------------------------------------------------------------------
 */
 @media (max-width: 991px) {
@@ -1055,9 +1063,7 @@ body {
       .nav__links-item {
         display: block;
         padding: 10px 0;
-        color: #333333; }
-  .logo {
-    margin: 0 auto; } }
+        color: #333333; } }
 
 /* Block Header
 -------------------------------------------------------------------------------*/
@@ -1207,6 +1213,9 @@ body {
   @media (min-width: 850px) {
     .services {
       margin-left: -10px; } }
+  @media (min-width: 1000px) {
+    .services {
+      margin-left: -30px; } }
   .services__wrapp {
     font-size: initial;
     letter-spacing: initial;
@@ -1234,7 +1243,8 @@ body {
         padding-left: 10px; } }
     @media (min-width: 1000px) {
       .services__wrapp {
-        width: 25%; } }
+        width: 25%;
+        padding-left: 30px; } }
   .services__item {
     display: inline-block;
     padding: 59px 31px 59px 32px;

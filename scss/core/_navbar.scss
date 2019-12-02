@@ -31,7 +31,7 @@
 
     @media (max-width: 991px) {
       position: fixed;
-      display: none; //если убрать, то менюшка появляеться справа в мобильном виде
+      display: none; //если убрать, то менюшка появляется справа в мобильном виде
       overflow: auto;
       // height: 100%;
       z-index: 29;
@@ -78,6 +78,16 @@
     }
   }
 }
+mm
+.logo {
+  @media (max-width: 991px) {
+    margin: 0 auto;  
+  }
+
+  @media (max-width: 320px) {
+    text-align: right;
+  }
+}
 
 /* Media ---------------------------------------------------------------------
 */
@@ -113,8 +123,6 @@
       }
     }
   }
-
-  .logo {
-    margin: 0 auto;
-  }
 }
+
+
