@@ -849,10 +849,6 @@ body {
         text-align: center; } }
   .title__uorFocus {
     margin-bottom: 26px; }
-    @media (max-width: 991px) {
-      .title__uorFocus {
-        font-size: 35px;
-        text-align: center; } }
   .title__portfolio {
     margin-bottom: 25px; }
   .title__contact {
@@ -908,9 +904,12 @@ body {
   font-weight: 500;
   margin-top: 23px;
   margin-bottom: 29px; }
-  @media (max-width: 1199px) {
+  @media (min-width: 850px) {
     .services__title {
-      font-size: 16px; } }
+      font-size: 17px; } }
+  @media (min-width: 1000px) {
+    .services__title {
+      font-size: 20px; } }
 
 .services__text {
   color: #616161;
@@ -1207,28 +1206,44 @@ body {
   font-size: 0;
   letter-spacing: -1px;
   margin-left: -30px; }
+  @media (min-width: 850px) {
+    .services {
+      margin-left: -10px; } }
   .services__wrapp {
     font-size: initial;
     letter-spacing: initial;
     display: inline-block;
     width: 25%;
     padding-left: 30px; }
+    @media (min-width: 250px) {
+      .services__wrapp {
+        width: 100%; } }
     @media (min-width: 370px) {
       .services__wrapp {
-        width: 50%; } }
-    @media (min-width: 500px) {
+        width: 70%; } }
+    @media (min-width: 480px) {
+      .services__wrapp {
+        width: 45%; } }
+    @media (min-width: 630px) {
       .services__wrapp {
         width: 50%; } }
-    @media (min-width: 767px) {
+    @media (min-width: 690px) {
       .services__wrapp {
-        width: 50%; } }
-    @media (min-width: 1080px) {
+        width: 40%; } }
+    @media (min-width: 850px) {
+      .services__wrapp {
+        width: 25%;
+        padding-left: 10px; } }
+    @media (min-width: 1000px) {
       .services__wrapp {
         width: 25%; } }
   .services__item {
     display: inline-block;
     padding: 59px 31px 59px 32px;
     background: #ffffff; }
+    @media (min-width: 850px) {
+      .services__item {
+        padding: 59px 20px 59px 20px; } }
 
 .icon-focus-web-design {
   font-size: 52px;
