@@ -1105,28 +1105,31 @@ body {
     .features {
       padding: 100px 0px; } }
   .features__box {
-    font-size: 0;
-    letter-spacing: -1px; }
-  .features__item {
-    font-size: initial;
-    letter-spacing: initial;
-    display: inline-block;
-    width: 22.3%; }
-    @media (max-width: 991px) {
-      .features__item {
-        width: 100%;
-        margin-bottom: 25px; } }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    max-width: 750px;
+    padding-left: 20px;
+    margin: auto; }
+    @media (max-width: 640px) {
+      .features__box {
+        padding-left: 10px; } }
+    @media (max-width: 450px) {
+      .features__box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+  .features__item:nth-child(2) {
+    margin: 0 70px; }
   .features__text {
     font-size: 18px;
     font-family: Poppins;
     font-weight: 500;
     text-transform: uppercase; }
-    @media (max-width: 1080px) {
-      .features__text {
-        font-size: 16px; } }
-    @media (max-width: 991px) {
-      .features__text {
-        font-size: 18px; } }
     .features__text.color-red {
       color: #38c695; }
     .features__text.color-violet {
@@ -1149,11 +1152,6 @@ body {
   display: inline-block;
   font-size: 40px;
   margin-bottom: 34px; }
-  @media (max-width: 991px) {
-    .icon-header-dollar,
-    .icon-header-time,
-    .icon-header-check {
-      font-size: 50px; } }
 
 /* Block About
 -------------------------------------------------------------------------------*/
