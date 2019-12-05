@@ -1155,6 +1155,7 @@ body {
 
 /* Block About
 -------------------------------------------------------------------------------*/
+/* Float */
 .about {
   padding-top: 149px;
   padding-bottom: 151px; }
@@ -1176,6 +1177,7 @@ body {
     max-width: 652px;
     margin-top: -635px; }
 
+/* Inline */
 /*end block about*/
 /* Block Uor-focus
 -------------------------------------------------------------------------------*/
