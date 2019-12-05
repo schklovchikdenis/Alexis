@@ -6,7 +6,7 @@
 /* Form */
 /* ======================================================================== */
 /* Breakpoints */
-.detals:after {
+.about__content:after, .detals:after {
   content: '';
   display: table;
   clear: both; }
@@ -1156,11 +1156,13 @@ body {
 /* Block About
 -------------------------------------------------------------------------------*/
 /* Float */
-/* Inline */
 .about {
   padding-top: 149px;
   padding-bottom: 151px; }
+  .about__img {
+    float: left; }
   .about .aboutUs {
+    float: right;
     padding: 89px 83px 100px 83px;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
@@ -1171,7 +1173,36 @@ body {
     -webkit-border-image: url("../img/line.png");
     -o-border-image: url("../img/line.png");
     border-image: url("../img/line.png");
-    border-image-slice: 5; }
+    border-image-slice: 5;
+    max-width: 652px;
+    margin-top: -635px; }
+
+/* Inline */
+.about1 {
+  padding-top: 149px;
+  padding-bottom: 151px; }
+  .about1__content1 {
+    font-size: 0;
+    letter-spacing: -1px; }
+  .about1__wrapper {
+    font-size: initial;
+    letter-spacing: initial;
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle; }
+  .about1 .aboutUs1 {
+    padding: 89px 83px 100px 83px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-image-width: 15px;
+    -webkit-border-image: url("../img/line.png");
+    -o-border-image: url("../img/line.png");
+    border-image: url("../img/line.png");
+    border-image-slice: 5;
+    margin-left: -100px; }
 
 /*end block about*/
 /* Block Uor-focus
