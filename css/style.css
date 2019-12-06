@@ -1178,19 +1178,19 @@ body {
     margin-top: -635px; }
 
 /* Inline-block */
-.about-ib {
+.about {
   padding-top: 149px;
   padding-bottom: 151px; }
-  .about-ib__content-ib {
+  .about__content-ib {
     font-size: 0;
     letter-spacing: -1px; }
-  .about-ib__wrapper-ib {
+  .about__wrapper-ib {
     font-size: initial;
     letter-spacing: initial;
     display: inline-block;
     width: 50%;
     vertical-align: middle; }
-  .about-ib .aboutUs-ib {
+  .about .aboutUs-ib {
     padding: 89px 83px 100px 83px;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
