@@ -1204,6 +1204,7 @@ body {
     border-image-slice: 5;
     margin-left: -100px; }
 
+/* Flex */
 .about .about__content-fb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1233,6 +1234,7 @@ body {
   -ms-grid-row-align: center;
   align-self: center; }
 
+/* Table */
 /*end block about*/
 /* Block Uor-focus
 -------------------------------------------------------------------------------*/
